@@ -8,7 +8,9 @@ namespace :gettext do
     require 'gettext/tools'
 
     domain = HammerCLIForemanRemoteExecution::I18n::LocaleDomain.new
-    GetText.update_pofiles(domain.domain_name, domain.translated_files, "#{domain.domain_name} #{HammerCLIForemanRemoteExecution.version.to_s}", :po_root => domain.locale_dir)
+    GetText.update_pofiles(domain.domain_name, domain.translated_files,
+                           "#{domain.domain_name} #{HammerCLIForemanRemoteExecution.version}",
+                           :po_root => domain.locale_dir)
   end
 end
 
