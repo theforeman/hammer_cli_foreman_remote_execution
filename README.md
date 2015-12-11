@@ -1,3 +1,8 @@
+[![Build Status](https://api.travis-ci.org/theforeman/hammer_cli_foreman_remote_execution.svg)](https://travis-ci.org/theforeman/hammer_cli_foreman_remote_execution)
+[![Gem Version](https://img.shields.io/gem/v/hammer_cli_foreman_remote_execution.svg)](https://rubygems.org/gems/hammer_cli_foreman_remote_execution)
+[![Code Climate](https://codeclimate.com/github/theforeman/hammer_cli_foreman_remote_execution/badges/gpa.svg)](https://codeclimate.com/github/theforeman/hammer_cli_foreman_remote_execution)
+
+
 CLI Plugin for Foreman Remote Execution
 =======================================
 
