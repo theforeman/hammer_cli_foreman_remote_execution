@@ -1,4 +1,12 @@
 require 'bundler/gem_tasks'
+require 'rake/testtask'
+require 'ci/reporter/rake/minitest'
+
+Rake::TestTask.new :test do |t|
+  t.libs.push "lib"
+  t.test_files = Dir.glob('test/**/*_test.rb')
+  t.verbose = true
+end
 
 namespace :gettext do
   desc 'Update pot file'
@@ -18,3 +26,5 @@ namespace :pkg do
   desc 'Generate package source gem'
   task :generate_source => :build
 end
+
+task :default => :test
