@@ -7,6 +7,11 @@ module HammerCLIForemanRemoteExecution
         field :id, _('Id')
         field :description, _('Description')
         field :state, _('Task State')
+        field :succeeded, _('Success')
+        field :failed, _('Failed')
+        field :pending, _('Pending')
+        field :total, _('Total')
+        field :start_at, _('Start')
       end
 
       def extend_data(invocation)
@@ -18,7 +23,10 @@ module HammerCLIForemanRemoteExecution
 
     class InfoCommand < HammerCLIForeman::InfoCommand
       output ListCommand.output_definition do
-        field :job_name, _('Job Name')
+        field :job_category, _('Job Category')
+        field :mode, _('Mode')
+        field :cron_line, _('Cron line')
+        field :recurring_logic_id, _('Recurring logic ID')
         field :hosts, _('Hosts')
       end
 
@@ -62,8 +70,22 @@ module HammerCLIForemanRemoteExecution
     class CreateCommand < HammerCLIForeman::CreateCommand
       include HammerCLIForemanTasks::Async
 
-      success_message _('Job invocation %{id} started')
+      success_message _('Job invocation %{id} created')
 
+      # Scheduling
+      option '--start-at', 'DATETIME', N_('Schedule the execution for a later time'),
+        :format => HammerCLI::Options::Normalizers::DateTime.new, :allow_nil => true
+
+      option '--start-before', 'DATETIME', N_('Execution should be cancelled if it cannot be started before --start-at'),
+        :format => HammerCLI::Options::Normalizers::DateTime.new, :allow_nil => true
+
+      # Recurrence
+      option '--cron-line', 'CRONLINE', N_('Create a recurring execution'),
+        :format => HammerCLIForemanRemoteExecution::Options::Normalizers::CronLine.new
+      option '--end-time', 'DATETIME', N_('Perform no more executions after this time, used with --cron-line'),
+        :format => HammerCLI::Options::Normalizers::DateTime.new
+
+      # Inputs
       option '--inputs', 'INPUTS', N_('Specify inputs from command line'),
         :format => HammerCLI::Options::Normalizers::KeyValueList.new
 
@@ -90,6 +112,18 @@ module HammerCLIForemanRemoteExecution
         super(task)
       end
 
+      def option_async?
+        if immediate?
+          defined?(option_async) ? option_async : false
+        else
+          true
+        end
+      end
+
+      def immediate?
+        !(option_start_at || option_cron_line)
+      end
+
       build_options do |o|
         o.without(:targeting_type)
       end
@@ -100,6 +134,11 @@ module HammerCLIForemanRemoteExecution
 
       if invocation['targeting'] && invocation['targeting']['hosts']
         invocation['hosts'] = "\n" + invocation['targeting']['hosts'].map { |host| " - #{host['name']}" }.join("\n")
+      end
+
+      if invocation['recurrence']
+        invocation['cron_line'] = invocation['recurrence']['cron_line']
+        invocation['recurring_logic_id'] = invocation['recurrence']['id']
       end
 
       invocation
