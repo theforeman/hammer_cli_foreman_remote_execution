@@ -45,7 +45,7 @@ describe HammerCLIForemanRemoteExecution::JobInvocation do
     let(:cmd) { HammerCLIForemanRemoteExecution::JobInvocation::CreateCommand.new('', ctx) }
 
     context 'parameters' do
-      it_should_accept 'create options', ['--job-name=Run Command','--inputs=command=foo', '--search-query=name ~ example', '--async']
+      it_should_accept 'create options', ['--job-category=Run Command','--inputs=command=foo', '--search-query=name ~ example', '--async']
     end
   end
 end

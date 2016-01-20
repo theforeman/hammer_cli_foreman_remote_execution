@@ -73,7 +73,7 @@ describe HammerCLIForemanRemoteExecution::JobTemplate do
     let(:cmd) { HammerCLIForemanRemoteExecution::JobTemplate::CreateCommand.new('', ctx) }
 
     context 'parameters' do
-      it_should_accept 'create options', ['--name=Test', "--file=#{File.join(File.dirname(__FILE__), 'data', 'template.txt')}", '--job-name=Install', '--provider-type=Ssh']
+      it_should_accept 'create options', ['--name=Test', "--file=#{File.join(File.dirname(__FILE__), 'data', 'template.txt')}", '--job-category=Install', '--provider-type=SSH']
     end
   end
 end
