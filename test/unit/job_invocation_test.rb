@@ -18,7 +18,7 @@ describe HammerCLIForemanRemoteExecution::JobInvocation do
     context 'output' do
       let(:expected_record_count) { cmd.resource.call(:index)['results'].length }
       it_should_print_n_records
-      it_should_print_columns ['Id', 'Name', 'Task State']
+      it_should_print_columns ['Id', 'Description', 'Task State']
     end
   end
 
@@ -36,7 +36,7 @@ describe HammerCLIForemanRemoteExecution::JobInvocation do
 
     context 'output' do
       with_params ['--id=1'] do
-        it_should_print_columns ['Id', 'Name', 'Task State', 'Hosts']
+        it_should_print_columns ['Id', 'Job Name', 'Task State', 'Hosts']
       end
     end
   end

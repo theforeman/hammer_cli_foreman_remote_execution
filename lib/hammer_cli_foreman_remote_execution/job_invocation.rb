@@ -5,7 +5,7 @@ module HammerCLIForemanRemoteExecution
     class ListCommand < HammerCLIForeman::ListCommand
       output do
         field :id, _('Id')
-        field :job_name, _('Name')
+        field :description, _('Description')
         field :state, _('Task State')
       end
 
@@ -18,6 +18,7 @@ module HammerCLIForemanRemoteExecution
 
     class InfoCommand < HammerCLIForeman::InfoCommand
       output ListCommand.output_definition do
+        field :job_name, _('Job Name')
         field :hosts, _('Hosts')
       end
 
