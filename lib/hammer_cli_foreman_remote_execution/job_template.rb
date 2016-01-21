@@ -6,7 +6,7 @@ module HammerCLIForemanRemoteExecution
       output do
         field :id, _('Id')
         field :name, _('Name')
-        field :job_name, _('Job Name')
+        field :job_category, _('Job Category')
         field :provider_type, _('Provider')
         field :type, _('Type')
       end

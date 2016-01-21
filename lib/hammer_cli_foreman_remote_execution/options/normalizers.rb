@@ -20,6 +20,16 @@ module HammerCLIForemanRemoteExecution
           end
         end
       end
+
+      class CronLine < ::HammerCLI::Options::Normalizers::AbstractNormalizer
+        def description
+          _("Cron line format 'a b c d e', where:\n  a. is minute (range: 0-59)\n  b. is hour (range: 0-23)\n  c. is day of month (range: 1-31)\n  d. is month (range: 1-12)\n  e. is day of week (range: 0-6)")
+        end
+
+        def format(val)
+          val
+        end
+      end
     end
   end
 end
