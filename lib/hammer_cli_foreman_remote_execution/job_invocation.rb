@@ -6,7 +6,7 @@ module HammerCLIForemanRemoteExecution
       output do
         field :id, _('Id')
         field :description, _('Description')
-        field :state, _('Task State')
+        field :status_label, _('Status')
         field :succeeded, _('Success')
         field :failed, _('Failed')
         field :pending, _('Pending')
@@ -130,8 +130,6 @@ module HammerCLIForemanRemoteExecution
     end
 
     def self.extend_data(invocation)
-      invocation['state'] = invocation['dynflow_task'] ? invocation['dynflow_task']['state'] : _('unknown')
-
       if invocation['targeting'] && invocation['targeting']['hosts']
         invocation['hosts'] = "\n" + invocation['targeting']['hosts'].map { |host| " - #{host['name']}" }.join("\n")
       end
