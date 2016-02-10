@@ -14,7 +14,7 @@ describe HammerCLIForemanRemoteExecution::TemplateInput do
       with_params ['--template-id=1'] do
         let(:expected_record_count) { cmd.resource.call(:index, :template_id => 1)['results'].length }
         it_should_print_n_records
-        it_should_print_columns ['Id', 'Name', 'Input type']
+        it_should_print_columns ['ID', 'Name', 'Input type']
       end
     end
   end
@@ -28,7 +28,7 @@ describe HammerCLIForemanRemoteExecution::TemplateInput do
 
     context 'output' do
       with_params ['--template-id=1', '--id=1'] do
-        it_should_print_columns ['Id', 'Name', 'Input type', 'Fact name', 'Variable name', 'Puppet parameter name']
+        it_should_print_columns ['ID', 'Name', 'Input type', 'Fact name', 'Variable name', 'Puppet parameter name']
       end
     end
   end

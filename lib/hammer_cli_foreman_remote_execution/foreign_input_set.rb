@@ -5,8 +5,8 @@ module HammerCLIForemanRemoteExecution
 
     class ListCommand < HammerCLIForeman::ListCommand
       output do
-        field :id, _('Id')
-        field :target_template_id, _('Target template id')
+        field :id, _('ID')
+        field :target_template_id, _('Target template ID')
         field :target_template_name, _('Target template name')
       end
 
@@ -15,9 +15,9 @@ module HammerCLIForemanRemoteExecution
 
     class InfoCommand < HammerCLIForeman::InfoCommand
       output do
-        field :id, _('Id')
+        field :id, _('ID')
         field :name, _('Name')
-        field :target_template_id, _('Target template id')
+        field :target_template_id, _('Target template ID')
         field :target_template_name, _('Target template name')
         field :include_all, _('Include all')
         field :include, _('Include')

@@ -1,0 +1,209 @@
+# English translations for hammer-cli-foreman-remote-execution package.
+# Copyright (C) 2016 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the hammer-cli-foreman-remote-execution package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: hammer-cli-foreman-remote-execution 0.0.4\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2016-02-10 14:04-0500\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: English\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"\n"
+
+msgid "Manage foreign input sets"
+msgstr ""
+
+msgid "ID"
+msgstr ""
+
+msgid "Target template ID"
+msgstr ""
+
+msgid "Target template name"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Include all"
+msgstr ""
+
+msgid "Include"
+msgstr ""
+
+msgid "Exclude"
+msgstr ""
+
+msgid "Foreign input set updated"
+msgstr ""
+
+msgid "Could not update the input set"
+msgstr ""
+
+msgid "Foreign input set created"
+msgstr ""
+
+msgid "Could not create the input set"
+msgstr ""
+
+msgid "Foreign input set deleted"
+msgstr ""
+
+msgid "Could not delete the input set"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Success"
+msgstr ""
+
+msgid "Failed"
+msgstr ""
+
+msgid "Pending"
+msgstr ""
+
+msgid "Total"
+msgstr ""
+
+msgid "Start"
+msgstr ""
+
+msgid "Job Category"
+msgstr ""
+
+msgid "Mode"
+msgstr ""
+
+msgid "Cron line"
+msgstr ""
+
+msgid "Recurring logic ID"
+msgstr ""
+
+msgid "Hosts"
+msgstr ""
+
+msgid "View the output for a host"
+msgstr ""
+
+msgid "Do not wait for job to complete, shows current output only"
+msgstr ""
+
+msgid "Job invocation %{id} created"
+msgstr ""
+
+msgid "Schedule the execution for a later time"
+msgstr ""
+
+msgid "Execution should be cancelled if it cannot be started before --start-at"
+msgstr ""
+
+msgid "Create a recurring execution"
+msgstr ""
+
+msgid "Perform no more executions after this time, used with --cron-line"
+msgstr ""
+
+msgid "Specify inputs from command line"
+msgstr ""
+
+msgid "Read input values from files"
+msgstr ""
+
+msgid "Dynamic search queries are evaluated at run time"
+msgstr ""
+
+msgid "Manage job invocations"
+msgstr ""
+
+msgid "Provider"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Inputs"
+msgstr ""
+
+msgid "View job template content"
+msgstr ""
+
+msgid "Path to a file that contains the template"
+msgstr ""
+
+msgid "Job template created"
+msgstr ""
+
+msgid "Could not create the job template"
+msgstr ""
+
+msgid "Job template updated"
+msgstr ""
+
+msgid "Could not update the job template"
+msgstr ""
+
+msgid "Job template deleted"
+msgstr ""
+
+msgid "Could not delete the job template"
+msgstr ""
+
+msgid "Manage job templates"
+msgstr ""
+
+msgid ""
+"Comma-separated list of key=file, where file is a path to a text file to be re"
+"ad"
+msgstr ""
+
+msgid ""
+"Cron line format 'a b c d e', where:\n"
+"  a. is minute (range: 0-59)\n"
+"  b. is hour (range: 0-23)\n"
+"  c. is day of month (range: 1-31)\n"
+"  d. is month (range: 1-12)\n"
+"  e. is day of week (range: 0-6)"
+msgstr ""
+
+msgid "Manage template inputs"
+msgstr ""
+
+msgid "Input type"
+msgstr ""
+
+msgid "Fact name"
+msgstr ""
+
+msgid "Variable name"
+msgstr ""
+
+msgid "Puppet parameter name"
+msgstr ""
+
+msgid "Options"
+msgstr ""
+
+msgid "Template input created"
+msgstr ""
+
+msgid "Could not create the template input"
+msgstr ""
+
+msgid "Template input deleted"
+msgstr ""
+
+msgid "Could not delete the template input"
+msgstr ""
