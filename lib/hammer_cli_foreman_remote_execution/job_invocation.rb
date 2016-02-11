@@ -4,7 +4,7 @@ module HammerCLIForemanRemoteExecution
 
     class ListCommand < HammerCLIForeman::ListCommand
       output do
-        field :id, _('Id')
+        field :id, _('ID')
         field :description, _('Description')
         field :status_label, _('Status')
         field :succeeded, _('Success')
