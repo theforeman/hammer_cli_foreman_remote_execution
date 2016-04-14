@@ -79,6 +79,27 @@ Alternatively, pass the `--async` option to see the output so far:
 hammer job-invocation output --id 155 --host rex01.example.com --async
 ```
 
+## Developer Information
+
+### Updating API docs
+
+In `test/data/[foreman_version]/foreman_api.json`, we include the Apipie
+documentation, with generated examples from the tests.
+
+When adding new features to the hammer, you'll need to update this.
+
+1. From foreman directory, run remote execution tests with examples enabled:
+
+        APIPIE_RECORD=examples rake test:foreman_remote_execution
+
+2. From foreman directory, generate the apipie cache for English:
+
+        FOREMAN_APIPIE_LANGS=en rake apipie:cache
+
+3. Copy the docs to hammer_cli_foreman_remote_execution
+
+        cp public/apipie-cache/apidoc/v2.en.json ~/hammer_cli_foreman_remote_execution/test/data/1.10/foreman_api.json
+
 ## License
 
 This project is licensed under the GPLv3+.

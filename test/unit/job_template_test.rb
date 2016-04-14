@@ -1,4 +1,4 @@
-ENV['TEST_API_VERSION'] = '1.10'
+ENV['TEST_API_VERSION'] = '1.14'
 
 require File.join(Gem.loaded_specs['hammer_cli_foreman'].full_gem_path, 'test/unit/test_helper')
 require File.join(Gem.loaded_specs['hammer_cli_foreman'].full_gem_path, 'test/unit/apipie_resource_mock')
@@ -51,6 +51,33 @@ describe HammerCLIForemanRemoteExecution::JobTemplate do
 
     context 'output' do
       it 'must dump template' do
+        cmd.stubs(:context).returns(ctx.update(:adapter => :test))
+        out, _err = capture_io do
+          cmd.run(['--id=1'])
+        end
+        out.must_match(/id/)
+      end
+    end
+  end
+
+  context 'ImportCommand' do
+    let(:cmd) { HammerCLIForemanRemoteExecution::JobTemplate::ImportCommand.new('', ctx) }
+
+    context 'parameters' do
+      it_should_accept 'import options', ["--file=#{File.join(File.dirname(__FILE__), '..', 'data', 'export.erb')}", '--overwrite=false']
+    end
+  end
+
+  context 'ExportCommand' do
+    let(:cmd) { HammerCLIForemanRemoteExecution::JobTemplate::ExportCommand.new('', ctx) }
+
+    context 'parameters' do
+      it_should_accept 'id', ['--id=1']
+      it_should_accept 'name', ['--name=template']
+    end
+
+    context 'output' do
+      it 'must export template' do
         cmd.stubs(:context).returns(ctx.update(:adapter => :test))
         out, _err = capture_io do
           cmd.run(['--id=1'])
