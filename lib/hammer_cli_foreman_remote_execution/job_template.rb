@@ -55,6 +55,35 @@ module HammerCLIForemanRemoteExecution
       end
     end
 
+    class ImportCommand < HammerCLIForeman::CreateCommand
+      command_name 'import'
+      action :import
+
+      option '--file', 'TEMPLATE', N_('Path to a file that contains the template - must include ERB metadata'),
+             :attribute_name => :option_template, :required => true,
+             :format => HammerCLI::Options::Normalizers::File.new
+
+      success_message _('Job template imported')
+      failure_message _('Could not import the job template')
+
+      build_options do |o|
+        o.without(:template)
+      end
+    end
+
+    class ExportCommand < HammerCLIForeman::InfoCommand
+      command_name 'export'
+      action :export
+
+      desc _('Export a template including all metadata')
+
+      def print_data(template)
+        puts template
+      end
+
+      build_options
+    end
+
     class UpdateCommand < HammerCLIForeman::UpdateCommand
       option '--file', 'TEMPLATE', N_('Path to a file that contains the template'),
              :attribute_name => :option_template,
