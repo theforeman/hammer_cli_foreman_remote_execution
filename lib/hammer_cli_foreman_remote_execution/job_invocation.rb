@@ -114,7 +114,7 @@ module HammerCLIForemanRemoteExecution
 
       def option_async?
         if immediate?
-          defined?(option_async) ? option_async : false
+          defined?(@option_async) ? @option_async : false
         else
           true
         end
