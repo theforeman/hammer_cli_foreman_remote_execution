@@ -31,7 +31,12 @@ describe HammerCLIForemanRemoteExecution::JobInvocation do
 
     context 'parameters' do
       it_should_accept 'id', ['--id=1']
-      it_should_accept 'name', ['--name=template']
+
+      it 'should not accept name' do
+        _out, _err = capture_io do
+          cmd.run(%w(--name foobar)).must_equal HammerCLI::EX_USAGE
+        end
+      end
     end
 
     context 'output' do
