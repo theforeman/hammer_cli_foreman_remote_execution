@@ -34,6 +34,10 @@ module HammerCLIForemanRemoteExecution
         JobInvocation.extend_data(invocation)
       end
 
+      def self.create_option_builder
+        HammerCLI::Apipie::OptionBuilder.new(resource, resource.action(action), :require_options => false)
+      end
+
       build_options do |o|
         o.expand(:none)
       end
