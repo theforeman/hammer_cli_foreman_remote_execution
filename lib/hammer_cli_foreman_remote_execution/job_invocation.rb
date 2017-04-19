@@ -112,9 +112,11 @@ module HammerCLIForemanRemoteExecution
         super(task)
       end
 
+      alias original_option_async? option_async?
+
       def option_async?
         if immediate?
-          defined?(@option_async) ? @option_async : false
+          original_option_async?
         else
           true
         end
