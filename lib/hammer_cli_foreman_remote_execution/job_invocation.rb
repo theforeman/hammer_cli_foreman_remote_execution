@@ -58,16 +58,38 @@ module HammerCLIForemanRemoteExecution
           puts line['output']
           since = line['timestamp']
         end
+        since
+      end
 
-        if output['refresh'] && !option_async?
-          sleep 1
-          print_data(resource.call(action, request_params.merge(:since => since), request_headers, request_options))
+      def execute
+        data = get_output
+        if data['delayed']
+          puts _('The job is scheduled to start at %{timestamp}') % { :timestamp => data['start_at'] }
+          return HammerCLI::EX_OK if option_async?
         end
+        since = print_data(data)
+
+        output_loop(data, since)
+        return HammerCLI::EX_OK
       end
 
       build_options do |o|
         o.expand(:all).except(:job_invocations)
         o.without(:since)
+      end
+
+      private
+
+      def output_loop(data, since = nil)
+        while data['refresh'] && !option_async? do
+          sleep 1
+          data = get_output(since)
+          since = print_data(data)
+        end
+      end
+
+      def get_output(since = nil)
+        resource.call(action, request_params.merge(:since => since), request_headers, request_options)
       end
     end
 
