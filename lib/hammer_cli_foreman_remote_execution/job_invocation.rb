@@ -2,6 +2,12 @@ module HammerCLIForemanRemoteExecution
   class JobInvocation < HammerCLIForeman::Command
     resource :job_invocations
 
+    module WithoutNameOption
+      def create_option_builder
+        HammerCLI::Apipie::OptionBuilder.new(resource, resource.action(action), :require_options => false)
+      end
+    end
+
     class ListCommand < HammerCLIForeman::ListCommand
       output do
         field :id, _('ID')
@@ -22,6 +28,7 @@ module HammerCLIForemanRemoteExecution
     end
 
     class InfoCommand < HammerCLIForeman::InfoCommand
+      extend WithoutNameOption
       output ListCommand.output_definition do
         field :job_category, _('Job Category')
         field :mode, _('Mode')
@@ -32,10 +39,6 @@ module HammerCLIForemanRemoteExecution
 
       def extend_data(invocation)
         JobInvocation.extend_data(invocation)
-      end
-
-      def self.create_option_builder
-        HammerCLI::Apipie::OptionBuilder.new(resource, resource.action(action), :require_options => false)
       end
 
       build_options do |o|
@@ -133,6 +136,18 @@ module HammerCLIForemanRemoteExecution
       build_options do |o|
         o.without(:targeting_type)
       end
+    end
+
+    class CancelCommand < HammerCLIForeman::Command
+      extend WithoutNameOption
+
+      action :cancel
+      command_name 'cancel'
+      desc _('Cancel the job')
+      success_message _('Job invocation %{id} cancelled')
+      failure_message _('Could not cancel the job invocation')
+
+      build_options { |o| o.expand(:none) }
     end
 
     def self.extend_data(invocation)
