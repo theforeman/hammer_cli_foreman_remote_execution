@@ -74,4 +74,16 @@ describe HammerCLIForemanRemoteExecution::JobInvocation do
       end
     end
   end
+
+  context 'RerunCommand' do
+    let(:cmd) { HammerCLIForemanRemoteExecution::JobInvocation::RerunCommand }
+
+    it_should_accept 'rerun options', ['--id=1', '--failed_only=false']
+
+    it 'should not accept name' do
+      _out, _err = capture_io do
+        cmd.run(%w(--name foobar)).must_equal HammerCLI::EX_USAGE
+      end
+    end
+  end
 end

@@ -153,7 +153,7 @@ module HammerCLIForemanRemoteExecution
     class RerunCommand < HammerCLIForeman::CreateCommand
       action :rerun
       command_name 'rerun'
-      desc _('Rerun the job on failed hosts')
+      desc _('Rerun the job')
       success_message _('Job invocation was rerun as %{id}')
 
       build_options { |o| o.expand(:none) }
