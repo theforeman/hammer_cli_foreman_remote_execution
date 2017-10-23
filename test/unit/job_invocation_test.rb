@@ -62,4 +62,16 @@ describe HammerCLIForemanRemoteExecution::JobInvocation do
       end
     end
   end
+
+  context 'Cancel Command' do
+    let(:cmd) { HammerCLIForemanRemoteExecution::JobInvocation::CancelCommand.new('', ctx) }
+
+    it_should_accept 'cancel options', ['--id=1', '--force=yes']
+
+    it 'should not accept name' do
+      _out, _err = capture_io do
+        cmd.run(%w(--name foobar)).must_equal HammerCLI::EX_USAGE
+      end
+    end
+  end
 end
