@@ -151,6 +151,8 @@ module HammerCLIForemanRemoteExecution
     end
 
     class RerunCommand < HammerCLIForeman::CreateCommand
+      extend WithoutNameOption
+
       action :rerun
       command_name 'rerun'
       desc _('Rerun the job')

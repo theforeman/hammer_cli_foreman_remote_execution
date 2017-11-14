@@ -76,9 +76,9 @@ describe HammerCLIForemanRemoteExecution::JobInvocation do
   end
 
   context 'RerunCommand' do
-    let(:cmd) { HammerCLIForemanRemoteExecution::JobInvocation::RerunCommand }
+    let(:cmd) { HammerCLIForemanRemoteExecution::JobInvocation::RerunCommand.new('', ctx) }
 
-    it_should_accept 'rerun options', ['--id=1', '--failed_only=false']
+    it_should_accept 'rerun options', ['--id=1', '--failed-only=false']
 
     it 'should not accept name' do
       _out, _err = capture_io do
