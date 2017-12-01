@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the hammer_cli_foreman_tasks package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: hammer_cli_foreman_tasks 0.0.9\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2016-02-18 10:36-0500\n"
+"Last-Translator: Tomoyuki KATO <inactive+katomo@transifex.com>, 2017\n"
+"Language-Team: Japanese (https://www.transifex.com/foreman/teams/114/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Cron line"
+msgstr "Cron 行"
+
+msgid "End time"
+msgstr "終了時間"
+
+msgid "Iteration"
+msgstr "繰り返し"
+
+msgid "State"
+msgstr "状態"
+
+msgid "Recurring logic cancelled."
+msgstr "再帰論理をキャンセル。"
+
+msgid "Could not cancel the recurring logic."
+msgstr "再帰論理をキャンセルできませんでした。"
+
+msgid "Recurring logic related actions."
+msgstr "再帰論理に関連したアクション。"
+
+msgid "Show the progress of the task"
+msgstr "タスクの進捗状況を表示"
+
+msgid "Name"
+msgstr "名前"
+
+msgid "Owner"
+msgstr "所有者"
+
+msgid "Started at"
+msgstr "開始時刻"
+
+msgid "Ended at"
+msgstr "終了時刻"
+
+msgid "Result"
+msgstr "結果"
+
+msgid "Task action"
+msgstr "タスクのアクション"
+
+msgid "Task errors"
+msgstr "タスクのエラー"
+
+msgid "Resume all tasks paused in error state"
+msgstr "エラー状態で一時停止しているタスクをすべて再開"
+
+msgid "Total tasks found paused in error state"
+msgstr "エラー状態で一時停止しているタスクの合計"
+
+msgid "Total tasks resumed"
+msgstr "再開されたタスクの合計"
+
+msgid "Resumed tasks"
+msgstr "再開されたタスク"
+
+msgid "Task identifier"
+msgstr "タスクの識別子"
+
+msgid "Total tasks failed to resume"
+msgstr "再開に失敗したタスクの合計"
+
+msgid "Failed tasks"
+msgstr "失敗したタスク"
+
+msgid "Total tasks skipped"
+msgstr "スキップされたタスクの合計"
+
+msgid "Skipped tasks"
+msgstr "スキップされたタスク"

@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the hammer_cli_foreman_tasks package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: hammer_cli_foreman_tasks 0.0.9\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2016-02-18 10:36-0500\n"
+"Last-Translator: Bryan Kearney <bryan.kearney@gmail.com>, 2017\n"
+"Language-Team: French (https://www.transifex.com/foreman/teams/114/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Cron line"
+msgstr "Ligne de cron"
+
+msgid "End time"
+msgstr "Heure de fin"
+
+msgid "Iteration"
+msgstr "Itération"
+
+msgid "State"
+msgstr "État "
+
+msgid "Recurring logic cancelled."
+msgstr "Logique récurrente annulée."
+
+msgid "Could not cancel the recurring logic."
+msgstr "N'a pas pu annuler la logique récurrente."
+
+msgid "Recurring logic related actions."
+msgstr "Actions liées à la logique récurrente."
+
+msgid "Show the progress of the task"
+msgstr "Afficher le progrès de la tâche"
+
+msgid "Name"
+msgstr "Nom"
+
+msgid "Owner"
+msgstr "Propriétaire"
+
+msgid "Started at"
+msgstr "Démarré à"
+
+msgid "Ended at"
+msgstr "Terminé à"
+
+msgid "Result"
+msgstr "Résultat"
+
+msgid "Task action"
+msgstr "Action de tâche"
+
+msgid "Task errors"
+msgstr "Erreurs de tâche"
+
+msgid "Resume all tasks paused in error state"
+msgstr "Reprendre toutes les tâches en attente avec des erreurs"
+
+msgid "Total tasks found paused in error state"
+msgstr "Total des tâches mises en attente avec des erreurs"
+
+msgid "Total tasks resumed"
+msgstr "Totals des tâches terminées"
+
+msgid "Resumed tasks"
+msgstr "Tâches terminées"
+
+msgid "Task identifier"
+msgstr "Identificateur de tâche"
+
+msgid "Total tasks failed to resume"
+msgstr "Total des tâches qui n'ont pas pu être terminées"
+
+msgid "Failed tasks"
+msgstr "Tâches ayant échoué"
+
+msgid "Total tasks skipped"
+msgstr "Total des tâches évitées"
+
+msgid "Skipped tasks"
+msgstr "Tâches évitées"

@@ -1,0 +1,94 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the hammer_cli_foreman_tasks package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: hammer_cli_foreman_tasks 0.0.9\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2016-02-18 10:36-0500\n"
+"Last-Translator: tim123 <dingtim@gmail.com>, 2017\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/foreman/teams/114/zh"
+"_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Cron line"
+msgstr "Cron 行"
+
+msgid "End time"
+msgstr "终止时间"
+
+msgid "Iteration"
+msgstr "迭代"
+
+msgid "State"
+msgstr "状态"
+
+msgid "Recurring logic cancelled."
+msgstr "取消周期性逻辑。"
+
+msgid "Could not cancel the recurring logic."
+msgstr "无法取消周期性逻辑。"
+
+msgid "Recurring logic related actions."
+msgstr "与动作有关的周期性逻辑。"
+
+msgid "Show the progress of the task"
+msgstr "显示任务进度"
+
+msgid "Name"
+msgstr "名称"
+
+msgid "Owner"
+msgstr "所有者"
+
+msgid "Started at"
+msgstr "开始于"
+
+msgid "Ended at"
+msgstr "结束于"
+
+msgid "Result"
+msgstr "结果"
+
+msgid "Task action"
+msgstr "任务动作"
+
+msgid "Task errors"
+msgstr "任务错误"
+
+msgid "Resume all tasks paused in error state"
+msgstr "恢复所有以出错状态暂停的任务"
+
+msgid "Total tasks found paused in error state"
+msgstr "找到的所有以出错状态暂停的任务总数"
+
+msgid "Total tasks resumed"
+msgstr "已恢复任务总数"
+
+msgid "Resumed tasks"
+msgstr "恢复的任务"
+
+msgid "Task identifier"
+msgstr "任务标识符"
+
+msgid "Total tasks failed to resume"
+msgstr "恢复失败的任务总数"
+
+msgid "Failed tasks"
+msgstr "失败的任务"
+
+msgid "Total tasks skipped"
+msgstr "跳过的任务总数"
+
+msgid "Skipped tasks"
+msgstr "跳过的任务"
