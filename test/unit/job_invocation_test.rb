@@ -1,4 +1,4 @@
-ENV['TEST_API_VERSION'] = '1.14'
+ENV['TEST_API_VERSION'] = '1.16'
 
 require File.join(Gem.loaded_specs['hammer_cli_foreman'].full_gem_path, 'test/unit/test_helper')
 require File.join(Gem.loaded_specs['hammer_cli_foreman'].full_gem_path, 'test/unit/apipie_resource_mock')
@@ -59,6 +59,18 @@ describe HammerCLIForemanRemoteExecution::JobInvocation do
         end
         err.must_be :empty?
         assert cmd.option_async?
+      end
+    end
+  end
+
+  context 'Cancel Command' do
+    let(:cmd) { HammerCLIForemanRemoteExecution::JobInvocation::CancelCommand.new('', ctx) }
+
+    it_should_accept 'cancel options', ['--id=1', '--force=yes']
+
+    it 'should not accept name' do
+      _out, _err = capture_io do
+        cmd.run(%w(--name foobar)).must_equal HammerCLI::EX_USAGE
       end
     end
   end
