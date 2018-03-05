@@ -150,6 +150,17 @@ module HammerCLIForemanRemoteExecution
       build_options { |o| o.expand(:none) }
     end
 
+    class RerunCommand < HammerCLIForeman::CreateCommand
+      extend WithoutNameOption
+
+      action :rerun
+      command_name 'rerun'
+      desc _('Rerun the job')
+      success_message _('Job invocation was rerun as %{id}')
+
+      build_options { |o| o.expand(:none) }
+    end
+
     def self.extend_data(invocation)
       if invocation['targeting'] && invocation['targeting']['hosts']
         invocation['hosts'] = "\n" + invocation['targeting']['hosts'].map { |host| " - #{host['name']}" }.join("\n")
