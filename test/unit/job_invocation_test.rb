@@ -50,12 +50,10 @@ describe HammerCLIForemanRemoteExecution::JobInvocation do
     let(:cmd) { HammerCLIForemanRemoteExecution::JobInvocation::CreateCommand.new('', ctx) }
 
     context 'parameters' do
-      it_should_accept 'create options', ['--job-template="Run Command - SSH Default', '--inputs=command="hostname"', '--search-query="name ~ foreman"', '--start-at="2099-01-01 12:00"', '--async']
-
       it 'detects async flag correctly' do
         refute cmd.option_async?
         _out, err = capture_io do
-          cmd.run(%w(--async)).must_equal HammerCLI::EX_OK
+          cmd.run(['--job-template="Run Command - SSH Default', '--inputs=command="hostname"', '--search-query="name ~ foreman"', '--start-at="2099-01-01 12:00"', '--async']).must_equal HammerCLI::EX_OK
         end
         err.must_be :empty?
         assert cmd.option_async?
