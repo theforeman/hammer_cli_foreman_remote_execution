@@ -6,8 +6,8 @@ Gem::Specification.new do |s|
   s.platform      = Gem::Platform::RUBY
   s.authors       = ['Foreman Remote Execution team']
   s.email         = ['foreman-dev@googlegroups.com']
-  s.homepage      = 'http://github.com/theforeman/hammer_cli_foreman_remote_execution'
-  s.license       = 'GPL v3+'
+  s.homepage      = 'https://github.com/theforeman/hammer_cli_foreman_remote_execution'
+  s.license       = 'GPL-3.0-or-later'
 
   s.summary       = 'CLI for the Foreman remote execution plugin'
   s.description   = 'CLI for the Foreman remote execution plugin'
