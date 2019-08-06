@@ -41,7 +41,7 @@ describe HammerCLIForemanRemoteExecution::JobInvocation do
 
     context 'output' do
       with_params ['--id=1'] do
-        it_should_print_columns ['ID','Description','Status','Success','Failed','Pending','Total','Start','Job Category','Mode','Cron line','Recurring logic ID','Hosts']
+        it_should_print_columns ['ID','Description','Status','Success','Failed','Pending','Total','Start','Job Category','Mode','Cron line','Recurring logic ID','Hosts', 'Randomized ordering']
       end
     end
   end
