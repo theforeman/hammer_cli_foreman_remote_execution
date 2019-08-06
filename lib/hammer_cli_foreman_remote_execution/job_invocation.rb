@@ -18,6 +18,7 @@ module HammerCLIForemanRemoteExecution
         field :pending, _('Pending')
         field :total, _('Total')
         field :start_at, _('Start')
+        field :randomized_ordering, _('Randomized ordering')
       end
 
       def extend_data(invocation)
@@ -184,8 +185,11 @@ module HammerCLIForemanRemoteExecution
     end
 
     def self.extend_data(invocation)
-      if invocation['targeting'] && invocation['targeting']['hosts']
-        invocation['hosts'] = "\n" + invocation['targeting']['hosts'].map { |host| " - #{host['name']}" }.join("\n")
+      if (targeting = invocation['targeting']) && invocation['targeting']['hosts']
+        invocation['randomized_ordering'] = targeting['randomized_ordering']
+        if (hosts = targeting['hosts'])
+          invocation['hosts'] = "\n" + hosts.map { |host| " - #{host['name']}" }.join("\n")
+        end
       end
 
       if invocation['recurrence']
