@@ -23,6 +23,7 @@ module HammerCLIForemanRemoteExecution
         field :variable_name, _('Variable name')
         field :puppet_parameter_name, _('Puppet parameter name')
         field :options, _('Options'), Fields::List, :width => 25, :hide_blank => true
+        field :default, _('Default value')
       end
 
       build_options
