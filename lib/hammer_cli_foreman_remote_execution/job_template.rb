@@ -20,6 +20,7 @@ module HammerCLIForemanRemoteExecution
 
     class InfoCommand < HammerCLIForeman::InfoCommand
       output ListCommand.output_definition do
+        field :description, _('Description'), Fields::Text
         field :template_inputs, _('Inputs')
         HammerCLIForeman::References.taxonomies(self)
       end
