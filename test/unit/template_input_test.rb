@@ -48,4 +48,12 @@ describe HammerCLIForemanRemoteExecution::TemplateInput do
       it_should_accept 'create options', ['--template-id=1', "--name=asdf", '--input-type=user']
     end
   end
+
+  context 'UpdateCommand' do
+    let(:cmd) { HammerCLIForemanRemoteExecution::TemplateInput::UpdateCommand.new('', ctx) }
+
+    context 'parameters' do
+      it_should_accept 'update options', ['--template-id=1', '--name=asdf', '--input-type=user', '--new-name=fdsa']
+    end
+  end
 end

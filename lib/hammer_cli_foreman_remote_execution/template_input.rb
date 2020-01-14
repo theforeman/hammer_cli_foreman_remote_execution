@@ -30,14 +30,21 @@ module HammerCLIForemanRemoteExecution
     end
 
     class CreateCommand < HammerCLIForeman::CreateCommand
-      success_message _('Template input created')
+      success_message _('Template input created.')
       failure_message _('Could not create the template input')
 
       build_options
     end
 
+    class UpdateCommand < HammerCLIForeman::UpdateCommand
+      success_message _('Template input updated.')
+      failure_message _('Could not update the template input')
+
+      build_options
+    end
+
     class DeleteCommand < HammerCLIForeman::DeleteCommand
-      success_message _('Template input deleted')
+      success_message _('Template input deleted.')
       failure_message _('Could not delete the template input')
 
       build_options
