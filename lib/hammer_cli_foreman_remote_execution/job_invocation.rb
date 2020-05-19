@@ -30,6 +30,8 @@ module HammerCLIForemanRemoteExecution
 
     class InfoCommand < HammerCLIForeman::InfoCommand
       extend WithoutNameOption
+      option '--host-status', :flag, N_('Show job status for the hosts.')
+
       output ListCommand.output_definition do
         field :job_category, _('Job Category')
         field :mode, _('Mode')
@@ -187,9 +189,14 @@ module HammerCLIForemanRemoteExecution
     def self.extend_data(invocation)
       if (targeting = invocation['targeting']) && invocation['targeting']['hosts']
         invocation['randomized_ordering'] = targeting['randomized_ordering']
-        if (hosts = targeting['hosts'])
-          invocation['hosts'] = "\n" + hosts.map { |host| " - #{host['name']}" }.join("\n")
+
+        hosts = targeting['hosts'].map do |host|
+          host_item = " - #{host['name']}"
+          host_item << ", Job status: #{host['job_status']}" if host['job_status']
+          host_item
         end
+
+        invocation['hosts'] = "\n" + hosts.join("\n")
       end
 
       if invocation['recurrence']
