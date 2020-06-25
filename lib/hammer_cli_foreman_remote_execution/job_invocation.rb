@@ -30,7 +30,6 @@ module HammerCLIForemanRemoteExecution
 
     class InfoCommand < HammerCLIForeman::InfoCommand
       extend WithoutNameOption
-      option '--host-status', :flag, N_('Show job status for the hosts.')
 
       output ListCommand.output_definition do
         field :job_category, _('Job Category')
