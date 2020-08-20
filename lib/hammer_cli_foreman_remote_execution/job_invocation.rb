@@ -8,18 +8,24 @@ module HammerCLIForemanRemoteExecution
       end
     end
 
-    class ListCommand < HammerCLIForeman::ListCommand
-      output do
-        field :id, _('ID')
-        field :description, _('Description')
-        field :status_label, _('Status')
-        field :succeeded, _('Success')
-        field :failed, _('Failed')
-        field :pending, _('Pending')
-        field :total, _('Total')
-        field :start_at, _('Start')
-        field :randomized_ordering, _('Randomized ordering')
+    module BaseOutput
+      def self.included(base)
+        base.output do
+          field :id, _('ID')
+          field :description, _('Description')
+          field :status_label, _('Status')
+          field :succeeded, _('Success')
+          field :failed, _('Failed')
+          field :pending, _('Pending')
+          field :total, _('Total')
+          field :start_at, _('Start')
+          field :randomized_ordering, _('Randomized ordering')
+        end
       end
+    end
+
+    class ListCommand < HammerCLIForeman::ListCommand
+      include BaseOutput
 
       def extend_data(invocation)
         JobInvocation.extend_data(invocation)
@@ -30,13 +36,19 @@ module HammerCLIForemanRemoteExecution
 
     class InfoCommand < HammerCLIForeman::InfoCommand
       extend WithoutNameOption
+      include BaseOutput
 
-      output ListCommand.output_definition do
-        field :job_category, _('Job Category')
-        field :mode, _('Mode')
-        field :cron_line, _('Cron line')
-        field :recurring_logic_id, _('Recurring logic ID')
-        field :hosts, _('Hosts')
+      extend_output_definition do |definition|
+        definition.insert(:before, :total) do
+          field :missing, _('Missing')
+        end
+        definition.append do
+          field :job_category, _('Job Category')
+          field :mode, _('Mode')
+          field :cron_line, _('Cron line')
+          field :recurring_logic_id, _('Recurring logic ID')
+          field :hosts, _('Hosts')
+        end
       end
 
       def extend_data(invocation)
