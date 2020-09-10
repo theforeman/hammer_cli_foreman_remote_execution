@@ -10,6 +10,7 @@ module HammerCLIForemanRemoteExecution
   require 'hammer_cli_foreman_remote_execution/foreign_input_set'
   require 'hammer_cli_foreman_remote_execution/remote_execution_feature'
   require 'hammer_cli_foreman_remote_execution/interface_extensions'
+  require 'hammer_cli_foreman_remote_execution/subnet_extensions'
 
   def self.exception_handler_class
     HammerCLIForeman::ExceptionHandler
