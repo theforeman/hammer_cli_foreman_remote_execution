@@ -20,6 +20,7 @@ module HammerCLIForemanRemoteExecution
           field :total, _('Total')
           field :start_at, _('Start')
           field :randomized_ordering, _('Randomized ordering')
+          field :inputs, _('Inputs'), nil, :hide_blank => true
         end
       end
     end
@@ -37,6 +38,7 @@ module HammerCLIForemanRemoteExecution
     class InfoCommand < HammerCLIForeman::InfoCommand
       extend WithoutNameOption
       include BaseOutput
+      option '--show-inputs', :flag, _('Show the complete input of the job')
 
       extend_output_definition do |definition|
         definition.insert(:before, :total) do
@@ -51,7 +53,27 @@ module HammerCLIForemanRemoteExecution
         end
       end
 
+      def adapter
+        if option_id
+          :yaml
+        else
+          :base
+        end
+      end
+
       def extend_data(invocation)
+        if option_show_inputs?
+          invocation['template_invocations']&.each do |template|
+            input_values = template['template_invocation_input_values']
+            values_for_host = {}
+            input_values&.each do |input_value|
+              values_for_host[input_value['template_input_name']] = input_value['value']
+            end
+            hosts = invocation.dig('targeting', 'hosts')
+            host_index = hosts&.index { |h| h['id'] == template['host_id'] }
+            invocation['targeting']['hosts'][host_index][:inputs] = values_for_host if host_index
+          end
+        end
         JobInvocation.extend_data(invocation)
       end
 
@@ -202,12 +224,9 @@ module HammerCLIForemanRemoteExecution
         invocation['randomized_ordering'] = targeting['randomized_ordering']
 
         hosts = targeting['hosts'].map do |host|
-          host_item = " - #{host['name']}"
-          host_item << ", Job status: #{host['job_status']}" if host['job_status']
-          host_item
+          { 'Name' => host['name'], 'Job status' => host['job_status'], 'Inputs' => host[:inputs] }.compact
         end
-
-        invocation['hosts'] = "\n" + hosts.join("\n")
+        invocation['hosts'] = hosts
       end
 
       if invocation['recurrence']
