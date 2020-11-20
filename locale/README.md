@@ -1,11 +1,11 @@
 Updating the translations
 -------------------------
 
-  1. Check if there are any new languages with progress more than 50% on [transifex](https://www.transifex.com/projects/p/foreman/resource/hammer-cli-foreman/). If so, do the following for each of the new languages:
+  1. Check if there are any new languages with progress more than 50% on [transifex](https://www.transifex.com/projects/p/foreman/resource/hammer-cli-foreman-remote-execution/). If so, do the following for each of the new languages:
 
   ```
     mkdir locale/<lang>
-    cp locale/hammer-cli-foreman.pot locale/<lang>/hammer-cli-foreman.po
+    cp locale/hammer-cli-foreman-remote-execution.pot locale/<lang>/hammer-cli-foreman-remote-execution.po
   ```
   2. Make sure you have `transifex-client` installed
 
