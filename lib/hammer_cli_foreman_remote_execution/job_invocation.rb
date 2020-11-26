@@ -39,7 +39,7 @@ module HammerCLIForemanRemoteExecution
       extend WithoutNameOption
       include BaseOutput
       option '--show-inputs', :flag, _('Show the complete input of the job')
-      option '--show-host-status', :flag, _('Show job status for the hosts.')
+      option '--show-host-status', :flag, _('Show job status for the hosts')
 
       extend_output_definition do |definition|
         definition.insert(:before, :total) do
