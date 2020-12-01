@@ -3,10 +3,9 @@
 # This file is distributed under the same license as the hammer_cli_foreman_tasks package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer_cli_foreman_tasks 0.0.9\n"
+"Project-Id-Version: hammer-cli-foreman-remote-execution 0.2.0\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2016-02-18 10:36-0500\n"
 "Last-Translator: tim123 <dingtim@gmail.com>, 2017\n"
@@ -18,77 +17,247 @@ msgstr ""
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
+msgid "Manage foreign input sets"
+msgstr ""
+
 msgid "ID"
 msgstr "ID"
 
-msgid "Cron line"
-msgstr "Cron 行"
+#, fuzzy
+msgid "Target template ID"
+msgstr "ID"
 
-msgid "End time"
-msgstr "终止时间"
-
-msgid "Iteration"
-msgstr "迭代"
-
-msgid "State"
-msgstr "状态"
-
-msgid "Recurring logic cancelled."
-msgstr "取消周期性逻辑。"
-
-msgid "Could not cancel the recurring logic."
-msgstr "无法取消周期性逻辑。"
-
-msgid "Recurring logic related actions."
-msgstr "与动作有关的周期性逻辑。"
-
-msgid "Show the progress of the task"
-msgstr "显示任务进度"
+msgid "Target template name"
+msgstr ""
 
 msgid "Name"
 msgstr "名称"
 
-msgid "Owner"
-msgstr "所有者"
+msgid "Include all"
+msgstr ""
 
-msgid "Started at"
-msgstr "开始于"
+msgid "Include"
+msgstr ""
 
-msgid "Ended at"
-msgstr "结束于"
+msgid "Exclude"
+msgstr ""
 
-msgid "Result"
-msgstr "结果"
+msgid "Foreign input set updated"
+msgstr ""
 
-msgid "Task action"
-msgstr "任务动作"
+msgid "Could not update the input set"
+msgstr ""
 
-msgid "Task errors"
-msgstr "任务错误"
+msgid "Foreign input set created"
+msgstr ""
 
-msgid "Resume all tasks paused in error state"
-msgstr "恢复所有以出错状态暂停的任务"
+msgid "Could not create the input set"
+msgstr ""
 
-msgid "Total tasks found paused in error state"
-msgstr "找到的所有以出错状态暂停的任务总数"
+msgid "Foreign input set deleted"
+msgstr ""
 
-msgid "Total tasks resumed"
-msgstr "已恢复任务总数"
+msgid "Could not delete the input set"
+msgstr ""
 
-msgid "Resumed tasks"
-msgstr "恢复的任务"
+msgid "Description"
+msgstr ""
 
-msgid "Task identifier"
-msgstr "任务标识符"
+#, fuzzy
+msgid "Status"
+msgstr "状态"
 
-msgid "Total tasks failed to resume"
-msgstr "恢复失败的任务总数"
+msgid "Success"
+msgstr ""
 
-msgid "Failed tasks"
-msgstr "失败的任务"
+msgid "Failed"
+msgstr ""
 
-msgid "Total tasks skipped"
-msgstr "跳过的任务总数"
+msgid "Pending"
+msgstr ""
 
-msgid "Skipped tasks"
-msgstr "跳过的任务"
+msgid "Total"
+msgstr ""
+
+#, fuzzy
+msgid "Start"
+msgstr "状态"
+
+msgid "Job Category"
+msgstr ""
+
+msgid "Mode"
+msgstr ""
+
+msgid "Cron line"
+msgstr "Cron 行"
+
+#, fuzzy
+msgid "Recurring logic ID"
+msgstr "ID"
+
+msgid "Hosts"
+msgstr ""
+
+msgid "View the output for a host"
+msgstr ""
+
+msgid "Do not wait for job to complete, shows current output only"
+msgstr ""
+
+msgid "The job is scheduled to start at %{timestamp}"
+msgstr ""
+
+msgid "Job invocation %{id} created"
+msgstr ""
+
+msgid "Schedule the execution for a later time"
+msgstr ""
+
+msgid "Execution should be cancelled if it cannot be started before --start-at"
+msgstr ""
+
+msgid "Create a recurring execution"
+msgstr ""
+
+msgid "Perform no more executions after this time, used with --cron-line"
+msgstr ""
+
+msgid "Specify inputs from command line"
+msgstr ""
+
+msgid "Read input values from files"
+msgstr ""
+
+msgid "Dynamic search queries are evaluated at run time"
+msgstr ""
+
+msgid "Cancel the job"
+msgstr ""
+
+msgid "Job invocation %{id} cancelled"
+msgstr ""
+
+msgid "Could not cancel the job invocation"
+msgstr ""
+
+msgid "Rerun the job"
+msgstr ""
+
+msgid "Job invocation was rerun as %{id}"
+msgstr ""
+
+msgid "Manage job invocations"
+msgstr ""
+
+msgid "Provider"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Inputs"
+msgstr ""
+
+msgid "View job template content"
+msgstr ""
+
+msgid "Path to a file that contains the template"
+msgstr ""
+
+msgid "Job template created"
+msgstr ""
+
+msgid "Could not create the job template"
+msgstr ""
+
+msgid "Path to a file that contains the template - must include ERB metadata"
+msgstr ""
+
+msgid "Job template imported"
+msgstr ""
+
+msgid "Could not import the job template"
+msgstr ""
+
+msgid "Export a template including all metadata"
+msgstr ""
+
+msgid "Job template updated"
+msgstr ""
+
+msgid "Could not update the job template"
+msgstr ""
+
+msgid "Job template deleted"
+msgstr ""
+
+msgid "Could not delete the job template"
+msgstr ""
+
+msgid "Manage job templates"
+msgstr ""
+
+msgid ""
+"Comma-separated list of key=file, where file is a path to a text file to be re"
+"ad"
+msgstr ""
+
+#, fuzzy
+msgid ""
+"Cron line format 'a b c d e', where:\n"
+"  a. is minute (range: 0-59)\n"
+"  b. is hour (range: 0-23)\n"
+"  c. is day of month (range: 1-31)\n"
+"  d. is month (range: 1-12)\n"
+"  e. is day of week (range: 0-6)"
+msgstr "Cron 行"
+
+msgid "Manage remote execution features"
+msgstr ""
+
+msgid "Job template name"
+msgstr ""
+
+msgid "Label"
+msgstr ""
+
+#, fuzzy
+msgid "Job template ID"
+msgstr "ID"
+
+msgid "Remote execution feature updated"
+msgstr ""
+
+msgid "Could not update the remote execution feature"
+msgstr ""
+
+msgid "Manage template inputs"
+msgstr ""
+
+msgid "Input type"
+msgstr ""
+
+msgid "Fact name"
+msgstr ""
+
+msgid "Variable name"
+msgstr ""
+
+msgid "Puppet parameter name"
+msgstr ""
+
+msgid "Options"
+msgstr ""
+
+msgid "Template input created"
+msgstr ""
+
+msgid "Could not create the template input"
+msgstr ""
+
+msgid "Template input deleted"
+msgstr ""
+
+msgid "Could not delete the template input"
+msgstr ""
