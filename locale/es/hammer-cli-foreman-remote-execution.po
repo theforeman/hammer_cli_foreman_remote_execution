@@ -3,10 +3,9 @@
 # This file is distributed under the same license as the hammer_cli_foreman_tasks package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer_cli_foreman_tasks 0.0.9\n"
+"Project-Id-Version: hammer-cli-foreman-remote-execution 0.2.0\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2016-02-18 10:36-0500\n"
 "Last-Translator: Carmela Rubiños <carmela.rubinos@gmail.com>, 2017\n"
@@ -17,77 +16,247 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+msgid "Manage foreign input sets"
+msgstr ""
+
 msgid "ID"
 msgstr "ID"
 
-msgid "Cron line"
-msgstr "Línea Cron"
+#, fuzzy
+msgid "Target template ID"
+msgstr "ID"
 
-msgid "End time"
-msgstr "Hora de finalización"
-
-msgid "Iteration"
-msgstr "Iteración"
-
-msgid "State"
-msgstr "Estado"
-
-msgid "Recurring logic cancelled."
-msgstr "Lógica recurrente cancelada"
-
-msgid "Could not cancel the recurring logic."
-msgstr "No se pudo cancelar la lógica recurrente."
-
-msgid "Recurring logic related actions."
-msgstr "Acciones relacionadas con la lógica recurrente"
-
-msgid "Show the progress of the task"
-msgstr "Mostrar el progreso de la tarea"
+msgid "Target template name"
+msgstr ""
 
 msgid "Name"
 msgstr "Nombre"
 
-msgid "Owner"
-msgstr "Propietario"
+msgid "Include all"
+msgstr ""
 
-msgid "Started at"
-msgstr "Iniciado el"
+msgid "Include"
+msgstr ""
 
-msgid "Ended at"
-msgstr "Finalizada el"
+msgid "Exclude"
+msgstr ""
 
-msgid "Result"
-msgstr "Resultado:"
+msgid "Foreign input set updated"
+msgstr ""
 
-msgid "Task action"
-msgstr "Acción de la tarea"
+msgid "Could not update the input set"
+msgstr ""
 
-msgid "Task errors"
-msgstr "Errores de la tarea"
+msgid "Foreign input set created"
+msgstr ""
 
-msgid "Resume all tasks paused in error state"
-msgstr "Reanudar todas las tareas en pausa en estado de error"
+msgid "Could not create the input set"
+msgstr ""
 
-msgid "Total tasks found paused in error state"
-msgstr "Total de tareas encontradas en pausa en estado de error"
+msgid "Foreign input set deleted"
+msgstr ""
 
-msgid "Total tasks resumed"
-msgstr "Total de tareas reanudadas"
+msgid "Could not delete the input set"
+msgstr ""
 
-msgid "Resumed tasks"
-msgstr "Tareas reanudadas"
+msgid "Description"
+msgstr ""
 
-msgid "Task identifier"
-msgstr "Identificador de tareas"
+#, fuzzy
+msgid "Status"
+msgstr "Estado"
 
-msgid "Total tasks failed to resume"
-msgstr "Total de tareas que no se pudieron reanudar"
+msgid "Success"
+msgstr ""
 
-msgid "Failed tasks"
-msgstr "Tareas con error"
+msgid "Failed"
+msgstr ""
 
-msgid "Total tasks skipped"
-msgstr "Total de tareas omitidas"
+msgid "Pending"
+msgstr ""
 
-msgid "Skipped tasks"
-msgstr "Tareas omitidas"
+msgid "Total"
+msgstr ""
+
+#, fuzzy
+msgid "Start"
+msgstr "Estado"
+
+msgid "Job Category"
+msgstr ""
+
+msgid "Mode"
+msgstr ""
+
+msgid "Cron line"
+msgstr "Línea Cron"
+
+#, fuzzy
+msgid "Recurring logic ID"
+msgstr "ID"
+
+msgid "Hosts"
+msgstr ""
+
+msgid "View the output for a host"
+msgstr ""
+
+msgid "Do not wait for job to complete, shows current output only"
+msgstr ""
+
+msgid "The job is scheduled to start at %{timestamp}"
+msgstr ""
+
+msgid "Job invocation %{id} created"
+msgstr ""
+
+msgid "Schedule the execution for a later time"
+msgstr ""
+
+msgid "Execution should be cancelled if it cannot be started before --start-at"
+msgstr ""
+
+msgid "Create a recurring execution"
+msgstr ""
+
+msgid "Perform no more executions after this time, used with --cron-line"
+msgstr ""
+
+msgid "Specify inputs from command line"
+msgstr ""
+
+msgid "Read input values from files"
+msgstr ""
+
+msgid "Dynamic search queries are evaluated at run time"
+msgstr ""
+
+msgid "Cancel the job"
+msgstr ""
+
+msgid "Job invocation %{id} cancelled"
+msgstr ""
+
+msgid "Could not cancel the job invocation"
+msgstr ""
+
+msgid "Rerun the job"
+msgstr ""
+
+msgid "Job invocation was rerun as %{id}"
+msgstr ""
+
+msgid "Manage job invocations"
+msgstr ""
+
+msgid "Provider"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Inputs"
+msgstr ""
+
+msgid "View job template content"
+msgstr ""
+
+msgid "Path to a file that contains the template"
+msgstr ""
+
+msgid "Job template created"
+msgstr ""
+
+msgid "Could not create the job template"
+msgstr ""
+
+msgid "Path to a file that contains the template - must include ERB metadata"
+msgstr ""
+
+msgid "Job template imported"
+msgstr ""
+
+msgid "Could not import the job template"
+msgstr ""
+
+msgid "Export a template including all metadata"
+msgstr ""
+
+msgid "Job template updated"
+msgstr ""
+
+msgid "Could not update the job template"
+msgstr ""
+
+msgid "Job template deleted"
+msgstr ""
+
+msgid "Could not delete the job template"
+msgstr ""
+
+msgid "Manage job templates"
+msgstr ""
+
+msgid ""
+"Comma-separated list of key=file, where file is a path to a text file to be re"
+"ad"
+msgstr ""
+
+#, fuzzy
+msgid ""
+"Cron line format 'a b c d e', where:\n"
+"  a. is minute (range: 0-59)\n"
+"  b. is hour (range: 0-23)\n"
+"  c. is day of month (range: 1-31)\n"
+"  d. is month (range: 1-12)\n"
+"  e. is day of week (range: 0-6)"
+msgstr "Línea Cron"
+
+msgid "Manage remote execution features"
+msgstr ""
+
+msgid "Job template name"
+msgstr ""
+
+msgid "Label"
+msgstr ""
+
+#, fuzzy
+msgid "Job template ID"
+msgstr "ID"
+
+msgid "Remote execution feature updated"
+msgstr ""
+
+msgid "Could not update the remote execution feature"
+msgstr ""
+
+msgid "Manage template inputs"
+msgstr ""
+
+msgid "Input type"
+msgstr ""
+
+msgid "Fact name"
+msgstr ""
+
+msgid "Variable name"
+msgstr ""
+
+msgid "Puppet parameter name"
+msgstr ""
+
+msgid "Options"
+msgstr ""
+
+msgid "Template input created"
+msgstr ""
+
+msgid "Could not create the template input"
+msgstr ""
+
+msgid "Template input deleted"
+msgstr ""
+
+msgid "Could not delete the template input"
+msgstr ""

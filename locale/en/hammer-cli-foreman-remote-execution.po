@@ -5,7 +5,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer-cli-foreman-remote-execution 0.0.4\n"
+"Project-Id-Version: hammer-cli-foreman-remote-execution 0.2.0\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2016-02-10 14:04-0500\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -101,6 +101,9 @@ msgstr ""
 msgid "Do not wait for job to complete, shows current output only"
 msgstr ""
 
+msgid "The job is scheduled to start at %{timestamp}"
+msgstr ""
+
 msgid "Job invocation %{id} created"
 msgstr ""
 
@@ -125,6 +128,21 @@ msgstr ""
 msgid "Dynamic search queries are evaluated at run time"
 msgstr ""
 
+msgid "Cancel the job"
+msgstr ""
+
+msgid "Job invocation %{id} cancelled"
+msgstr ""
+
+msgid "Could not cancel the job invocation"
+msgstr ""
+
+msgid "Rerun the job"
+msgstr ""
+
+msgid "Job invocation was rerun as %{id}"
+msgstr ""
+
 msgid "Manage job invocations"
 msgstr ""
 
@@ -147,6 +165,18 @@ msgid "Job template created"
 msgstr ""
 
 msgid "Could not create the job template"
+msgstr ""
+
+msgid "Path to a file that contains the template - must include ERB metadata"
+msgstr ""
+
+msgid "Job template imported"
+msgstr ""
+
+msgid "Could not import the job template"
+msgstr ""
+
+msgid "Export a template including all metadata"
 msgstr ""
 
 msgid "Job template updated"
@@ -176,6 +206,24 @@ msgid ""
 "  c. is day of month (range: 1-31)\n"
 "  d. is month (range: 1-12)\n"
 "  e. is day of week (range: 0-6)"
+msgstr ""
+
+msgid "Manage remote execution features"
+msgstr ""
+
+msgid "Job template name"
+msgstr ""
+
+msgid "Label"
+msgstr ""
+
+msgid "Job template ID"
+msgstr ""
+
+msgid "Remote execution feature updated"
+msgstr ""
+
+msgid "Could not update the remote execution feature"
 msgstr ""
 
 msgid "Manage template inputs"
