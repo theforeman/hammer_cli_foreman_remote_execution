@@ -229,7 +229,7 @@ module HammerCLIForemanRemoteExecution
 
     def self.extend_data(invocation)
       if (targeting = invocation['targeting']) && invocation['targeting']['hosts']
-        invocation['randomized_ordering'] = targeting['randomized_ordering']
+        invocation['randomized_ordering'] = targeting['randomized_ordering'] || false
 
         hosts = targeting['hosts'].map do |host|
           { 'Name' => host['name'], 'Job status' => host['job_status'], 'Inputs' => host[:inputs] }.compact
