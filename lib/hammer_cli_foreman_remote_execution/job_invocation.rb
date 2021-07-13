@@ -32,7 +32,7 @@ module HammerCLIForemanRemoteExecution
         JobInvocation.extend_data(invocation)
       end
 
-      build_options
+      build_options :expand => { :except => %i[organizations locations] }, :without => %i[organization_id location_id]
     end
 
     class InfoCommand < HammerCLIForeman::InfoCommand
