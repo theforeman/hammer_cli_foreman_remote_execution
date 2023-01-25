@@ -50,6 +50,7 @@ module HammerCLIForemanRemoteExecution
           field :mode, _('Mode')
           field :cron_line, _('Cron line')
           field :recurring_logic_id, _('Recurring logic ID')
+          field :time_to_pickup, _('Time to pickup')
           field :hosts, _('Hosts')
         end
       end
