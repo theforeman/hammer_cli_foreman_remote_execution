@@ -1,15 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the hammer_cli_foreman_tasks package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# This file is distributed under the same license as the hammer-cli-foreman-remote-execution package.
 #
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer-cli-foreman-remote-execution 0.2.0\n"
+"Project-Id-Version: hammer-cli-foreman-remote-execution 0.2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-02-18 10:36-0500\n"
-"Last-Translator: Tomoyuki KATO <inactive+katomo@transifex.com>, 2017\n"
-"Language-Team: Japanese (https://www.transifex.com/foreman/teams/114/ja/)\n"
+"POT-Creation-Date: 2019-02-26 10:44-0500\n"
+"PO-Revision-Date: 2016-02-12 07:57+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Japanese (http://app.transifex.com/foreman/foreman/language/"
+"ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -17,192 +19,190 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "Manage foreign input sets"
-msgstr ""
+msgstr "外部入力セットを管理します"
 
 msgid "ID"
 msgstr "ID"
 
-#, fuzzy
 msgid "Target template ID"
-msgstr "ID"
+msgstr "ターゲットテンプレート ID"
 
 msgid "Target template name"
-msgstr ""
+msgstr "ターゲットテンプレート名"
 
 msgid "Name"
 msgstr "名前"
 
 msgid "Include all"
-msgstr ""
+msgstr "すべて追加"
 
 msgid "Include"
-msgstr ""
+msgstr "追加"
 
 msgid "Exclude"
-msgstr ""
+msgstr "除外"
 
 msgid "Foreign input set updated"
-msgstr ""
+msgstr "外部入力セットが更新されました"
 
 msgid "Could not update the input set"
-msgstr ""
+msgstr "入力セットを更新できませんでした"
 
 msgid "Foreign input set created"
-msgstr ""
+msgstr "外部入力セットが作成されました"
 
 msgid "Could not create the input set"
-msgstr ""
+msgstr "入力セットを作成できませんでした"
 
 msgid "Foreign input set deleted"
-msgstr ""
+msgstr "外部入力セットが削除されました"
 
 msgid "Could not delete the input set"
-msgstr ""
+msgstr "入力セットを削除できませんでした"
 
 msgid "Description"
-msgstr ""
+msgstr "説明"
 
-#, fuzzy
 msgid "Status"
-msgstr "状態"
+msgstr "ステータス"
 
 msgid "Success"
-msgstr ""
+msgstr "成功"
 
 msgid "Failed"
-msgstr ""
+msgstr "失敗"
 
 msgid "Pending"
-msgstr ""
+msgstr "保留"
 
 msgid "Total"
-msgstr ""
+msgstr "合計"
 
-#, fuzzy
 msgid "Start"
-msgstr "状態"
+msgstr "開始"
 
 msgid "Job Category"
-msgstr ""
+msgstr "ジョブカテゴリー"
 
 msgid "Mode"
-msgstr ""
+msgstr "モード"
 
 msgid "Cron line"
-msgstr "Cron 行"
+msgstr "cron 行"
 
-#, fuzzy
 msgid "Recurring logic ID"
-msgstr "ID"
+msgstr "再帰論理 ID"
 
 msgid "Hosts"
-msgstr ""
+msgstr "ホスト"
 
 msgid "View the output for a host"
-msgstr ""
+msgstr "ホストの出力を表示します"
 
 msgid "Do not wait for job to complete, shows current output only"
-msgstr ""
+msgstr "ジョブの完了まで待機せず、現在の出力のみを表示します"
 
 msgid "The job is scheduled to start at %{timestamp}"
-msgstr ""
+msgstr "ジョブは %%{timestamp} に開始する予定です"
 
 msgid "Job invocation %{id} created"
-msgstr ""
+msgstr "ジョブ呼び出し %%{id} が作成されました"
 
 msgid "Schedule the execution for a later time"
-msgstr ""
+msgstr "後で行われる実行をスケジュールします"
 
 msgid "Execution should be cancelled if it cannot be started before --start-at"
-msgstr ""
+msgstr "開始時刻前に実行を開始できない場合は、実行を取り消す必要があります"
 
 msgid "Create a recurring execution"
-msgstr ""
+msgstr "繰り返される実行を作成します"
 
 msgid "Perform no more executions after this time, used with --cron-line"
-msgstr ""
+msgstr "この時間以降は実行されなくなり、--cron-line と共に使用されます"
 
 msgid "Specify inputs from command line"
-msgstr ""
+msgstr "コマンドラインからの入力を指定します"
 
 msgid "Read input values from files"
-msgstr ""
+msgstr "ファイルから入力値を読み取ります"
 
 msgid "Dynamic search queries are evaluated at run time"
-msgstr ""
+msgstr "動的検索クエリーは実行時に評価されます"
 
 msgid "Cancel the job"
-msgstr ""
+msgstr "ジョブを取り消します"
 
 msgid "Job invocation %{id} cancelled"
-msgstr ""
+msgstr "ジョブ呼び出し %%{id} が取り消されました"
 
 msgid "Could not cancel the job invocation"
-msgstr ""
+msgstr "ジョブ呼び出しを取り消せませんでした"
 
 msgid "Rerun the job"
-msgstr ""
+msgstr "ジョブを再実行"
 
 msgid "Job invocation was rerun as %{id}"
-msgstr ""
+msgstr "ジョブ呼び出しは %%{id} として再実行されました"
 
 msgid "Manage job invocations"
-msgstr ""
+msgstr "ジョブ呼び出しを管理します"
 
 msgid "Provider"
-msgstr ""
+msgstr "プロバイダー"
 
 msgid "Type"
-msgstr ""
+msgstr "タイプ"
 
 msgid "Inputs"
-msgstr ""
+msgstr "入力"
 
 msgid "View job template content"
-msgstr ""
+msgstr "ジョブテンプレートコンテンツを表示します"
 
 msgid "Path to a file that contains the template"
-msgstr ""
+msgstr "テンプレートを含むファイルのパス"
 
 msgid "Job template created"
-msgstr ""
+msgstr "ジョブテンプレートが作成されました"
 
 msgid "Could not create the job template"
-msgstr ""
+msgstr "ジョブテンプレートを作成できませんでした"
 
 msgid "Path to a file that contains the template - must include ERB metadata"
 msgstr ""
+"テンプレートを含むファイルへのパス (ERB メタデータを含む必要があります)"
 
 msgid "Job template imported"
-msgstr ""
+msgstr "インポートされたジョブテンプレート"
 
 msgid "Could not import the job template"
-msgstr ""
+msgstr "ジョブテンプレートをインポートできませんでした"
 
 msgid "Export a template including all metadata"
-msgstr ""
+msgstr "すべてのメターデータを含むテンプレートをエクスポートします"
 
 msgid "Job template updated"
-msgstr ""
+msgstr "ジョブテンプレートが更新されました"
 
 msgid "Could not update the job template"
-msgstr ""
+msgstr "ジョブテンプレートを更新できませんでした"
 
 msgid "Job template deleted"
-msgstr ""
+msgstr "ジョブテンプレートが削除されました"
 
 msgid "Could not delete the job template"
-msgstr ""
+msgstr "ジョブテンプレートを削除できませんでした"
 
 msgid "Manage job templates"
-msgstr ""
+msgstr "ジョブテンプレートを管理します"
 
 msgid ""
-"Comma-separated list of key=file, where file is a path to a text file to be re"
-"ad"
+"Comma-separated list of key=file, where file is a path to a text file to be "
+"read"
 msgstr ""
+"key=file のコンマ区切りリスト。この file は、読み取られるテキストファイルへの"
+"パスになります。"
 
-#, fuzzy
 msgid ""
 "Cron line format 'a b c d e', where:\n"
 "  a. is minute (range: 0-59)\n"
@@ -210,53 +210,103 @@ msgid ""
 "  c. is day of month (range: 1-31)\n"
 "  d. is month (range: 1-12)\n"
 "  e. is day of week (range: 0-6)"
-msgstr "Cron 行"
+msgstr ""
+"cron 行形式 'a b c d e' は以下のとおりです:\n"
+"  a. 分 (範囲: 0-59)\n"
+"  b. 時 (範囲: 0-23)\n"
+"  c. 日 (範囲: 1-31)\n"
+"  d. 月 (範囲: 1-12)\n"
+"  e. 曜日 (範囲: 0-6)"
 
 msgid "Manage remote execution features"
-msgstr ""
+msgstr "リモート実行機能を管理します"
 
 msgid "Job template name"
-msgstr ""
+msgstr "ジョブテンプレート名"
 
 msgid "Label"
-msgstr ""
+msgstr "ラベル"
 
-#, fuzzy
 msgid "Job template ID"
-msgstr "ID"
+msgstr "ジョブテンプレート ID"
 
 msgid "Remote execution feature updated"
-msgstr ""
+msgstr "リモート実行機能が更新されました"
 
 msgid "Could not update the remote execution feature"
-msgstr ""
+msgstr "リモート実行機能を更新できませんでした"
 
 msgid "Manage template inputs"
-msgstr ""
+msgstr "テンプレート入力を管理します"
 
 msgid "Input type"
-msgstr ""
+msgstr "入力タイプ"
 
 msgid "Fact name"
-msgstr ""
+msgstr "ファクト名"
 
 msgid "Variable name"
-msgstr ""
+msgstr "変数名"
 
 msgid "Puppet parameter name"
-msgstr ""
+msgstr "Puppet パラメーター名"
 
 msgid "Options"
-msgstr ""
+msgstr "オプション"
 
 msgid "Template input created"
-msgstr ""
+msgstr "テンプレート入力が作成されました"
 
 msgid "Could not create the template input"
-msgstr ""
+msgstr "テンプレート入力を作成できませんでした"
 
 msgid "Template input deleted"
-msgstr ""
+msgstr "テンプレート入力が削除されました"
 
 msgid "Could not delete the template input"
+msgstr "テンプレート入力を削除できませんでした"
+
+msgid "Execution"
+msgstr ""
+
+msgid "execution"
+msgstr ""
+
+msgid "Randomized ordering"
+msgstr ""
+
+msgid "Show the complete input of the job"
+msgstr ""
+
+msgid "Show job status for the hosts"
+msgstr ""
+
+msgid "Missing"
+msgstr ""
+
+msgid "Time to pickup"
+msgstr ""
+
+msgid "Smart Proxies"
+msgstr ""
+
+msgid "Remote execution proxies"
+msgstr ""
+
+msgid "Id"
+msgstr ""
+
+msgid "Default value"
+msgstr ""
+
+msgid "Template input created."
+msgstr ""
+
+msgid "Template input updated."
+msgstr ""
+
+msgid "Could not update the template input"
+msgstr ""
+
+msgid "Template input deleted."
 msgstr ""

@@ -1,15 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the hammer_cli_foreman_tasks package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# This file is distributed under the same license as the hammer-cli-foreman-remote-execution package.
 #
+# Translators:
+# Ettore Atalan <atalanttore@googlemail.com>, 2016,2023
+# pdolinic, 2021
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer-cli-foreman-remote-execution 0.2.0\n"
+"Project-Id-Version: hammer-cli-foreman-remote-execution 0.2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-02-18 10:36-0500\n"
-"Last-Translator: Wiederoder <stefanwiederoder@googlemail.com>, 2017\n"
-"Language-Team: German (https://www.transifex.com/foreman/teams/114/de/)\n"
+"POT-Creation-Date: 2019-02-26 10:44-0500\n"
+"PO-Revision-Date: 2016-02-12 07:57+0000\n"
+"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>, 2016,2023\n"
+"Language-Team: German (http://app.transifex.com/foreman/foreman/language/"
+"de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -17,192 +21,193 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Manage foreign input sets"
-msgstr ""
+msgstr "Fremdeingabe-Satz verwalten"
 
 msgid "ID"
 msgstr "ID"
 
-#, fuzzy
 msgid "Target template ID"
-msgstr "ID"
+msgstr "Zielvorlagen-ID"
 
 msgid "Target template name"
-msgstr ""
+msgstr "Zielvorlagenname"
 
 msgid "Name"
 msgstr "Name"
 
 msgid "Include all"
-msgstr ""
+msgstr "Alle einbeziehen"
 
 msgid "Include"
-msgstr ""
+msgstr "Einschließen"
 
 msgid "Exclude"
-msgstr ""
+msgstr "Ausschließen"
 
 msgid "Foreign input set updated"
-msgstr ""
+msgstr "Fremdeingabe-Satz aktualisiert"
 
 msgid "Could not update the input set"
-msgstr ""
+msgstr "Eingabe-Satz konnte nicht aktualisiert werden"
 
 msgid "Foreign input set created"
-msgstr ""
+msgstr "Fremdeingabe-Satz erstellt"
 
 msgid "Could not create the input set"
-msgstr ""
+msgstr "Eingabe-Satz konnte nicht erstellt werden"
 
 msgid "Foreign input set deleted"
-msgstr ""
+msgstr "Fremdeingabe-Satz gelöscht"
 
 msgid "Could not delete the input set"
-msgstr ""
+msgstr "Eingabe--Satz konnte nicht gelöscht werden"
 
 msgid "Description"
-msgstr ""
+msgstr "Beschreibung"
 
-#, fuzzy
 msgid "Status"
 msgstr "Status"
 
 msgid "Success"
-msgstr ""
+msgstr "Erfolg"
 
 msgid "Failed"
-msgstr ""
+msgstr "Fehlgeschlagen"
 
 msgid "Pending"
-msgstr ""
+msgstr "Ausstehend"
 
 msgid "Total"
-msgstr ""
+msgstr "Gesamt"
 
-#, fuzzy
 msgid "Start"
-msgstr "Status"
+msgstr "Anfang"
 
 msgid "Job Category"
-msgstr ""
+msgstr "Auftragskategorie"
 
 msgid "Mode"
-msgstr ""
+msgstr "Modus"
 
 msgid "Cron line"
 msgstr "Cron-Zeile"
 
-#, fuzzy
 msgid "Recurring logic ID"
-msgstr "ID"
+msgstr "ID der Wiederholungslogik"
 
 msgid "Hosts"
-msgstr ""
+msgstr "Hosts"
 
 msgid "View the output for a host"
-msgstr ""
+msgstr "Ausgabe für einen Host anzeigen"
 
 msgid "Do not wait for job to complete, shows current output only"
 msgstr ""
+"Nicht warten bis der Auftrag abgeschlossen ist, zeigt nur aktuelle Ausgabe"
 
 msgid "The job is scheduled to start at %{timestamp}"
-msgstr ""
+msgstr "Der Auftrag soll um %{timestamp} beginnen"
 
 msgid "Job invocation %{id} created"
-msgstr ""
+msgstr "Auftragsaufruf %{id} erstellt"
 
 msgid "Schedule the execution for a later time"
-msgstr ""
+msgstr "Ausführung zu einer späteren Zeit starten lassen"
 
 msgid "Execution should be cancelled if it cannot be started before --start-at"
 msgstr ""
+"Ausführung soll abgebrochen werden, wenn sie nicht vor --start-at gestartet "
+"werden kann."
 
 msgid "Create a recurring execution"
-msgstr ""
+msgstr "Wiederkehrenden Ausführung erstellen"
 
 msgid "Perform no more executions after this time, used with --cron-line"
-msgstr ""
+msgstr "Danach nicht mehr ausführen, verwendet mit --cron-line"
 
 msgid "Specify inputs from command line"
-msgstr ""
+msgstr "Eingaben von Befehlszeile angeben"
 
 msgid "Read input values from files"
-msgstr ""
+msgstr "Eingabewerte von Dateien lesen"
 
 msgid "Dynamic search queries are evaluated at run time"
-msgstr ""
+msgstr "Dynamische Suchanfragen werden zur Laufzeit geprüft"
 
 msgid "Cancel the job"
-msgstr ""
+msgstr "Auftrag abbrechen"
 
 msgid "Job invocation %{id} cancelled"
-msgstr ""
+msgstr "Auftragsaufruf %{id} abgebrochen"
 
 msgid "Could not cancel the job invocation"
-msgstr ""
+msgstr "Der Auftragsaufruf konnte nicht abgebrochen werden"
 
 msgid "Rerun the job"
-msgstr ""
+msgstr "Auftrag erneut ausführen"
 
 msgid "Job invocation was rerun as %{id}"
-msgstr ""
+msgstr "Auftragsaufruf wurde als %{id} erneut ausgeführt"
 
 msgid "Manage job invocations"
-msgstr ""
+msgstr "Auftragsaufrufe verwalten"
 
 msgid "Provider"
-msgstr ""
+msgstr "Dienstanbieter"
 
 msgid "Type"
-msgstr ""
+msgstr "Typ"
 
 msgid "Inputs"
-msgstr ""
+msgstr "Eingaben"
 
 msgid "View job template content"
-msgstr ""
+msgstr "Inhalte der Auftragsvorlagen ansehen"
 
 msgid "Path to a file that contains the template"
-msgstr ""
+msgstr "Pfad zur Datei, welche die Vorlage enthält"
 
 msgid "Job template created"
-msgstr ""
+msgstr "Auftragsvorlage erstellt"
 
 msgid "Could not create the job template"
-msgstr ""
+msgstr "Auftragsvorlage konnte nicht erstellt werden"
 
 msgid "Path to a file that contains the template - must include ERB metadata"
 msgstr ""
+"Pfad zu einer Datei, die die Vorlage enthält – muss ERB-Metadaten enthalten"
 
 msgid "Job template imported"
-msgstr ""
+msgstr "Auftragsvorlage importiert"
 
 msgid "Could not import the job template"
-msgstr ""
+msgstr "Die Auftragsvorlage konnte nicht importiert werden"
 
 msgid "Export a template including all metadata"
-msgstr ""
+msgstr "Exportieren Sie eine Vorlage mit allen Metadaten"
 
 msgid "Job template updated"
-msgstr ""
+msgstr "Auftragsvorlage aktualisiert"
 
 msgid "Could not update the job template"
-msgstr ""
+msgstr "Auftragsvorlage konnte nicht aktualisiert werden"
 
 msgid "Job template deleted"
-msgstr ""
+msgstr "Auftragsvorlage gelöscht"
 
 msgid "Could not delete the job template"
-msgstr ""
+msgstr "Auftragsvorlage konnte nicht gelöscht werden"
 
 msgid "Manage job templates"
-msgstr ""
+msgstr "Auftragsvorlagen verwalten"
 
 msgid ""
-"Comma-separated list of key=file, where file is a path to a text file to be re"
-"ad"
+"Comma-separated list of key=file, where file is a path to a text file to be "
+"read"
 msgstr ""
+"Kommagetrennte Liste von Schlüssel=Datei, wobei Datei ein Pfad zu einer zu "
+"lesenden Textdatei ist "
 
-#, fuzzy
 msgid ""
 "Cron line format 'a b c d e', where:\n"
 "  a. is minute (range: 0-59)\n"
@@ -210,53 +215,103 @@ msgid ""
 "  c. is day of month (range: 1-31)\n"
 "  d. is month (range: 1-12)\n"
 "  e. is day of week (range: 0-6)"
-msgstr "Cron-Zeile"
+msgstr ""
+"Cron-Zeilen Format 'a b c d e', wobei:\n"
+"  a. Minute ist (Bereich: 0-59)\n"
+"  b. Stunde ist (Bereich: 0-23)\n"
+"  c. Tag des Monats ist (Bereich: 1-31)\n"
+"  d. Monat ist (Bereich: 1-12)\n"
+"  e. Wochentag ist (Bereich: 0-6)"
 
 msgid "Manage remote execution features"
-msgstr ""
+msgstr "Remote-Ausführungsfunktionen verwalten"
 
 msgid "Job template name"
-msgstr ""
+msgstr "Name der Auftragsvorlage"
 
 msgid "Label"
-msgstr ""
+msgstr "Kennung"
 
-#, fuzzy
 msgid "Job template ID"
-msgstr "ID"
+msgstr "Auftragsvorlagenkennung"
 
 msgid "Remote execution feature updated"
-msgstr ""
+msgstr "Remote-Ausführungsfunktion aktualisiert"
 
 msgid "Could not update the remote execution feature"
-msgstr ""
+msgstr "Die Remote-Ausführungsfunktion konnte nicht aktualisiert werden"
 
 msgid "Manage template inputs"
-msgstr ""
+msgstr "Vorlageneingaben verwalten"
 
 msgid "Input type"
-msgstr ""
+msgstr "Eingabetyp"
 
 msgid "Fact name"
-msgstr ""
+msgstr "Faktenname"
 
 msgid "Variable name"
-msgstr ""
+msgstr "Variablenname"
 
 msgid "Puppet parameter name"
-msgstr ""
+msgstr "Puppet-Parametername"
 
 msgid "Options"
-msgstr ""
+msgstr "Optionen"
 
 msgid "Template input created"
-msgstr ""
+msgstr "Vorlageneingabe erstellt"
 
 msgid "Could not create the template input"
-msgstr ""
+msgstr "Vorlageneingabe konnte nicht erstellt werden"
 
 msgid "Template input deleted"
-msgstr ""
+msgstr "Vorlageneingabe gelöscht"
 
 msgid "Could not delete the template input"
+msgstr "Vorlageneingabe konnte nicht gelöscht werden"
+
+msgid "Execution"
+msgstr ""
+
+msgid "execution"
+msgstr ""
+
+msgid "Randomized ordering"
+msgstr ""
+
+msgid "Show the complete input of the job"
+msgstr ""
+
+msgid "Show job status for the hosts"
+msgstr ""
+
+msgid "Missing"
+msgstr ""
+
+msgid "Time to pickup"
+msgstr ""
+
+msgid "Smart Proxies"
+msgstr ""
+
+msgid "Remote execution proxies"
+msgstr ""
+
+msgid "Id"
+msgstr ""
+
+msgid "Default value"
+msgstr ""
+
+msgid "Template input created."
+msgstr ""
+
+msgid "Template input updated."
+msgstr ""
+
+msgid "Could not update the template input"
+msgstr ""
+
+msgid "Template input deleted."
 msgstr ""

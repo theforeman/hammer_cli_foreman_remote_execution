@@ -6,10 +6,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer-cli-foreman-remote-execution 0.1.1\n"
+"Project-Id-Version: hammer-cli-foreman-remote-execution 0.2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-26 10:44-0500\n"
-"PO-Revision-Date: 2019-02-26 10:44-0500\n"
+"POT-Creation-Date: 2023-07-12 15:59+0000\n"
+"PO-Revision-Date: 2023-07-12 15:59+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -25,7 +25,7 @@ msgstr ""
 
 #: ../lib/hammer_cli_foreman_remote_execution/foreign_input_set.rb:8
 #: ../lib/hammer_cli_foreman_remote_execution/foreign_input_set.rb:18
-#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:13
+#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:14
 #: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:7
 #: ../lib/hammer_cli_foreman_remote_execution/remote_execution_feature.rb:8
 #: ../lib/hammer_cli_foreman_remote_execution/remote_execution_feature.rb:19
@@ -48,6 +48,7 @@ msgstr ""
 #: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:8
 #: ../lib/hammer_cli_foreman_remote_execution/remote_execution_feature.rb:9
 #: ../lib/hammer_cli_foreman_remote_execution/remote_execution_feature.rb:21
+#: ../lib/hammer_cli_foreman_remote_execution/subnet_extensions.rb:9
 #: ../lib/hammer_cli_foreman_remote_execution/template_input.rb:9
 #: ../lib/hammer_cli_foreman_remote_execution/template_input.rb:19
 msgid "Name"
@@ -89,122 +90,157 @@ msgstr ""
 msgid "Could not delete the input set"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:14
+#: ../lib/hammer_cli_foreman_remote_execution/interface_extensions.rb:9
+msgid "Execution"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_remote_execution/interface_extensions.rb:19
+#: ../lib/hammer_cli_foreman_remote_execution/interface_extensions.rb:21
+msgid "execution"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:15
+#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:23
 #: ../lib/hammer_cli_foreman_remote_execution/remote_execution_feature.rb:10
 #: ../lib/hammer_cli_foreman_remote_execution/remote_execution_feature.rb:22
 msgid "Description"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:15
+#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:16
 msgid "Status"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:16
+#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:17
 msgid "Success"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:17
+#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:18
 msgid "Failed"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:18
+#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:19
 msgid "Pending"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:19
+#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:20
 msgid "Total"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:20
+#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:21
 msgid "Start"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:33
+#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:22
+msgid "Randomized ordering"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:23
+#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:24
+msgid "Inputs"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:41
+msgid "Show the complete input of the job"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:42
+msgid "Show job status for the hosts"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:46
+msgid "Missing"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:49
 #: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:9
 msgid "Job Category"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:34
+#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:50
 msgid "Mode"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:35
+#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:51
 msgid "Cron line"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:36
+#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:52
 msgid "Recurring logic ID"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:37
-msgid "Hosts"
-msgstr ""
-
-#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:52
-msgid "View the output for a host"
+#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:53
+msgid "Time to pickup"
 msgstr ""
 
 #: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:54
+msgid "Hosts"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:97
+msgid "View the output for a host"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:99
 msgid "Do not wait for job to complete, shows current output only"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:70
+#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:115
 msgid "The job is scheduled to start at %{timestamp}"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:102
+#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:147
 msgid "Job invocation %{id} created"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:105
+#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:150
 msgid "Schedule the execution for a later time"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:108
+#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:153
 msgid "Execution should be cancelled if it cannot be started before --start-at"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:112
+#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:157
 msgid "Create a recurring execution"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:114
+#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:159
 msgid "Perform no more executions after this time, used with --cron-line"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:118
+#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:163
 msgid "Specify inputs from command line"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:122
+#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:167
 msgid "Read input values from files"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:125
+#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:170
 msgid "Dynamic search queries are evaluated at run time"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:168
+#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:213
 msgid "Cancel the job"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:169
+#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:214
 msgid "Job invocation %{id} cancelled"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:170
+#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:215
 msgid "Could not cancel the job invocation"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:180
+#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:225
 msgid "Rerun the job"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:181
+#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:226
 msgid "Job invocation was rerun as %{id}"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:202
+#: ../lib/hammer_cli_foreman_remote_execution/job_invocation.rb:252
 msgid "Manage job invocations"
 msgstr ""
 
@@ -216,60 +252,56 @@ msgstr ""
 msgid "Type"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:23
-msgid "Inputs"
-msgstr ""
-
-#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:36
+#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:37
 msgid "View job template content"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:46
-#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:88
+#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:47
+#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:89
 msgid "Path to a file that contains the template"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:50
+#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:51
 msgid "Job template created"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:51
+#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:52
 msgid "Could not create the job template"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:62
+#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:63
 msgid "Path to a file that contains the template - must include ERB metadata"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:66
+#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:67
 msgid "Job template imported"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:67
+#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:68
 msgid "Could not import the job template"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:78
+#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:79
 msgid "Export a template including all metadata"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:92
+#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:93
 msgid "Job template updated"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:93
+#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:94
 msgid "Could not update the job template"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:101
+#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:102
 msgid "Job template deleted"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:102
+#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:103
 msgid "Could not delete the job template"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:121
+#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:122
 msgid "Manage job templates"
 msgstr ""
 
@@ -315,8 +347,20 @@ msgstr ""
 msgid "Could not update the remote execution feature"
 msgstr ""
 
+#: ../lib/hammer_cli_foreman_remote_execution/subnet_extensions.rb:6
+msgid "Smart Proxies"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_remote_execution/subnet_extensions.rb:7
+msgid "Remote execution proxies"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_remote_execution/subnet_extensions.rb:8
+msgid "Id"
+msgstr ""
+
 #: ../lib/hammer_cli_foreman_remote_execution/template_input.rb:4
-#: ../lib/hammer_cli_foreman_remote_execution/template_input.rb:48
+#: ../lib/hammer_cli_foreman_remote_execution/template_input.rb:56
 msgid "Manage template inputs"
 msgstr ""
 
@@ -341,18 +385,30 @@ msgstr ""
 msgid "Options"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/template_input.rb:32
-msgid "Template input created"
+#: ../lib/hammer_cli_foreman_remote_execution/template_input.rb:26
+msgid "Default value"
 msgstr ""
 
 #: ../lib/hammer_cli_foreman_remote_execution/template_input.rb:33
+msgid "Template input created."
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_remote_execution/template_input.rb:34
 msgid "Could not create the template input"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/template_input.rb:39
-msgid "Template input deleted"
+#: ../lib/hammer_cli_foreman_remote_execution/template_input.rb:40
+msgid "Template input updated."
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/template_input.rb:40
+#: ../lib/hammer_cli_foreman_remote_execution/template_input.rb:41
+msgid "Could not update the template input"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_remote_execution/template_input.rb:47
+msgid "Template input deleted."
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_remote_execution/template_input.rb:48
 msgid "Could not delete the template input"
 msgstr ""
