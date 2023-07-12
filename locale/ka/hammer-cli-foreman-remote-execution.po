@@ -1,0 +1,313 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the hammer-cli-foreman-remote-execution package.
+#
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: hammer-cli-foreman-remote-execution 0.2.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-26 10:44-0500\n"
+"PO-Revision-Date: 2016-02-12 07:57+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Georgian (http://app.transifex.com/foreman/foreman/language/"
+"ka/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ka\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+msgid "Manage foreign input sets"
+msgstr "შემოტანის უცხო სეტების მართვა"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Target template ID"
+msgstr "სამიზნე შაბლონის ID"
+
+msgid "Target template name"
+msgstr "სამიზნე შაბლონის სახელი"
+
+msgid "Name"
+msgstr "სახელი"
+
+msgid "Include all"
+msgstr "ყველას ჩასმა"
+
+msgid "Include"
+msgstr "ჩართვა"
+
+msgid "Exclude"
+msgstr "გამორიცხვა"
+
+msgid "Foreign input set updated"
+msgstr "შემოტანის უცხო სეტი განახლდა"
+
+msgid "Could not update the input set"
+msgstr "შემოტანის სეტის განახლების შეცდომა"
+
+msgid "Foreign input set created"
+msgstr "შემოტანის უცხო სეტი შექმნილია"
+
+msgid "Could not create the input set"
+msgstr "შემოტანის სეტის შექმნის შეცდომა"
+
+msgid "Foreign input set deleted"
+msgstr "შემოტანის უცხო სეტი წაშლილია"
+
+msgid "Could not delete the input set"
+msgstr "შემოტანის სეტის წაშლის შეცდომ"
+
+msgid "Description"
+msgstr "აღწერილობა"
+
+msgid "Status"
+msgstr "სტატუსი"
+
+msgid "Success"
+msgstr "წარმატება"
+
+msgid "Failed"
+msgstr "შეცდომა"
+
+msgid "Pending"
+msgstr "დარჩენილი"
+
+msgid "Total"
+msgstr "ჯამში"
+
+msgid "Start"
+msgstr "დაწყება"
+
+msgid "Job Category"
+msgstr "დავალების კატეგორია"
+
+msgid "Mode"
+msgstr "რეჟიმი"
+
+msgid "Cron line"
+msgstr "Cron-ის სტრიქონი"
+
+msgid "Recurring logic ID"
+msgstr "განმეორებადი ლოგიკის ID"
+
+msgid "Hosts"
+msgstr "ჰოსტები"
+
+msgid "View the output for a host"
+msgstr "ჰოსტის გამოტანის ხედი"
+
+msgid "Do not wait for job to complete, shows current output only"
+msgstr ""
+"არ დაელოდო დავალების დასრულებას. ნაჩვენები იქნება მხოლოდ მიმდინარე გამოტანა"
+
+msgid "The job is scheduled to start at %{timestamp}"
+msgstr "დავალების დაწყების დროა %{timestamp}"
+
+msgid "Job invocation %{id} created"
+msgstr "დავალების ჩაწოდება შეიქმნა: %{id}"
+
+msgid "Schedule the execution for a later time"
+msgstr "დავალების მოგვიანებით გაშვების დაგეგმვა"
+
+msgid "Execution should be cancelled if it cannot be started before --start-at"
+msgstr ""
+"გაშვება უნდა გაუქმდეს, თუ ის --start-at -ისთვის მითითებულ დროზე ვერ გაეშვა"
+
+msgid "Create a recurring execution"
+msgstr "განმეორებადი გაშვების შექმნა"
+
+msgid "Perform no more executions after this time, used with --cron-line"
+msgstr "მეტი გაშვება აღარ მოხდება. გამოიყენეთ --cron-line -სთან ერთად"
+
+msgid "Specify inputs from command line"
+msgstr "ბრძანებების სტრიქონიდან მითითებული შეყვანა"
+
+msgid "Read input values from files"
+msgstr "შეყვანის მნიშვნელობების ფაილებიდან წაკითხვა"
+
+msgid "Dynamic search queries are evaluated at run time"
+msgstr "ძებნის დინამიკური მოთხოვნები გაშვების დროს მოწმდება"
+
+msgid "Cancel the job"
+msgstr "დავალების გაუქმება"
+
+msgid "Job invocation %{id} cancelled"
+msgstr "დავალების ჩაწოდება გაუქმდა: %{id}"
+
+msgid "Could not cancel the job invocation"
+msgstr "დავალების ჩაწოდების გაუქმების შეცდომა"
+
+msgid "Rerun the job"
+msgstr "დავალების თავიდან გაშვება"
+
+msgid "Job invocation was rerun as %{id}"
+msgstr "დავალების ჩაწოდება თავიდან გაეშვა: %{id}"
+
+msgid "Manage job invocations"
+msgstr "დავალების ჩაწოდების მართვა"
+
+msgid "Provider"
+msgstr "სერვისის მომწოდებელი"
+
+msgid "Type"
+msgstr "ტიპი"
+
+msgid "Inputs"
+msgstr "შეყვანები"
+
+msgid "View job template content"
+msgstr "დავალების შაბლონის შემცველობის ნახვა"
+
+msgid "Path to a file that contains the template"
+msgstr "შაბლონის შემცველი ფაილის ბილიკი"
+
+msgid "Job template created"
+msgstr "დავალების შაბლონი შექმნილია"
+
+msgid "Could not create the job template"
+msgstr "დავალების შაბლონის შექმნის შეცდომა"
+
+msgid "Path to a file that contains the template - must include ERB metadata"
+msgstr "ბილიკი შაბლონის შემცველ ფაილამდე - უნდა შეიცავდეს ERB მეტამონაცემებს"
+
+msgid "Job template imported"
+msgstr "დავალების შაბლონი შემოტანილია"
+
+msgid "Could not import the job template"
+msgstr "დავალების შაბლონის შემოტანის შეცდომა"
+
+msgid "Export a template including all metadata"
+msgstr "შაბლონის შემცველობის გატანა მეტამონაცემების ჩათვლით"
+
+msgid "Job template updated"
+msgstr "დავალების შაბლონი განახლდა"
+
+msgid "Could not update the job template"
+msgstr "დავალების შაბლონის განახლების შეცდომა"
+
+msgid "Job template deleted"
+msgstr "დავალების შაბლონი წაიშალა"
+
+msgid "Could not delete the job template"
+msgstr "დავალების შაბლონის წაშლის შეცდომა"
+
+msgid "Manage job templates"
+msgstr "დავალების შაბლონების მართვა"
+
+msgid ""
+"Comma-separated list of key=file, where file is a path to a text file to be "
+"read"
+msgstr ""
+"მძიმით გამოყოფილი გასაღები=ფაილი ტიპის სია, სადაც ფაილი წასაკითხ ტექსტურ "
+"ფაილამდე ბილიკს წარმოადგენს"
+
+msgid ""
+"Cron line format 'a b c d e', where:\n"
+"  a. is minute (range: 0-59)\n"
+"  b. is hour (range: 0-23)\n"
+"  c. is day of month (range: 1-31)\n"
+"  d. is month (range: 1-12)\n"
+"  e. is day of week (range: 0-6)"
+msgstr ""
+"Cron ხაზის ფორმატი 'ა ბ გ დ ე', სადაც:\n"
+"   ა. არის წუთი (დიაპაზონი: 0-59)\n"
+"   ბ. არის საათი (დიაპაზონი: 0-23)\n"
+"   გ. არის თვის დღე (დიაპაზონი: 1-31)\n"
+"   დ. არის თვე (დიაპაზონი: 1-12)\n"
+"   ე. კვირის დღეა (დიაპაზონი: 0-6)"
+
+msgid "Manage remote execution features"
+msgstr "დაშორებული გაშვების ფუნქციების მართვა"
+
+msgid "Job template name"
+msgstr "დავალების შაბლონის სახელი"
+
+msgid "Label"
+msgstr "ჭდე"
+
+msgid "Job template ID"
+msgstr "დავალების შაბლონის ID"
+
+msgid "Remote execution feature updated"
+msgstr "დაშორებული გაშვების ფუნქცია განახლდა"
+
+msgid "Could not update the remote execution feature"
+msgstr "დაშორებული გაშვების ფუნქციის განახლების შეცდომა"
+
+msgid "Manage template inputs"
+msgstr "შაბლონის შეყვანების მართვა"
+
+msgid "Input type"
+msgstr "შეყვანის ტიპი"
+
+msgid "Fact name"
+msgstr "ფაქტის სახელი"
+
+msgid "Variable name"
+msgstr "ცვლადის სახელი"
+
+msgid "Puppet parameter name"
+msgstr "Puppet-ის პარამეტრის სახელი"
+
+msgid "Options"
+msgstr "მორგება"
+
+msgid "Template input created"
+msgstr "შაბლონის შეყვანა შექმნილია"
+
+msgid "Could not create the template input"
+msgstr "შაბლონის შეყვანის შექმნის შეცდომა"
+
+msgid "Template input deleted"
+msgstr "შაბლონის შეყვანა წაიშალა"
+
+msgid "Could not delete the template input"
+msgstr "შაბლონის შეყვანის წაშლის პრობლემა"
+
+msgid "Execution"
+msgstr ""
+
+msgid "execution"
+msgstr ""
+
+msgid "Randomized ordering"
+msgstr ""
+
+msgid "Show the complete input of the job"
+msgstr ""
+
+msgid "Show job status for the hosts"
+msgstr ""
+
+msgid "Missing"
+msgstr ""
+
+msgid "Time to pickup"
+msgstr ""
+
+msgid "Smart Proxies"
+msgstr ""
+
+msgid "Remote execution proxies"
+msgstr ""
+
+msgid "Id"
+msgstr ""
+
+msgid "Default value"
+msgstr ""
+
+msgid "Template input created."
+msgstr ""
+
+msgid "Template input updated."
+msgstr ""
+
+msgid "Could not update the template input"
+msgstr ""
+
+msgid "Template input deleted."
+msgstr ""

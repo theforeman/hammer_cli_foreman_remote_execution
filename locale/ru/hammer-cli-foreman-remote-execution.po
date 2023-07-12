@@ -1,137 +1,139 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the hammer_cli_foreman_tasks package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# This file is distributed under the same license as the hammer-cli-foreman-remote-execution package.
 #
+# Translators:
+# Yulia <yulia.poyarkova@redhat.com>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer-cli-foreman-remote-execution 0.2.0\n"
+"Project-Id-Version: hammer-cli-foreman-remote-execution 0.2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-02-18 10:36-0500\n"
-"Last-Translator: Dominic Cleal <dominic@cleal.org>, 2017\n"
-"Language-Team: Russian (https://www.transifex.com/foreman/teams/114/ru/)\n"
+"POT-Creation-Date: 2019-02-26 10:44-0500\n"
+"PO-Revision-Date: 2016-02-12 07:57+0000\n"
+"Last-Translator: Yulia <yulia.poyarkova@redhat.com>, 2016\n"
+"Language-Team: Russian (http://app.transifex.com/foreman/foreman/language/"
+"ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ru\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
-"4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=1"
-"1 && n%100<=14)? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
 
 msgid "Manage foreign input sets"
-msgstr ""
+msgstr "Управление внешними наборами входных параметров"
 
 msgid "ID"
-msgstr "Код"
+msgstr "Идентификатор"
 
-#, fuzzy
 msgid "Target template ID"
-msgstr "Код"
+msgstr "Идентификатор подключаемого шаблона"
 
 msgid "Target template name"
-msgstr ""
+msgstr "Имя подключаемого шаблона"
 
 msgid "Name"
 msgstr "Имя"
 
 msgid "Include all"
-msgstr ""
+msgstr "Включить все"
 
 msgid "Include"
-msgstr ""
+msgstr "Включить"
 
 msgid "Exclude"
-msgstr ""
+msgstr "Исключить"
 
 msgid "Foreign input set updated"
-msgstr ""
+msgstr "Внешний набор входных данных обновлен"
 
 msgid "Could not update the input set"
-msgstr ""
+msgstr "Не удалось обновить входные данные"
 
 msgid "Foreign input set created"
-msgstr ""
+msgstr "Внешний набор входных данных создан"
 
 msgid "Could not create the input set"
-msgstr ""
+msgstr "Не удалось создать набор входных данных"
 
 msgid "Foreign input set deleted"
-msgstr ""
+msgstr "Внешний набор входных данных удален"
 
 msgid "Could not delete the input set"
-msgstr ""
+msgstr "Ошибка при удалении набора входных данных"
 
 msgid "Description"
-msgstr ""
+msgstr "Описание"
 
-#, fuzzy
 msgid "Status"
-msgstr "Состояние"
+msgstr "Статус"
 
 msgid "Success"
-msgstr ""
+msgstr "Успешно"
 
 msgid "Failed"
-msgstr ""
+msgstr "Ошибка"
 
 msgid "Pending"
-msgstr ""
+msgstr "Ожидание"
 
 msgid "Total"
-msgstr ""
+msgstr "Всего"
 
-#, fuzzy
 msgid "Start"
-msgstr "Состояние"
+msgstr "Начало"
 
 msgid "Job Category"
-msgstr ""
+msgstr "Категория"
 
 msgid "Mode"
-msgstr ""
+msgstr "Режим"
 
 msgid "Cron line"
 msgstr "Строка Cron"
 
-#, fuzzy
 msgid "Recurring logic ID"
-msgstr "Код"
+msgstr "Идентификатор правила периодического выполнения"
 
 msgid "Hosts"
-msgstr ""
+msgstr "Узлы"
 
 msgid "View the output for a host"
-msgstr ""
+msgstr "Показать вывод узла"
 
 msgid "Do not wait for job to complete, shows current output only"
-msgstr ""
+msgstr "Не дожидаться завершения задания (показывает текущий вывод)"
 
 msgid "The job is scheduled to start at %{timestamp}"
 msgstr ""
 
 msgid "Job invocation %{id} created"
-msgstr ""
+msgstr "Настройка вызова задания %{id} завершена"
 
 msgid "Schedule the execution for a later time"
-msgstr ""
+msgstr "Отложить выполнение"
 
 msgid "Execution should be cancelled if it cannot be started before --start-at"
 msgstr ""
+"Если действие не будет запущено до указанного времени (заданным с помощью --"
+"start-at), его следует отменить"
 
 msgid "Create a recurring execution"
-msgstr ""
+msgstr "Настроить многократное выполнение"
 
 msgid "Perform no more executions after this time, used with --cron-line"
 msgstr ""
+"Остановить после указанного числа повторений (используется с --cron-line)"
 
 msgid "Specify inputs from command line"
-msgstr ""
+msgstr "Ввести входные параметры в командной строке"
 
 msgid "Read input values from files"
-msgstr ""
+msgstr "Получать входные данные из файлов"
 
 msgid "Dynamic search queries are evaluated at run time"
-msgstr ""
+msgstr "Динамические запросы обрабатываются во время запуска"
 
 msgid "Cancel the job"
 msgstr ""
@@ -143,34 +145,34 @@ msgid "Could not cancel the job invocation"
 msgstr ""
 
 msgid "Rerun the job"
-msgstr ""
+msgstr "Повторно выполнить задание"
 
 msgid "Job invocation was rerun as %{id}"
 msgstr ""
 
 msgid "Manage job invocations"
-msgstr ""
+msgstr "Управление вызовами заданий"
 
 msgid "Provider"
-msgstr ""
+msgstr "Провайдер"
 
 msgid "Type"
-msgstr ""
+msgstr "Тип"
 
 msgid "Inputs"
-msgstr ""
+msgstr "Входные параметры"
 
 msgid "View job template content"
-msgstr ""
+msgstr "Показать содержимое шаблона задания"
 
 msgid "Path to a file that contains the template"
-msgstr ""
+msgstr "Путь к файлу шаблона"
 
 msgid "Job template created"
-msgstr ""
+msgstr "Шаблон задания создан"
 
 msgid "Could not create the job template"
-msgstr ""
+msgstr "Не удалось создать шаблон задания"
 
 msgid "Path to a file that contains the template - must include ERB metadata"
 msgstr ""
@@ -185,26 +187,27 @@ msgid "Export a template including all metadata"
 msgstr ""
 
 msgid "Job template updated"
-msgstr ""
+msgstr "Шаблон задания обновлен"
 
 msgid "Could not update the job template"
-msgstr ""
+msgstr "Не удалось обновить шаблон"
 
 msgid "Job template deleted"
-msgstr ""
+msgstr "Шаблон задания удален"
 
 msgid "Could not delete the job template"
-msgstr ""
+msgstr "Ошибка при удалении шаблона задания"
 
 msgid "Manage job templates"
-msgstr ""
+msgstr "Управление шаблонами заданий"
 
 msgid ""
-"Comma-separated list of key=file, where file is a path to a text file to be re"
-"ad"
+"Comma-separated list of key=file, where file is a path to a text file to be "
+"read"
 msgstr ""
+"Список пар КЛЮЧ=ФАЙЛ через запятую, где ФАЙЛ — путь к текстовому файлу с "
+"входными данными"
 
-#, fuzzy
 msgid ""
 "Cron line format 'a b c d e', where:\n"
 "  a. is minute (range: 0-59)\n"
@@ -212,7 +215,13 @@ msgid ""
 "  c. is day of month (range: 1-31)\n"
 "  d. is month (range: 1-12)\n"
 "  e. is day of week (range: 0-6)"
-msgstr "Строка Cron"
+msgstr ""
+"Строка cron определяется в виде «a b c d e», где:\n"
+"  a — минуты (0–59)\n"
+"  b — часы (1–24)\n"
+"  c — месяц (1–12)\n"
+"  d — день месяца (1–31)\n"
+"  e — день недели (0–6)"
 
 msgid "Manage remote execution features"
 msgstr ""
@@ -221,11 +230,10 @@ msgid "Job template name"
 msgstr ""
 
 msgid "Label"
-msgstr ""
+msgstr "Метка"
 
-#, fuzzy
 msgid "Job template ID"
-msgstr "Код"
+msgstr ""
 
 msgid "Remote execution feature updated"
 msgstr ""
@@ -234,31 +242,76 @@ msgid "Could not update the remote execution feature"
 msgstr ""
 
 msgid "Manage template inputs"
-msgstr ""
+msgstr "Управление параметрами ввода"
 
 msgid "Input type"
-msgstr ""
+msgstr "Тип ввода"
 
 msgid "Fact name"
-msgstr ""
+msgstr "Имя факта"
 
 msgid "Variable name"
-msgstr ""
+msgstr "Имя переменной"
 
 msgid "Puppet parameter name"
-msgstr ""
+msgstr "Параметр Puppet"
 
 msgid "Options"
-msgstr ""
+msgstr "Параметры"
 
 msgid "Template input created"
-msgstr ""
+msgstr "Входной параметр создан"
 
 msgid "Could not create the template input"
-msgstr ""
+msgstr "Не удалось создать входной параметр для шаблона"
 
 msgid "Template input deleted"
-msgstr ""
+msgstr "Входной параметр удален"
 
 msgid "Could not delete the template input"
+msgstr "Не удалось удалить входной параметр"
+
+msgid "Execution"
+msgstr ""
+
+msgid "execution"
+msgstr ""
+
+msgid "Randomized ordering"
+msgstr ""
+
+msgid "Show the complete input of the job"
+msgstr ""
+
+msgid "Show job status for the hosts"
+msgstr ""
+
+msgid "Missing"
+msgstr ""
+
+msgid "Time to pickup"
+msgstr ""
+
+msgid "Smart Proxies"
+msgstr ""
+
+msgid "Remote execution proxies"
+msgstr ""
+
+msgid "Id"
+msgstr ""
+
+msgid "Default value"
+msgstr ""
+
+msgid "Template input created."
+msgstr ""
+
+msgid "Template input updated."
+msgstr ""
+
+msgid "Could not update the template input"
+msgstr ""
+
+msgid "Template input deleted."
 msgstr ""

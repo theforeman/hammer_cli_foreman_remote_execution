@@ -1,15 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the hammer_cli_foreman_tasks package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# This file is distributed under the same license as the hammer-cli-foreman-remote-execution package.
 #
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer-cli-foreman-remote-execution 0.2.0\n"
+"Project-Id-Version: hammer-cli-foreman-remote-execution 0.2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-02-18 10:36-0500\n"
-"Last-Translator: Dominic Cleal <dominic@cleal.org>, 2017\n"
-"Language-Team: Korean (https://www.transifex.com/foreman/teams/114/ko/)\n"
+"POT-Creation-Date: 2019-02-26 10:44-0500\n"
+"PO-Revision-Date: 2016-02-12 07:57+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Korean (http://app.transifex.com/foreman/foreman/language/"
+"ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -17,119 +19,115 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "Manage foreign input sets"
-msgstr ""
+msgstr "외부 입력 세트 관리"
 
 msgid "ID"
 msgstr "ID"
 
-#, fuzzy
 msgid "Target template ID"
-msgstr "ID"
+msgstr "대상 템플릿 ID"
 
 msgid "Target template name"
-msgstr ""
+msgstr "대상 템플릿 이름"
 
 msgid "Name"
 msgstr "이름 "
 
 msgid "Include all"
-msgstr ""
+msgstr "모두 포함"
 
 msgid "Include"
-msgstr ""
+msgstr "포함 "
 
 msgid "Exclude"
-msgstr ""
+msgstr "제외 "
 
 msgid "Foreign input set updated"
-msgstr ""
+msgstr "외부 입력 세트가 업데이트되었습니다"
 
 msgid "Could not update the input set"
-msgstr ""
+msgstr "입력 세트를 업데이트할 수 없습니다"
 
 msgid "Foreign input set created"
-msgstr ""
+msgstr "외부 입력 세트가 생성되었습니다"
 
 msgid "Could not create the input set"
-msgstr ""
+msgstr "입력 세트를 생성할 수 없습니다"
 
 msgid "Foreign input set deleted"
-msgstr ""
+msgstr "외부 입력 세트가 삭제되었습니다"
 
 msgid "Could not delete the input set"
-msgstr ""
+msgstr "입력 세트를 삭제할 수 없습니다"
 
 msgid "Description"
-msgstr ""
+msgstr "설명"
 
-#, fuzzy
 msgid "Status"
-msgstr "상태 "
+msgstr "상태"
 
 msgid "Success"
-msgstr ""
+msgstr "성공"
 
 msgid "Failed"
-msgstr ""
+msgstr "실패 "
 
 msgid "Pending"
-msgstr ""
+msgstr "보류 중 "
 
 msgid "Total"
-msgstr ""
+msgstr "전체"
 
-#, fuzzy
 msgid "Start"
-msgstr "상태 "
+msgstr "시작"
 
 msgid "Job Category"
-msgstr ""
+msgstr "작업 카테고리"
 
 msgid "Mode"
-msgstr ""
+msgstr "모드"
 
 msgid "Cron line"
 msgstr "Cron 줄"
 
-#, fuzzy
 msgid "Recurring logic ID"
-msgstr "ID"
+msgstr "반복 로직 ID"
 
 msgid "Hosts"
-msgstr ""
+msgstr "호스트"
 
 msgid "View the output for a host"
-msgstr ""
+msgstr "호스트에 대한 출력 보기"
 
 msgid "Do not wait for job to complete, shows current output only"
-msgstr ""
+msgstr "작업이 완료될 때까지 기다리지 않고 현재 출력만 표시"
 
 msgid "The job is scheduled to start at %{timestamp}"
 msgstr ""
 
 msgid "Job invocation %{id} created"
-msgstr ""
+msgstr "작업 호출 %{id}이(가) 생성되었습니다"
 
 msgid "Schedule the execution for a later time"
-msgstr ""
+msgstr "나중에 실행하도록 스케줄"
 
 msgid "Execution should be cancelled if it cannot be started before --start-at"
-msgstr ""
+msgstr "--start-at 전에 실행을 시작할 수 없는 경우 실행 취소"
 
 msgid "Create a recurring execution"
-msgstr ""
+msgstr "반복 실행 생성"
 
 msgid "Perform no more executions after this time, used with --cron-line"
-msgstr ""
+msgstr "이 시간 이후 더 이상 실행을 수행하지 않음(--cron-line과 함께 사용)"
 
 msgid "Specify inputs from command line"
-msgstr ""
+msgstr "명령줄에서 입력 지정"
 
 msgid "Read input values from files"
-msgstr ""
+msgstr "파일에서 입력 값 읽기"
 
 msgid "Dynamic search queries are evaluated at run time"
-msgstr ""
+msgstr "동적 검색 쿼리는 런타임에 평가됩니다"
 
 msgid "Cancel the job"
 msgstr ""
@@ -141,34 +139,34 @@ msgid "Could not cancel the job invocation"
 msgstr ""
 
 msgid "Rerun the job"
-msgstr ""
+msgstr "작업 재실행"
 
 msgid "Job invocation was rerun as %{id}"
 msgstr ""
 
 msgid "Manage job invocations"
-msgstr ""
+msgstr "작업 호출 관리"
 
 msgid "Provider"
-msgstr ""
+msgstr "공급처"
 
 msgid "Type"
-msgstr ""
+msgstr "형태"
 
 msgid "Inputs"
-msgstr ""
+msgstr "입력"
 
 msgid "View job template content"
-msgstr ""
+msgstr "작업 템플릿 내용 보기"
 
 msgid "Path to a file that contains the template"
-msgstr ""
+msgstr "템플릿이 들어있는 파일로의 경로 "
 
 msgid "Job template created"
-msgstr ""
+msgstr "작업 템플릿이 생성되었습니다"
 
 msgid "Could not create the job template"
-msgstr ""
+msgstr "작업 템플릿을 생성할 수 없습니다"
 
 msgid "Path to a file that contains the template - must include ERB metadata"
 msgstr ""
@@ -183,26 +181,27 @@ msgid "Export a template including all metadata"
 msgstr ""
 
 msgid "Job template updated"
-msgstr ""
+msgstr "작업 템플릿이 업데이트되었습니다"
 
 msgid "Could not update the job template"
-msgstr ""
+msgstr "작업 템플릿을 업데이트할 수 없습니다"
 
 msgid "Job template deleted"
-msgstr ""
+msgstr "작업 템플릿이 삭제되었습니다"
 
 msgid "Could not delete the job template"
-msgstr ""
+msgstr "작업 템플릿을 삭제할 수 없습니다"
 
 msgid "Manage job templates"
-msgstr ""
+msgstr "작업 템플릿 관리"
 
 msgid ""
-"Comma-separated list of key=file, where file is a path to a text file to be re"
-"ad"
+"Comma-separated list of key=file, where file is a path to a text file to be "
+"read"
 msgstr ""
+"key=file의 쉼표로 구분된 목록입니다. 여기서 file은 읽을 텍스트 파일의 경로입"
+"니다"
 
-#, fuzzy
 msgid ""
 "Cron line format 'a b c d e', where:\n"
 "  a. is minute (range: 0-59)\n"
@@ -210,7 +209,13 @@ msgid ""
 "  c. is day of month (range: 1-31)\n"
 "  d. is month (range: 1-12)\n"
 "  e. is day of week (range: 0-6)"
-msgstr "Cron 줄"
+msgstr ""
+"Cron 줄 형식 'a b c d e', 여기서:\n"
+"  a. 분(범위: 0-59)\n"
+"  b. 시간(범위: 0-23)\n"
+"  c. 날짜(범위: 1-31)\n"
+"  d. 월(범위: 1-12)\n"
+"  e. 요일(범위: 0-6)"
 
 msgid "Manage remote execution features"
 msgstr ""
@@ -219,11 +224,10 @@ msgid "Job template name"
 msgstr ""
 
 msgid "Label"
-msgstr ""
+msgstr "레이블 "
 
-#, fuzzy
 msgid "Job template ID"
-msgstr "ID"
+msgstr ""
 
 msgid "Remote execution feature updated"
 msgstr ""
@@ -232,31 +236,76 @@ msgid "Could not update the remote execution feature"
 msgstr ""
 
 msgid "Manage template inputs"
-msgstr ""
+msgstr "템플릿 입력 관리"
 
 msgid "Input type"
-msgstr ""
+msgstr "입력 유형"
 
 msgid "Fact name"
-msgstr ""
+msgstr "팩트 이름 "
 
 msgid "Variable name"
-msgstr ""
+msgstr "변수 이름"
 
 msgid "Puppet parameter name"
-msgstr ""
+msgstr "Puppet 매개 변수 이름"
 
 msgid "Options"
-msgstr ""
+msgstr "옵션"
 
 msgid "Template input created"
-msgstr ""
+msgstr "템플릿 입력이 생성되었습니다"
 
 msgid "Could not create the template input"
-msgstr ""
+msgstr "템플릿 입력을 생성할 수 없습니다"
 
 msgid "Template input deleted"
-msgstr ""
+msgstr "템플릿 입력이 삭제되었습니다"
 
 msgid "Could not delete the template input"
+msgstr "템플릿 입력을 삭제할 수 없습니다"
+
+msgid "Execution"
+msgstr ""
+
+msgid "execution"
+msgstr ""
+
+msgid "Randomized ordering"
+msgstr ""
+
+msgid "Show the complete input of the job"
+msgstr ""
+
+msgid "Show job status for the hosts"
+msgstr ""
+
+msgid "Missing"
+msgstr ""
+
+msgid "Time to pickup"
+msgstr ""
+
+msgid "Smart Proxies"
+msgstr ""
+
+msgid "Remote execution proxies"
+msgstr ""
+
+msgid "Id"
+msgstr ""
+
+msgid "Default value"
+msgstr ""
+
+msgid "Template input created."
+msgstr ""
+
+msgid "Template input updated."
+msgstr ""
+
+msgid "Could not update the template input"
+msgstr ""
+
+msgid "Template input deleted."
 msgstr ""

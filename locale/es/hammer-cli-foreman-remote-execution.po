@@ -1,208 +1,210 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the hammer_cli_foreman_tasks package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# This file is distributed under the same license as the hammer-cli-foreman-remote-execution package.
 #
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer-cli-foreman-remote-execution 0.2.0\n"
+"Project-Id-Version: hammer-cli-foreman-remote-execution 0.2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-02-18 10:36-0500\n"
-"Last-Translator: Carmela Rubiños <carmela.rubinos@gmail.com>, 2017\n"
-"Language-Team: Spanish (https://www.transifex.com/foreman/teams/114/es/)\n"
+"POT-Creation-Date: 2019-02-26 10:44-0500\n"
+"PO-Revision-Date: 2016-02-12 07:57+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Spanish (http://app.transifex.com/foreman/foreman/language/"
+"es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
+"1 : 2;\n"
 
 msgid "Manage foreign input sets"
-msgstr ""
+msgstr "Gestionar conjuntos de entradas ajenas"
 
 msgid "ID"
 msgstr "ID"
 
-#, fuzzy
 msgid "Target template ID"
-msgstr "ID"
+msgstr "ID de la plantilla de destino"
 
 msgid "Target template name"
-msgstr ""
+msgstr "Nombre de la plantilla de destino"
 
 msgid "Name"
 msgstr "Nombre"
 
 msgid "Include all"
-msgstr ""
+msgstr "Incluir todos"
 
 msgid "Include"
-msgstr ""
+msgstr "Incluya"
 
 msgid "Exclude"
-msgstr ""
+msgstr "Excluir"
 
 msgid "Foreign input set updated"
-msgstr ""
+msgstr "Conjunto de entradas extranjeras actualizado"
 
 msgid "Could not update the input set"
-msgstr ""
+msgstr "No se ha podido actualizar el conjunto de entradas"
 
 msgid "Foreign input set created"
-msgstr ""
+msgstr "Conjunto de entradas externas creado"
 
 msgid "Could not create the input set"
-msgstr ""
+msgstr "No se ha podido crear el conjunto de entrada"
 
 msgid "Foreign input set deleted"
-msgstr ""
+msgstr "Conjunto de entradas ajenas borrado"
 
 msgid "Could not delete the input set"
-msgstr ""
+msgstr "No se ha podido eliminar el conjunto de entradas"
 
 msgid "Description"
-msgstr ""
+msgstr "Descripción"
 
-#, fuzzy
 msgid "Status"
 msgstr "Estado"
 
 msgid "Success"
-msgstr ""
+msgstr "Éxito"
 
 msgid "Failed"
-msgstr ""
+msgstr "Errores"
 
 msgid "Pending"
-msgstr ""
+msgstr "Pendiente"
 
 msgid "Total"
-msgstr ""
+msgstr "Total"
 
-#, fuzzy
 msgid "Start"
-msgstr "Estado"
+msgstr "Iniciar"
 
 msgid "Job Category"
-msgstr ""
+msgstr "Categoría de empleo"
 
 msgid "Mode"
-msgstr ""
+msgstr "Modo"
 
 msgid "Cron line"
 msgstr "Línea Cron"
 
-#, fuzzy
 msgid "Recurring logic ID"
-msgstr "ID"
+msgstr "ID de lógica recurrente"
 
 msgid "Hosts"
-msgstr ""
+msgstr "Hosts"
 
 msgid "View the output for a host"
-msgstr ""
+msgstr "Ver la salida de un host"
 
 msgid "Do not wait for job to complete, shows current output only"
-msgstr ""
+msgstr "No espera a que se complete el trabajo, sólo muestra la salida actual"
 
 msgid "The job is scheduled to start at %{timestamp}"
-msgstr ""
+msgstr "Está previsto que el trabajo comience en %{timestamp}"
 
 msgid "Job invocation %{id} created"
-msgstr ""
+msgstr "Invocación de trabajo %{id} creado"
 
 msgid "Schedule the execution for a later time"
-msgstr ""
+msgstr "Programar la ejecución para más tarde"
 
 msgid "Execution should be cancelled if it cannot be started before --start-at"
-msgstr ""
+msgstr "La ejecución debe cancelarse si no puede iniciarse antes de --start-at"
 
 msgid "Create a recurring execution"
-msgstr ""
+msgstr "Crear una ejecución periódica"
 
 msgid "Perform no more executions after this time, used with --cron-line"
 msgstr ""
+"No realizar más ejecuciones después de este tiempo, utilizado con --cron-line"
 
 msgid "Specify inputs from command line"
-msgstr ""
+msgstr "Especificar entradas desde la línea de comandos"
 
 msgid "Read input values from files"
-msgstr ""
+msgstr "Leer valores de entrada de archivos"
 
 msgid "Dynamic search queries are evaluated at run time"
-msgstr ""
+msgstr "Las consultas de búsqueda dinámica se evalúan en tiempo de ejecución"
 
 msgid "Cancel the job"
-msgstr ""
+msgstr "Cancelar el trabajo"
 
 msgid "Job invocation %{id} cancelled"
-msgstr ""
+msgstr "Invocación de trabajo %{id} cancelada"
 
 msgid "Could not cancel the job invocation"
-msgstr ""
+msgstr "No se ha podido cancelar la invocación del trabajo"
 
 msgid "Rerun the job"
-msgstr ""
+msgstr "Volver a ejecutar el trabajo"
 
 msgid "Job invocation was rerun as %{id}"
-msgstr ""
+msgstr "La invocación del trabajo se volvió a ejecutar como %{id}"
 
 msgid "Manage job invocations"
-msgstr ""
+msgstr "Gestionar las invocaciones de trabajos"
 
 msgid "Provider"
-msgstr ""
+msgstr "Proveedor"
 
 msgid "Type"
-msgstr ""
+msgstr "Tipo"
 
 msgid "Inputs"
-msgstr ""
+msgstr "Entradas"
 
 msgid "View job template content"
-msgstr ""
+msgstr "Ver el contenido de la plantilla"
 
 msgid "Path to a file that contains the template"
-msgstr ""
+msgstr "Ruta al fichero que contiene la plantilla"
 
 msgid "Job template created"
-msgstr ""
+msgstr "Plantilla de trabajo creada"
 
 msgid "Could not create the job template"
-msgstr ""
+msgstr "No se ha podido crear la plantilla de trabajo"
 
 msgid "Path to a file that contains the template - must include ERB metadata"
 msgstr ""
+"Ruta a un archivo que contiene la plantilla - debe incluir metadatos ERB"
 
 msgid "Job template imported"
-msgstr ""
+msgstr "Plantilla de trabajo importada"
 
 msgid "Could not import the job template"
-msgstr ""
+msgstr "No se ha podido importar la plantilla de trabajo"
 
 msgid "Export a template including all metadata"
-msgstr ""
+msgstr "Exportar una plantilla con todos los metadatos"
 
 msgid "Job template updated"
-msgstr ""
+msgstr "Plantilla actualizada"
 
 msgid "Could not update the job template"
-msgstr ""
+msgstr "No se ha podido actualizar la plantilla de trabajo"
 
 msgid "Job template deleted"
-msgstr ""
+msgstr "Plantilla borrada"
 
 msgid "Could not delete the job template"
-msgstr ""
+msgstr "No se ha podido eliminar la plantilla de trabajo"
 
 msgid "Manage job templates"
-msgstr ""
+msgstr "Gestionar plantillas de trabajo"
 
 msgid ""
-"Comma-separated list of key=file, where file is a path to a text file to be re"
-"ad"
+"Comma-separated list of key=file, where file is a path to a text file to be "
+"read"
 msgstr ""
+"Lista separada por comas de key=file, donde file es una ruta a un archivo de "
+"texto que debe leerse"
 
-#, fuzzy
 msgid ""
 "Cron line format 'a b c d e', where:\n"
 "  a. is minute (range: 0-59)\n"
@@ -210,53 +212,103 @@ msgid ""
 "  c. is day of month (range: 1-31)\n"
 "  d. is month (range: 1-12)\n"
 "  e. is day of week (range: 0-6)"
-msgstr "Línea Cron"
+msgstr ""
+"Cron formato de línea 'a b c d e', donde:\n"
+"  a. es minuto (rango: 0-59)\n"
+"  b. es la hora (rango: 0-23)\n"
+"  c. es el día del mes (rango: 1-31)\n"
+"  d. es el mes (intervalo: 1-12)\n"
+"  e. es el día de la semana (rango: 0-6)"
 
 msgid "Manage remote execution features"
-msgstr ""
+msgstr "Gestionar las funciones de ejecución remota"
 
 msgid "Job template name"
-msgstr ""
+msgstr "Nombre de la plantilla de trabajo"
 
 msgid "Label"
-msgstr ""
+msgstr "Etiqueta"
 
-#, fuzzy
 msgid "Job template ID"
-msgstr "ID"
+msgstr "ID de plantilla de trabajo"
 
 msgid "Remote execution feature updated"
-msgstr ""
+msgstr "Función de ejecución remota actualizada"
 
 msgid "Could not update the remote execution feature"
-msgstr ""
+msgstr "No se ha podido actualizar la función de ejecución remota"
 
 msgid "Manage template inputs"
-msgstr ""
+msgstr "Gestionar entradas de plantillas"
 
 msgid "Input type"
-msgstr ""
+msgstr "Tipo de entrada"
 
 msgid "Fact name"
-msgstr ""
+msgstr "Nombre de evento"
 
 msgid "Variable name"
-msgstr ""
+msgstr "Nombre de la variable"
 
 msgid "Puppet parameter name"
-msgstr ""
+msgstr "Nombre del parámetro Puppet"
 
 msgid "Options"
-msgstr ""
+msgstr "Opciones"
 
 msgid "Template input created"
-msgstr ""
+msgstr "Entrada de plantilla creada"
 
 msgid "Could not create the template input"
-msgstr ""
+msgstr "No se ha podido crear la entrada de plantilla"
 
 msgid "Template input deleted"
-msgstr ""
+msgstr "Entrada de plantilla eliminada"
 
 msgid "Could not delete the template input"
+msgstr "No se ha podido eliminar la entrada de plantilla"
+
+msgid "Execution"
+msgstr ""
+
+msgid "execution"
+msgstr ""
+
+msgid "Randomized ordering"
+msgstr ""
+
+msgid "Show the complete input of the job"
+msgstr ""
+
+msgid "Show job status for the hosts"
+msgstr ""
+
+msgid "Missing"
+msgstr ""
+
+msgid "Time to pickup"
+msgstr ""
+
+msgid "Smart Proxies"
+msgstr ""
+
+msgid "Remote execution proxies"
+msgstr ""
+
+msgid "Id"
+msgstr ""
+
+msgid "Default value"
+msgstr ""
+
+msgid "Template input created."
+msgstr ""
+
+msgid "Template input updated."
+msgstr ""
+
+msgid "Could not update the template input"
+msgstr ""
+
+msgid "Template input deleted."
 msgstr ""

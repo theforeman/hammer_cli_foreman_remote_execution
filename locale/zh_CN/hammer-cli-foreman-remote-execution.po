@@ -1,16 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the hammer_cli_foreman_tasks package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# This file is distributed under the same license as the hammer-cli-foreman-remote-execution package.
 #
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer-cli-foreman-remote-execution 0.2.0\n"
+"Project-Id-Version: hammer-cli-foreman-remote-execution 0.2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-02-18 10:36-0500\n"
-"Last-Translator: tim123 <dingtim@gmail.com>, 2017\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/foreman/teams/114/zh"
-"_CN/)\n"
+"POT-Creation-Date: 2019-02-26 10:44-0500\n"
+"PO-Revision-Date: 2016-02-12 07:57+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Chinese (China) (http://app.transifex.com/foreman/foreman/"
+"language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -18,192 +19,187 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "Manage foreign input sets"
-msgstr ""
+msgstr "管理外输入集"
 
 msgid "ID"
 msgstr "ID"
 
-#, fuzzy
 msgid "Target template ID"
-msgstr "ID"
+msgstr "目标模板 ID"
 
 msgid "Target template name"
-msgstr ""
+msgstr "目标模板名称"
 
 msgid "Name"
 msgstr "名称"
 
 msgid "Include all"
-msgstr ""
+msgstr "包括所有"
 
 msgid "Include"
-msgstr ""
+msgstr "包括"
 
 msgid "Exclude"
-msgstr ""
+msgstr "排除"
 
 msgid "Foreign input set updated"
-msgstr ""
+msgstr "外输入设置已更新"
 
 msgid "Could not update the input set"
-msgstr ""
+msgstr "无法更新输入集"
 
 msgid "Foreign input set created"
-msgstr ""
+msgstr "创建外输入集"
 
 msgid "Could not create the input set"
-msgstr ""
+msgstr "无法创建输入集"
 
 msgid "Foreign input set deleted"
-msgstr ""
+msgstr "删除外输入集"
 
 msgid "Could not delete the input set"
-msgstr ""
+msgstr "无法删除输入集"
 
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
-#, fuzzy
 msgid "Status"
 msgstr "状态"
 
 msgid "Success"
-msgstr ""
+msgstr "成功"
 
 msgid "Failed"
-msgstr ""
+msgstr "失败"
 
 msgid "Pending"
-msgstr ""
+msgstr "待处理"
 
 msgid "Total"
-msgstr ""
+msgstr "总计"
 
-#, fuzzy
 msgid "Start"
-msgstr "状态"
+msgstr "开始"
 
 msgid "Job Category"
-msgstr ""
+msgstr "作业类别"
 
 msgid "Mode"
-msgstr ""
+msgstr "模式"
 
 msgid "Cron line"
 msgstr "Cron 行"
 
-#, fuzzy
 msgid "Recurring logic ID"
-msgstr "ID"
+msgstr "重复逻辑 ID"
 
 msgid "Hosts"
-msgstr ""
+msgstr "主机"
 
 msgid "View the output for a host"
-msgstr ""
+msgstr "查看主机的输出"
 
 msgid "Do not wait for job to complete, shows current output only"
-msgstr ""
+msgstr "不要等待作业完成，仅显示当前输出"
 
 msgid "The job is scheduled to start at %{timestamp}"
-msgstr ""
+msgstr "该作业被调度为在 %%{timestamp} 开始"
 
 msgid "Job invocation %{id} created"
-msgstr ""
+msgstr "作业调用 %%{id} 已创建"
 
 msgid "Schedule the execution for a later time"
-msgstr ""
+msgstr "将执行调度为一个以后的时间"
 
 msgid "Execution should be cancelled if it cannot be started before --start-at"
-msgstr ""
+msgstr "如果无法在 --start-at 之前启动，则应取消执行"
 
 msgid "Create a recurring execution"
-msgstr ""
+msgstr "创建一个重复执行"
 
 msgid "Perform no more executions after this time, used with --cron-line"
-msgstr ""
+msgstr "在这个时间后不再执行，与 --cron-line 一起使用"
 
 msgid "Specify inputs from command line"
-msgstr ""
+msgstr "在命令行中指定输入"
 
 msgid "Read input values from files"
-msgstr ""
+msgstr "从文件中读取输入值"
 
 msgid "Dynamic search queries are evaluated at run time"
-msgstr ""
+msgstr "动态搜索查询在运行时被评估"
 
 msgid "Cancel the job"
-msgstr ""
+msgstr "取消任务"
 
 msgid "Job invocation %{id} cancelled"
-msgstr ""
+msgstr "作业调用 %%{id} 已取消"
 
 msgid "Could not cancel the job invocation"
-msgstr ""
+msgstr "无法取消作业调用"
 
 msgid "Rerun the job"
-msgstr ""
+msgstr "重新运行作业"
 
 msgid "Job invocation was rerun as %{id}"
-msgstr ""
+msgstr "作业调用已作为 ％%{id} 重新运行。"
 
 msgid "Manage job invocations"
-msgstr ""
+msgstr "管理作业调用"
 
 msgid "Provider"
-msgstr ""
+msgstr "提供者"
 
 msgid "Type"
-msgstr ""
+msgstr "类型"
 
 msgid "Inputs"
-msgstr ""
+msgstr "输入"
 
 msgid "View job template content"
-msgstr ""
+msgstr "查看任务模板内容"
 
 msgid "Path to a file that contains the template"
-msgstr ""
+msgstr "包含範本的檔案之路徑"
 
 msgid "Job template created"
-msgstr ""
+msgstr "作业模板已创建"
 
 msgid "Could not create the job template"
-msgstr ""
+msgstr "无法创建作业模板"
 
 msgid "Path to a file that contains the template - must include ERB metadata"
-msgstr ""
+msgstr "包含模板的文件的路径 - 必须包含 ERB 元数据"
 
 msgid "Job template imported"
-msgstr ""
+msgstr "导入作业模板"
 
 msgid "Could not import the job template"
-msgstr ""
+msgstr "无法导入作业模板"
 
 msgid "Export a template including all metadata"
-msgstr ""
+msgstr "导出包括所有元数据的模板"
 
 msgid "Job template updated"
-msgstr ""
+msgstr "作业模板已更新"
 
 msgid "Could not update the job template"
-msgstr ""
+msgstr "无法更新作业模板"
 
 msgid "Job template deleted"
-msgstr ""
+msgstr "任务模板已删除"
 
 msgid "Could not delete the job template"
-msgstr ""
+msgstr "无法删除作业模板"
 
 msgid "Manage job templates"
-msgstr ""
+msgstr "管理作业模板"
 
 msgid ""
-"Comma-separated list of key=file, where file is a path to a text file to be re"
-"ad"
-msgstr ""
+"Comma-separated list of key=file, where file is a path to a text file to be "
+"read"
+msgstr "以逗号分隔的 key=file 列表，其中 file 是要读取的文本文件的路径"
 
-#, fuzzy
 msgid ""
 "Cron line format 'a b c d e', where:\n"
 "  a. is minute (range: 0-59)\n"
@@ -211,53 +207,103 @@ msgid ""
 "  c. is day of month (range: 1-31)\n"
 "  d. is month (range: 1-12)\n"
 "  e. is day of week (range: 0-6)"
-msgstr "Cron 行"
+msgstr ""
+"Cron 行格式 'a b c d e'，其中： \n"
+" a. 分钟 (范围: 0-59) \n"
+" b. 小时（范围: 0-23） \n"
+" c. 月份的一天（范围: 1-31） \n"
+" d. 月（范围: 1-12） \n"
+" e. 周中的一天 (范围: 0-6)"
 
 msgid "Manage remote execution features"
-msgstr ""
+msgstr "管理远程执行功能"
 
 msgid "Job template name"
-msgstr ""
+msgstr "作业模板名称"
 
 msgid "Label"
-msgstr ""
+msgstr "标签"
 
-#, fuzzy
 msgid "Job template ID"
-msgstr "ID"
+msgstr "作业模板 ID"
 
 msgid "Remote execution feature updated"
-msgstr ""
+msgstr "远程执行功能已更新"
 
 msgid "Could not update the remote execution feature"
-msgstr ""
+msgstr "无法更新远程执行功能"
 
 msgid "Manage template inputs"
-msgstr ""
+msgstr "管理模板输入"
 
 msgid "Input type"
-msgstr ""
+msgstr "输入类型"
 
 msgid "Fact name"
-msgstr ""
+msgstr "Fact 名称"
 
 msgid "Variable name"
-msgstr ""
+msgstr "变量名称"
 
 msgid "Puppet parameter name"
-msgstr ""
+msgstr "Puppet 参数名称"
 
 msgid "Options"
-msgstr ""
+msgstr "选项"
 
 msgid "Template input created"
-msgstr ""
+msgstr "模板输入已创建"
 
 msgid "Could not create the template input"
-msgstr ""
+msgstr "无法创建模板输入"
 
 msgid "Template input deleted"
-msgstr ""
+msgstr "模板输入已删除"
 
 msgid "Could not delete the template input"
+msgstr "无法删除模板输入"
+
+msgid "Execution"
+msgstr ""
+
+msgid "execution"
+msgstr ""
+
+msgid "Randomized ordering"
+msgstr ""
+
+msgid "Show the complete input of the job"
+msgstr ""
+
+msgid "Show job status for the hosts"
+msgstr ""
+
+msgid "Missing"
+msgstr ""
+
+msgid "Time to pickup"
+msgstr ""
+
+msgid "Smart Proxies"
+msgstr ""
+
+msgid "Remote execution proxies"
+msgstr ""
+
+msgid "Id"
+msgstr ""
+
+msgid "Default value"
+msgstr ""
+
+msgid "Template input created."
+msgstr ""
+
+msgid "Template input updated."
+msgstr ""
+
+msgid "Could not update the template input"
+msgstr ""
+
+msgid "Template input deleted."
 msgstr ""

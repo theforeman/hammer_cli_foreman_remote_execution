@@ -1,45 +1,48 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the hammer-cli-foreman-remote-execution package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# Pavel Borecki <pavel.borecki@gmail.com>, 2018,2020
 msgid ""
 msgstr ""
 "Project-Id-Version: hammer-cli-foreman-remote-execution 0.2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-12 15:59+0000\n"
-"PO-Revision-Date: 2023-07-12 15:59+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2019-02-26 10:44-0500\n"
+"PO-Revision-Date: 2016-02-12 07:57+0000\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>, 2018,2020\n"
+"Language-Team: Czech (Czech Republic) (http://app.transifex.com/foreman/"
+"foreman/language/cs_CZ/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Language: cs_CZ\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
+"<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 
 msgid "Manage foreign input sets"
 msgstr ""
 
 msgid "ID"
-msgstr ""
+msgstr "Identifikátor"
 
 msgid "Target template ID"
-msgstr ""
+msgstr "Identifikátor cílové šablony"
 
 msgid "Target template name"
-msgstr ""
+msgstr "Název cílové šablony"
 
 msgid "Name"
-msgstr ""
+msgstr "Název"
 
 msgid "Include all"
-msgstr ""
+msgstr "Zahrnout vše"
 
 msgid "Include"
-msgstr ""
+msgstr "Zahrnout"
 
 msgid "Exclude"
-msgstr ""
+msgstr "Vynechat"
 
 msgid "Foreign input set updated"
 msgstr ""
@@ -59,74 +62,50 @@ msgstr ""
 msgid "Could not delete the input set"
 msgstr ""
 
-msgid "Execution"
-msgstr ""
-
-msgid "execution"
-msgstr ""
-
 msgid "Description"
-msgstr ""
+msgstr "Popis"
 
 msgid "Status"
-msgstr ""
+msgstr "Stav"
 
 msgid "Success"
-msgstr ""
+msgstr "Úspěch"
 
 msgid "Failed"
-msgstr ""
+msgstr "Nezdařilo se"
 
 msgid "Pending"
-msgstr ""
+msgstr "Čeká"
 
 msgid "Total"
-msgstr ""
+msgstr "Celkem"
 
 msgid "Start"
-msgstr ""
-
-msgid "Randomized ordering"
-msgstr ""
-
-msgid "Inputs"
-msgstr ""
-
-msgid "Show the complete input of the job"
-msgstr ""
-
-msgid "Show job status for the hosts"
-msgstr ""
-
-msgid "Missing"
-msgstr ""
+msgstr "Spustit"
 
 msgid "Job Category"
-msgstr ""
+msgstr "Kategorie úlohy"
 
 msgid "Mode"
-msgstr ""
+msgstr "Režim"
 
 msgid "Cron line"
-msgstr ""
+msgstr "Řádek z plánovače kron"
 
 msgid "Recurring logic ID"
 msgstr ""
 
-msgid "Time to pickup"
-msgstr ""
-
 msgid "Hosts"
-msgstr ""
+msgstr "Stroje"
 
 msgid "View the output for a host"
-msgstr ""
+msgstr "Zobrazit výstup pro stroj"
 
 msgid "Do not wait for job to complete, shows current output only"
 msgstr ""
 
 msgid "The job is scheduled to start at %{timestamp}"
-msgstr ""
+msgstr "Začátek vykonání úlohy je naplánován na %{timestamp}"
 
 msgid "Job invocation %{id} created"
 msgstr ""
@@ -153,16 +132,16 @@ msgid "Dynamic search queries are evaluated at run time"
 msgstr ""
 
 msgid "Cancel the job"
-msgstr ""
+msgstr "Zrušit úlohu"
 
 msgid "Job invocation %{id} cancelled"
-msgstr ""
+msgstr "Vyvolání úlohy %{id} zrušeno"
 
 msgid "Could not cancel the job invocation"
 msgstr ""
 
 msgid "Rerun the job"
-msgstr ""
+msgstr "Spustit úlohu znovu"
 
 msgid "Job invocation was rerun as %{id}"
 msgstr ""
@@ -171,19 +150,22 @@ msgid "Manage job invocations"
 msgstr ""
 
 msgid "Provider"
-msgstr ""
+msgstr "Poskytovatel"
 
 msgid "Type"
-msgstr ""
+msgstr "Typ"
+
+msgid "Inputs"
+msgstr "Vstupy"
 
 msgid "View job template content"
 msgstr ""
 
 msgid "Path to a file that contains the template"
-msgstr ""
+msgstr "Popis umístění souboru obsahujícího šablonu"
 
 msgid "Job template created"
-msgstr ""
+msgstr "Šablona úlohy vytvořena"
 
 msgid "Could not create the job template"
 msgstr ""
@@ -192,28 +174,28 @@ msgid "Path to a file that contains the template - must include ERB metadata"
 msgstr ""
 
 msgid "Job template imported"
-msgstr ""
+msgstr "Šablona úlohy importována"
 
 msgid "Could not import the job template"
-msgstr ""
+msgstr "Šablonu úlohy se nedaří naimportovat"
 
 msgid "Export a template including all metadata"
-msgstr ""
+msgstr "Exportovat šablonu včetně všech metadat"
 
 msgid "Job template updated"
-msgstr ""
+msgstr "Šablona úlohy aktualizována"
 
 msgid "Could not update the job template"
 msgstr ""
 
 msgid "Job template deleted"
-msgstr ""
+msgstr "Šablona úlohy smazána"
 
 msgid "Could not delete the job template"
 msgstr ""
 
 msgid "Manage job templates"
-msgstr ""
+msgstr "Spravovat šablony úloh"
 
 msgid ""
 "Comma-separated list of key=file, where file is a path to a text file to be "
@@ -230,21 +212,72 @@ msgid ""
 msgstr ""
 
 msgid "Manage remote execution features"
-msgstr ""
+msgstr "Spravovat funkce vykonávání na dálku"
 
 msgid "Job template name"
-msgstr ""
+msgstr "Název šablony úlohy"
 
 msgid "Label"
-msgstr ""
+msgstr "Štítek"
 
 msgid "Job template ID"
-msgstr ""
+msgstr "Identif. šablony úlohy"
 
 msgid "Remote execution feature updated"
-msgstr ""
+msgstr "Funkce vykonávání na dálku aktualizována"
 
 msgid "Could not update the remote execution feature"
+msgstr "Funkci vykonávání na dálku se nedaří aktualizovat"
+
+msgid "Manage template inputs"
+msgstr "Spravovat vstupy šablony"
+
+msgid "Input type"
+msgstr "Typ vstupu"
+
+msgid "Fact name"
+msgstr "Název faktu"
+
+msgid "Variable name"
+msgstr "Název proměnné"
+
+msgid "Puppet parameter name"
+msgstr "Název puppet parametru"
+
+msgid "Options"
+msgstr "Volby"
+
+msgid "Template input created"
+msgstr "Vstup šablony vytvořen"
+
+msgid "Could not create the template input"
+msgstr "Nepodařilo se vytvořit vstup šablony"
+
+msgid "Template input deleted"
+msgstr "Vstup šablony vymazán"
+
+msgid "Could not delete the template input"
+msgstr "Nedaří se smazat vstup šablony"
+
+msgid "Execution"
+msgstr ""
+
+msgid "execution"
+msgstr ""
+
+msgid "Randomized ordering"
+msgstr ""
+
+msgid "Show the complete input of the job"
+msgstr ""
+
+msgid "Show job status for the hosts"
+msgstr ""
+
+msgid "Missing"
+msgstr ""
+
+msgid "Time to pickup"
 msgstr ""
 
 msgid "Smart Proxies"
@@ -256,31 +289,10 @@ msgstr ""
 msgid "Id"
 msgstr ""
 
-msgid "Manage template inputs"
-msgstr ""
-
-msgid "Input type"
-msgstr ""
-
-msgid "Fact name"
-msgstr ""
-
-msgid "Variable name"
-msgstr ""
-
-msgid "Puppet parameter name"
-msgstr ""
-
-msgid "Options"
-msgstr ""
-
 msgid "Default value"
 msgstr ""
 
 msgid "Template input created."
-msgstr ""
-
-msgid "Could not create the template input"
 msgstr ""
 
 msgid "Template input updated."
@@ -290,7 +302,4 @@ msgid "Could not update the template input"
 msgstr ""
 
 msgid "Template input deleted."
-msgstr ""
-
-msgid "Could not delete the template input"
 msgstr ""
