@@ -7,29 +7,29 @@ require 'hammer_cli_foreman_remote_execution'
 describe HammerCLIForemanRemoteExecution::JobInvocation do
   include CommandTestHelper
 
-  context 'ListCommand' do
+  describe 'ListCommand' do
     let(:cmd) { HammerCLIForemanRemoteExecution::JobInvocation::ListCommand.new('', ctx) }
 
-    context 'parameters' do
+    describe 'parameters' do
       it_should_accept 'no arguments'
       it_should_accept_search_params
     end
 
-    context 'output' do
+    describe 'output' do
       let(:expected_record_count) { cmd.resource.call(:index)['results'].length }
       it_should_print_n_records
       it_should_print_columns ['ID', 'Description', 'Status', 'Success', 'Failed', 'Pending', 'Total', 'Start']
     end
   end
 
-  context 'InfoCommand' do
+  describe 'InfoCommand' do
     let(:cmd) { HammerCLIForemanRemoteExecution::JobInvocation::InfoCommand.new('', ctx) }
 
     before :each do
       cmd.stubs(:get_parameters).returns([])
     end
 
-    context 'parameters' do
+    describe 'parameters' do
       it_should_accept 'id', ['--id=1']
 
       it 'should not accept name' do
@@ -39,17 +39,17 @@ describe HammerCLIForemanRemoteExecution::JobInvocation do
       end
     end
 
-    context 'output' do
+    describe 'output' do
       with_params ['--id=1'] do
         it_should_print_columns ['ID','Description','Status','Success','Failed','Pending','Total','Start','Job Category','Mode','Cron line','Recurring logic ID','Hosts', 'Randomized ordering']
       end
     end
   end
 
-  context 'CreateCommand' do
+  describe 'CreateCommand' do
     let(:cmd) { HammerCLIForemanRemoteExecution::JobInvocation::CreateCommand.new('', ctx) }
 
-    context 'parameters' do
+    describe 'parameters' do
       it 'detects async flag correctly' do
         refute cmd.option_async?
         _out, err = capture_io do
@@ -61,7 +61,7 @@ describe HammerCLIForemanRemoteExecution::JobInvocation do
     end
   end
 
-  context 'Cancel Command' do
+  describe 'Cancel Command' do
     let(:cmd) { HammerCLIForemanRemoteExecution::JobInvocation::CancelCommand.new('', ctx) }
 
     it_should_accept 'cancel options', ['--id=1', '--force=yes']
@@ -73,7 +73,7 @@ describe HammerCLIForemanRemoteExecution::JobInvocation do
     end
   end
 
-  context 'RerunCommand' do
+  describe 'RerunCommand' do
     let(:cmd) { HammerCLIForemanRemoteExecution::JobInvocation::RerunCommand.new('', ctx) }
 
     it_should_accept 'rerun options', ['--id=1', '--failed-only=false']

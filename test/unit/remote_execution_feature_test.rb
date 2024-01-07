@@ -7,10 +7,10 @@ require 'hammer_cli_foreman_remote_execution/remote_execution_feature'
 describe HammerCLIForemanRemoteExecution::RemoteExecutionFeature do
   include CommandTestHelper
 
-  context 'ListCommand' do
+  describe 'ListCommand' do
     let(:cmd) { HammerCLIForemanRemoteExecution::RemoteExecutionFeature::ListCommand.new('', ctx) }
 
-    context 'output' do
+    describe 'output' do
       with_params [] do
         let(:expected_record_count) { cmd.resource.call(:index)['results'].length }
         it_should_print_n_records
@@ -19,14 +19,14 @@ describe HammerCLIForemanRemoteExecution::RemoteExecutionFeature do
     end
   end
 
-  context 'InfoCommand' do
+  describe 'InfoCommand' do
     let(:cmd) { HammerCLIForemanRemoteExecution::RemoteExecutionFeature::InfoCommand.new('', ctx) }
 
-    context 'parameters' do
+    describe 'parameters' do
       it_should_accept 'required parameters', ['--name=foo']
     end
 
-    context 'output' do
+    describe 'output' do
       with_params ['--id=1'] do
         it_should_print_columns ['ID', 'Label', 'Name', 'Description', 'Job template ID', 'Job template name']
       end
@@ -34,10 +34,10 @@ describe HammerCLIForemanRemoteExecution::RemoteExecutionFeature do
   end
 
 
-  context 'CreateCommand' do
+  describe 'CreateCommand' do
     let(:cmd) { HammerCLIForemanRemoteExecution::RemoteExecutionFeature::UpdateCommand.new('', ctx) }
 
-    context 'parameters' do
+    describe 'parameters' do
       it_should_accept 'create options', ['--name=feature', "--job-template=asdf"]
     end
   end
