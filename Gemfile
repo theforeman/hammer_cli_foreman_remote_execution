@@ -8,7 +8,7 @@ if RUBY_VERSION < '2.1.0'
 end
 
 group :test do
-  gem 'rake', '~> 10.1.0'
+  gem 'rake', '~> 13.1.0'
   gem 'thor'
   gem 'minitest', '< 4.7.4'
   gem 'minitest-spec-context'
