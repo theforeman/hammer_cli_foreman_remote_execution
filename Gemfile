@@ -2,19 +2,18 @@ source 'https://rubygems.org'
 
 gemspec
 
+gem 'fast_gettext', '< 1.2.0' if RUBY_VERSION < '2.1.0'
 gem 'gettext', '>= 3.1.3', '< 4.0.0'
-if RUBY_VERSION < '2.1.0'
-  gem 'fast_gettext', '< 1.2.0'
-end
 
 group :test do
-  gem 'rake', '~> 13.1.0'
-  gem 'thor'
-  gem 'minitest', '< 4.7.4'
+  gem 'ci_reporter', '>= 1.6.3', '< 2.0.0', :require => false
+  gem 'minitest', '>= 5.1'
   gem 'minitest-spec-context'
-  gem 'simplecov'
   gem 'mocha'
-  gem 'ci_reporter', '>= 1.6.3', "< 2.0.0", :require => false
+  gem 'rake', '~> 13.1.0'
+  gem 'simplecov'
+  gem 'theforeman-rubocop', '~> 0.1.0'
+  gem 'thor'
 end
 
 # load local gemfile
