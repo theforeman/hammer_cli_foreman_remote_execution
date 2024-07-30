@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.license       = 'GPL-3.0-or-later'
 
   s.summary       = 'CLI for the Foreman remote execution plugin'
-  s.description   = 'CLI for the Foreman remote execution plugin'
+  s.description   = 'This gem provides CLI support for the Foreman remote execution plugin'
 
   s.files =            `git ls-files`.split("\n")
   s.test_files =       `git ls-files test`.split("\n")

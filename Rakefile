@@ -8,6 +8,7 @@ Rake::TestTask.new :test do |t|
   t.libs.push "lib"
   t.test_files = Dir.glob('test/**/*_test.rb')
   t.verbose = true
+  t.warning = ENV.key?('RUBY_WARNINGS')
 end
 
 namespace :pkg do
