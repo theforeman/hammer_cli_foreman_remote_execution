@@ -45,8 +45,8 @@ module HammerCLIForemanRemoteExecution
 
     class CreateCommand < HammerCLIForeman::CreateCommand
       option '--file', 'TEMPLATE', N_('Path to a file that contains the template'),
-             :attribute_name => :option_template, :required => true,
-             :format => HammerCLI::Options::Normalizers::File.new
+        :attribute_name => :option_template, :required => true,
+        :format => HammerCLI::Options::Normalizers::File.new
 
       success_message _('Job template created')
       failure_message _('Could not create the job template')
@@ -61,8 +61,8 @@ module HammerCLIForemanRemoteExecution
       action :import
 
       option '--file', 'TEMPLATE', N_('Path to a file that contains the template - must include ERB metadata'),
-             :attribute_name => :option_template, :required => true,
-             :format => HammerCLI::Options::Normalizers::File.new
+        :attribute_name => :option_template, :required => true,
+        :format => HammerCLI::Options::Normalizers::File.new
 
       success_message _('Job template imported')
       failure_message _('Could not import the job template')
@@ -87,8 +87,8 @@ module HammerCLIForemanRemoteExecution
 
     class UpdateCommand < HammerCLIForeman::UpdateCommand
       option '--file', 'TEMPLATE', N_('Path to a file that contains the template'),
-             :attribute_name => :option_template,
-             :format => HammerCLI::Options::Normalizers::File.new
+        :attribute_name => :option_template,
+        :format => HammerCLI::Options::Normalizers::File.new
 
       success_message _('Job template updated')
       failure_message _('Could not update the job template')

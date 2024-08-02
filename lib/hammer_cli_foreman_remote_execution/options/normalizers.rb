@@ -11,11 +11,11 @@ module HammerCLIForemanRemoteExecution
         end
 
         def complete(value)
-          Dir[value.to_s+'*'].collect do |file|
+          Dir[value.to_s + '*'].collect do |file|
             if ::File.directory?(file)
-              file+'/'
+              file + '/'
             else
-              file+' '
+              file + ' '
             end
           end
         end
