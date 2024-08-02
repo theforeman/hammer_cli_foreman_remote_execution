@@ -33,7 +33,6 @@ describe HammerCLIForemanRemoteExecution::RemoteExecutionFeature do
     end
   end
 
-
   describe 'CreateCommand' do
     let(:cmd) { HammerCLIForemanRemoteExecution::RemoteExecutionFeature::UpdateCommand.new('', ctx) }
 

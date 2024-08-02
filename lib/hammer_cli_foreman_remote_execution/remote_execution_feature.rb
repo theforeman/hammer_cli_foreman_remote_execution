@@ -37,5 +37,6 @@ module HammerCLIForemanRemoteExecution
     autoload_subcommands
   end
 
-  HammerCLI::MainCommand.subcommand 'remote-execution-feature', _('Manage remote execution features'), RemoteExecutionFeature
+  HammerCLI::MainCommand.subcommand 'remote-execution-feature', _('Manage remote execution features'),
+    RemoteExecutionFeature
 end

@@ -64,7 +64,8 @@ describe HammerCLIForemanRemoteExecution::JobTemplate do
     let(:cmd) { HammerCLIForemanRemoteExecution::JobTemplate::ImportCommand.new('', ctx) }
 
     describe 'parameters' do
-      it_should_accept 'import options', ["--file=#{File.join(File.dirname(__FILE__), '..', 'data', 'export.erb')}", '--overwrite=false']
+      it_should_accept 'import options',
+        ["--file=#{File.join(File.dirname(__FILE__), '..', 'data', 'export.erb')}", '--overwrite=false']
     end
   end
 
@@ -100,7 +101,9 @@ describe HammerCLIForemanRemoteExecution::JobTemplate do
     let(:cmd) { HammerCLIForemanRemoteExecution::JobTemplate::CreateCommand.new('', ctx) }
 
     describe 'parameters' do
-      it_should_accept 'create options', ['--name=Test', "--file=#{File.join(File.dirname(__FILE__), '..', 'data', 'template.txt')}", '--job-category=Install', '--provider-type=SSH']
+      it_should_accept 'create options',
+        ['--name=Test', "--file=#{File.join(File.dirname(__FILE__), '..', 'data', 'template.txt')}", '--job-category=Install',
+         '--provider-type=SSH']
     end
   end
 end

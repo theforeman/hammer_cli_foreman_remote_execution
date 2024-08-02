@@ -18,4 +18,5 @@ task :default => :test
 require "hammer_cli_foreman_remote_execution/version"
 require "hammer_cli_foreman_remote_execution/i18n"
 require "hammer_cli/i18n/find_task"
-HammerCLI::I18n::FindTask.define(HammerCLIForemanRemoteExecution::I18n::LocaleDomain.new, HammerCLIForemanRemoteExecution.version.to_s)
+HammerCLI::I18n::FindTask.define(HammerCLIForemanRemoteExecution::I18n::LocaleDomain.new,
+  HammerCLIForemanRemoteExecution.version.to_s)

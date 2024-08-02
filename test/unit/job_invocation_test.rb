@@ -4,6 +4,7 @@ require File.join(Gem.loaded_specs['hammer_cli_foreman'].full_gem_path, 'test/un
 require File.join(Gem.loaded_specs['hammer_cli_foreman'].full_gem_path, 'test/unit/apipie_resource_mock')
 require 'hammer_cli_foreman_remote_execution'
 
+# rubocop:disable Metrics/BlockLength
 describe HammerCLIForemanRemoteExecution::JobInvocation do
   include CommandTestHelper
 
@@ -41,7 +42,8 @@ describe HammerCLIForemanRemoteExecution::JobInvocation do
 
     describe 'output' do
       with_params ['--id=1'] do
-        it_should_print_columns ['ID','Description','Status','Success','Failed','Pending','Total','Start','Job Category','Mode','Cron line','Recurring logic ID','Hosts', 'Randomized ordering']
+        it_should_print_columns ['ID', 'Description', 'Status', 'Success', 'Failed', 'Pending', 'Total', 'Start',
+                                 'Job Category', 'Mode', 'Cron line', 'Recurring logic ID', 'Hosts', 'Randomized ordering']
       end
     end
   end
@@ -53,7 +55,8 @@ describe HammerCLIForemanRemoteExecution::JobInvocation do
       it 'detects async flag correctly' do
         refute cmd.option_async?
         _out, err = capture_io do
-          cmd.run(['--job-template="Run Command - SSH Default', '--inputs=command="hostname"', '--search-query="name ~ foreman"', '--start-at="2099-01-01 12:00"', '--async']).must_equal HammerCLI::EX_OK
+          cmd.run(['--job-template="Run Command - SSH Default', '--inputs=command="hostname"',
+                   '--search-query="name ~ foreman"', '--start-at="2099-01-01 12:00"', '--async']).must_equal HammerCLI::EX_OK
         end
         err.must_be :empty?
         assert cmd.option_async?
@@ -85,3 +88,4 @@ describe HammerCLIForemanRemoteExecution::JobInvocation do
     end
   end
 end
+# rubocop:enable Metrics/BlockLength

@@ -16,9 +16,9 @@ module HammerCLIForemanRemoteExecution
       type = super(nic)
       if nic['execution']
         if nic['primary'] || nic['provision']
-          type[-1] = ', '+_('execution') +')'
+          type[-1] = ', ' + _('execution') + ')'
         else
-          type += ' ('+_('execution') +')'
+          type += ' (' + _('execution') + ')'
         end
       end
       type
