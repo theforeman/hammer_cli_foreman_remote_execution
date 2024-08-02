@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module HammerCLIForemanRemoteExecution
   class ForeignInputSet < HammerCLIForeman::Command
     resource :foreign_input_sets

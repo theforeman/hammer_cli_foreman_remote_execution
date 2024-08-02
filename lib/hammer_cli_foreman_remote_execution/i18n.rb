@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'hammer_cli/i18n'
 
 module HammerCLIForemanRemoteExecution
@@ -25,7 +27,5 @@ module HammerCLIForemanRemoteExecution
 end
 
 domain = [HammerCLIForemanRemoteExecution::I18n::LocaleDomain.new,
-          HammerCLIForemanRemoteExecution::I18n::SystemLocaleDomain.new].find { |d|
-  d.available?
-}
+          HammerCLIForemanRemoteExecution::I18n::SystemLocaleDomain.new].find(&:available?)
 HammerCLI::I18n.add_domain(domain) if domain

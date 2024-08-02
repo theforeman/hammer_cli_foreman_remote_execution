@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 ENV['TEST_API_VERSION'] = '1.17'
 
 require File.join(Gem.loaded_specs['hammer_cli_foreman'].full_gem_path, 'test/unit/test_helper')
@@ -55,7 +57,7 @@ describe HammerCLIForemanRemoteExecution::JobTemplate do
         out, _err = capture_io do
           cmd.run(['--id=1'])
         end
-        out.must_match(/id/)
+        _(out).must_match(/id/)
       end
     end
   end
@@ -83,7 +85,7 @@ describe HammerCLIForemanRemoteExecution::JobTemplate do
         out, _err = capture_io do
           cmd.run(['--id=1'])
         end
-        out.must_match(/id/)
+        _(out).must_match(/id/)
       end
     end
   end

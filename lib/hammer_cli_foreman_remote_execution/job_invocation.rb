@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module HammerCLIForemanRemoteExecution
   class JobInvocation < HammerCLIForeman::Command
     resource :job_invocations
@@ -112,13 +114,13 @@ module HammerCLIForemanRemoteExecution
       def execute
         data = get_output
         if data['delayed']
-          puts _('The job is scheduled to start at %{timestamp}') % { :timestamp => data['start_at'] }
+          puts format(_('The job is scheduled to start at %{timestamp}'), :timestamp => data['start_at'])
           return HammerCLI::EX_OK if option_async?
         end
         since = print_data(data)
 
         output_loop(data, since)
-        return HammerCLI::EX_OK
+        HammerCLI::EX_OK
       end
 
       build_options do |o|
@@ -129,7 +131,7 @@ module HammerCLIForemanRemoteExecution
       private
 
       def output_loop(data, since = nil)
-        while data['refresh'] && !option_async? do
+        while data['refresh'] && !option_async?
           sleep 1
           data = get_output(since)
           since = print_data(data)
@@ -186,7 +188,7 @@ module HammerCLIForemanRemoteExecution
         super(task)
       end
 
-      alias original_option_async? option_async?
+      alias_method :original_option_async?, :option_async?
 
       def option_async?
         if immediate?

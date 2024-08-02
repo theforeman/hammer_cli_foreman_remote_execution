@@ -1,10 +1,11 @@
+# frozen_string_literal: true
+
 ENV['TEST_API_VERSION'] = '1.17'
 
 require File.join(Gem.loaded_specs['hammer_cli_foreman'].full_gem_path, 'test/unit/test_helper')
 require File.join(Gem.loaded_specs['hammer_cli_foreman'].full_gem_path, 'test/unit/apipie_resource_mock')
 require 'hammer_cli_foreman_remote_execution'
 
-# rubocop:disable Metrics/BlockLength
 describe HammerCLIForemanRemoteExecution::JobInvocation do
   include CommandTestHelper
 
@@ -35,7 +36,7 @@ describe HammerCLIForemanRemoteExecution::JobInvocation do
 
       it 'should not accept name' do
         _out, _err = capture_io do
-          cmd.run(%w(--name foobar)).must_equal HammerCLI::EX_USAGE
+          _(cmd.run(%w[--name foobar])).must_equal HammerCLI::EX_USAGE
         end
       end
     end
@@ -55,10 +56,10 @@ describe HammerCLIForemanRemoteExecution::JobInvocation do
       it 'detects async flag correctly' do
         refute cmd.option_async?
         _out, err = capture_io do
-          cmd.run(['--job-template="Run Command - SSH Default', '--inputs=command="hostname"',
-                   '--search-query="name ~ foreman"', '--start-at="2099-01-01 12:00"', '--async']).must_equal HammerCLI::EX_OK
+          _(cmd.run(['--job-template="Run Command - SSH Default', '--inputs=command="hostname"',
+                   '--search-query="name ~ foreman"', '--start-at="2099-01-01 12:00"', '--async'])).must_equal HammerCLI::EX_OK
         end
-        err.must_be :empty?
+        _(err).must_be :empty?
         assert cmd.option_async?
       end
     end
@@ -71,7 +72,7 @@ describe HammerCLIForemanRemoteExecution::JobInvocation do
 
     it 'should not accept name' do
       _out, _err = capture_io do
-        cmd.run(%w(--name foobar)).must_equal HammerCLI::EX_USAGE
+        _(cmd.run(%w[--name foobar])).must_equal HammerCLI::EX_USAGE
       end
     end
   end
@@ -83,9 +84,8 @@ describe HammerCLIForemanRemoteExecution::JobInvocation do
 
     it 'should not accept name' do
       _out, _err = capture_io do
-        cmd.run(%w(--name foobar)).must_equal HammerCLI::EX_USAGE
+        _(cmd.run(%w[--name foobar])).must_equal HammerCLI::EX_USAGE
       end
     end
   end
 end
-# rubocop:enable Metrics/BlockLength

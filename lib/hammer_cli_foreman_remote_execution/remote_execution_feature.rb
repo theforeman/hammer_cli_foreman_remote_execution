@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module HammerCLIForemanRemoteExecution
   class RemoteExecutionFeature < HammerCLIForeman::Command
     resource :remote_execution_features

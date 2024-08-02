@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module HammerCLIForemanRemoteExecution
   class JobTemplate < HammerCLIForeman::Command
     resource :job_templates

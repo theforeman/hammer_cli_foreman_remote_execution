@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module HammerCLIForemanRemoteExecution
   class TemplateInput < HammerCLIForeman::Command
     resource :template_inputs
