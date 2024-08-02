@@ -1,4 +1,6 @@
-require File.expand_path('../lib/hammer_cli_foreman_remote_execution/version', __FILE__)
+# frozen_string_literal: true
+
+require File.expand_path('lib/hammer_cli_foreman_remote_execution/version', __dir__)
 
 Gem::Specification.new do |s|
   s.name          = 'hammer_cli_foreman_remote_execution'

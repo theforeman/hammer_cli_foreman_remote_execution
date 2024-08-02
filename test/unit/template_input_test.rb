@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 ENV['TEST_API_VERSION'] = '1.17'
 
 require File.join(Gem.loaded_specs['hammer_cli_foreman'].full_gem_path, 'test/unit/test_helper')

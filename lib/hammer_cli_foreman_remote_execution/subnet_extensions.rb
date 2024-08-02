@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'hammer_cli_foreman/subnet'
 
 module HammerCLIForemanRemoteExecution
