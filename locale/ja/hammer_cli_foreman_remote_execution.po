@@ -5,9 +5,9 @@
 # Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer-cli-foreman-remote-execution 0.2.3\n"
+"Project-Id-Version: hammer_cli_foreman_remote_execution 0.3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-26 10:44-0500\n"
+"POT-Creation-Date: 2023-07-12 15:59+0000\n"
 "PO-Revision-Date: 2016-02-12 07:57+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Japanese (http://app.transifex.com/foreman/foreman/language/"
@@ -60,6 +60,12 @@ msgstr "外部入力セットが削除されました"
 msgid "Could not delete the input set"
 msgstr "入力セットを削除できませんでした"
 
+msgid "Execution"
+msgstr "Execution"
+
+msgid "execution"
+msgstr "実行"
+
 msgid "Description"
 msgstr "説明"
 
@@ -81,6 +87,21 @@ msgstr "合計"
 msgid "Start"
 msgstr "開始"
 
+msgid "Randomized ordering"
+msgstr "ランダムな順序"
+
+msgid "Inputs"
+msgstr "入力"
+
+msgid "Show the complete input of the job"
+msgstr "ジョブの完全な入力を表示"
+
+msgid "Show job status for the hosts"
+msgstr "ホストのジョブステータスを表示"
+
+msgid "Missing"
+msgstr "なし"
+
 msgid "Job Category"
 msgstr "ジョブカテゴリー"
 
@@ -92,6 +113,9 @@ msgstr "cron 行"
 
 msgid "Recurring logic ID"
 msgstr "再帰論理 ID"
+
+msgid "Time to pickup"
+msgstr "取得する時間"
 
 msgid "Hosts"
 msgstr "ホスト"
@@ -152,9 +176,6 @@ msgstr "プロバイダー"
 
 msgid "Type"
 msgstr "タイプ"
-
-msgid "Inputs"
-msgstr "入力"
 
 msgid "View job template content"
 msgstr "ジョブテンプレートコンテンツを表示します"
@@ -236,6 +257,15 @@ msgstr "リモート実行機能が更新されました"
 msgid "Could not update the remote execution feature"
 msgstr "リモート実行機能を更新できませんでした"
 
+msgid "Smart Proxies"
+msgstr "Smart Proxy"
+
+msgid "Remote execution proxies"
+msgstr "リモート実行プロキシー"
+
+msgid "Id"
+msgstr "ID"
+
 msgid "Manage template inputs"
 msgstr "テンプレート入力を管理します"
 
@@ -254,59 +284,23 @@ msgstr "Puppet パラメーター名"
 msgid "Options"
 msgstr "オプション"
 
-msgid "Template input created"
-msgstr "テンプレート入力が作成されました"
+msgid "Default value"
+msgstr "デフォルト値"
+
+msgid "Template input created."
+msgstr "テンプレート入力が作成されました。"
 
 msgid "Could not create the template input"
 msgstr "テンプレート入力を作成できませんでした"
 
-msgid "Template input deleted"
-msgstr "テンプレート入力が削除されました"
+msgid "Template input updated."
+msgstr "テンプレート入力が更新されました。"
+
+msgid "Could not update the template input"
+msgstr "テンプレート入力を更新できませんでした"
+
+msgid "Template input deleted."
+msgstr "テンプレート入力が削除されました。"
 
 msgid "Could not delete the template input"
 msgstr "テンプレート入力を削除できませんでした"
-
-msgid "Execution"
-msgstr ""
-
-msgid "execution"
-msgstr ""
-
-msgid "Randomized ordering"
-msgstr ""
-
-msgid "Show the complete input of the job"
-msgstr ""
-
-msgid "Show job status for the hosts"
-msgstr ""
-
-msgid "Missing"
-msgstr ""
-
-msgid "Time to pickup"
-msgstr ""
-
-msgid "Smart Proxies"
-msgstr ""
-
-msgid "Remote execution proxies"
-msgstr ""
-
-msgid "Id"
-msgstr ""
-
-msgid "Default value"
-msgstr ""
-
-msgid "Template input created."
-msgstr ""
-
-msgid "Template input updated."
-msgstr ""
-
-msgid "Could not update the template input"
-msgstr ""
-
-msgid "Template input deleted."
-msgstr ""

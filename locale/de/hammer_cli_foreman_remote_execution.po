@@ -7,9 +7,9 @@
 # pdolinic, 2021
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer-cli-foreman-remote-execution 0.2.3\n"
+"Project-Id-Version: hammer_cli_foreman_remote_execution 0.3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-26 10:44-0500\n"
+"POT-Creation-Date: 2023-07-12 15:59+0000\n"
 "PO-Revision-Date: 2016-02-12 07:57+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>, 2016,2023\n"
 "Language-Team: German (http://app.transifex.com/foreman/foreman/language/"
@@ -62,6 +62,12 @@ msgstr "Fremdeingabe-Satz gelöscht"
 msgid "Could not delete the input set"
 msgstr "Eingabe--Satz konnte nicht gelöscht werden"
 
+msgid "Execution"
+msgstr "Ausführung"
+
+msgid "execution"
+msgstr ""
+
 msgid "Description"
 msgstr "Beschreibung"
 
@@ -83,6 +89,21 @@ msgstr "Gesamt"
 msgid "Start"
 msgstr "Anfang"
 
+msgid "Randomized ordering"
+msgstr ""
+
+msgid "Inputs"
+msgstr "Eingaben"
+
+msgid "Show the complete input of the job"
+msgstr ""
+
+msgid "Show job status for the hosts"
+msgstr ""
+
+msgid "Missing"
+msgstr ""
+
 msgid "Job Category"
 msgstr "Auftragskategorie"
 
@@ -94,6 +115,9 @@ msgstr "Cron-Zeile"
 
 msgid "Recurring logic ID"
 msgstr "ID der Wiederholungslogik"
+
+msgid "Time to pickup"
+msgstr ""
 
 msgid "Hosts"
 msgstr "Hosts"
@@ -157,9 +181,6 @@ msgstr "Dienstanbieter"
 
 msgid "Type"
 msgstr "Typ"
-
-msgid "Inputs"
-msgstr "Eingaben"
 
 msgid "View job template content"
 msgstr "Inhalte der Auftragsvorlagen ansehen"
@@ -241,6 +262,15 @@ msgstr "Remote-Ausführungsfunktion aktualisiert"
 msgid "Could not update the remote execution feature"
 msgstr "Die Remote-Ausführungsfunktion konnte nicht aktualisiert werden"
 
+msgid "Smart Proxies"
+msgstr "Smart Proxys"
+
+msgid "Remote execution proxies"
+msgstr ""
+
+msgid "Id"
+msgstr ""
+
 msgid "Manage template inputs"
 msgstr "Vorlageneingaben verwalten"
 
@@ -259,53 +289,14 @@ msgstr "Puppet-Parametername"
 msgid "Options"
 msgstr "Optionen"
 
-msgid "Template input created"
-msgstr "Vorlageneingabe erstellt"
-
-msgid "Could not create the template input"
-msgstr "Vorlageneingabe konnte nicht erstellt werden"
-
-msgid "Template input deleted"
-msgstr "Vorlageneingabe gelöscht"
-
-msgid "Could not delete the template input"
-msgstr "Vorlageneingabe konnte nicht gelöscht werden"
-
-msgid "Execution"
-msgstr ""
-
-msgid "execution"
-msgstr ""
-
-msgid "Randomized ordering"
-msgstr ""
-
-msgid "Show the complete input of the job"
-msgstr ""
-
-msgid "Show job status for the hosts"
-msgstr ""
-
-msgid "Missing"
-msgstr ""
-
-msgid "Time to pickup"
-msgstr ""
-
-msgid "Smart Proxies"
-msgstr ""
-
-msgid "Remote execution proxies"
-msgstr ""
-
-msgid "Id"
-msgstr ""
-
 msgid "Default value"
 msgstr ""
 
 msgid "Template input created."
 msgstr ""
+
+msgid "Could not create the template input"
+msgstr "Vorlageneingabe konnte nicht erstellt werden"
 
 msgid "Template input updated."
 msgstr ""
@@ -315,3 +306,6 @@ msgstr ""
 
 msgid "Template input deleted."
 msgstr ""
+
+msgid "Could not delete the template input"
+msgstr "Vorlageneingabe konnte nicht gelöscht werden"

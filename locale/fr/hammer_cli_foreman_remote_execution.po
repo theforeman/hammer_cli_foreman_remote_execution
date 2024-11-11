@@ -4,13 +4,15 @@
 #
 # Translators:
 # Claer <transiblu@claer.hammock.fr>, 2016
+# Ewoud Kohl van Wijngaarden <ewoud+transifex@kohlvanwijngaarden.nl>, 2024
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer-cli-foreman-remote-execution 0.2.3\n"
+"Project-Id-Version: hammer_cli_foreman_remote_execution 0.3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-26 10:44-0500\n"
+"POT-Creation-Date: 2023-07-12 15:59+0000\n"
 "PO-Revision-Date: 2016-02-12 07:57+0000\n"
-"Last-Translator: Claer <transiblu@claer.hammock.fr>, 2016\n"
+"Last-Translator: Ewoud Kohl van Wijngaarden "
+"<ewoud+transifex@kohlvanwijngaarden.nl>, 2024\n"
 "Language-Team: French (http://app.transifex.com/foreman/foreman/language/"
 "fr/)\n"
 "MIME-Version: 1.0\n"
@@ -62,6 +64,12 @@ msgstr "Jeu de données en entrée externe supprimé"
 msgid "Could not delete the input set"
 msgstr "Impossible de supprimer le jeu de données"
 
+msgid "Execution"
+msgstr "Exécution"
+
+msgid "execution"
+msgstr "exécution"
+
 msgid "Description"
 msgstr "Description"
 
@@ -83,6 +91,21 @@ msgstr "Total"
 msgid "Start"
 msgstr "Démarrer"
 
+msgid "Randomized ordering"
+msgstr "Randomisé"
+
+msgid "Inputs"
+msgstr "Entrées"
+
+msgid "Show the complete input of the job"
+msgstr "Afficher l'entrée complète de la tâche"
+
+msgid "Show job status for the hosts"
+msgstr "Afficher l'état des jobs pour les hôtes"
+
+msgid "Missing"
+msgstr "Manquant"
+
 msgid "Job Category"
 msgstr "Catégorie du job"
 
@@ -94,6 +117,9 @@ msgstr "Ligne Cron"
 
 msgid "Recurring logic ID"
 msgstr "ID Logique récurrente"
+
+msgid "Time to pickup"
+msgstr "Heure d’appropriation de tâche(s)"
 
 msgid "Hosts"
 msgstr "Hôtes"
@@ -158,9 +184,6 @@ msgstr "Fournisseur"
 
 msgid "Type"
 msgstr "Type"
-
-msgid "Inputs"
-msgstr "Entrées"
 
 msgid "View job template content"
 msgstr "Voir le contenu du modèle de travail"
@@ -243,6 +266,15 @@ msgstr "Mise à jour de la fonction d'exécution à distance"
 msgid "Could not update the remote execution feature"
 msgstr "Impossible de mettre à jour la fonction d'exécution à distance"
 
+msgid "Smart Proxies"
+msgstr "Smart Proxies"
+
+msgid "Remote execution proxies"
+msgstr "Proxys d'exécution à distance"
+
+msgid "Id"
+msgstr "Id"
+
 msgid "Manage template inputs"
 msgstr "Gérer les entrées de modèles"
 
@@ -261,59 +293,23 @@ msgstr "Nom du paramètre Puppet"
 msgid "Options"
 msgstr "Options"
 
-msgid "Template input created"
+msgid "Default value"
+msgstr "Valeur par défaut"
+
+msgid "Template input created."
 msgstr "Création d'un modèle d'entrée"
 
 msgid "Could not create the template input"
 msgstr "Impossible de créer l'entrée du modèle"
 
-msgid "Template input deleted"
-msgstr "Entrée du modèle supprimée"
+msgid "Template input updated."
+msgstr "Modèle d'entrée mis à jour."
+
+msgid "Could not update the template input"
+msgstr "Impossible de mettre à jour l'entrée du modèle"
+
+msgid "Template input deleted."
+msgstr "Entrée de modèle supprimée."
 
 msgid "Could not delete the template input"
 msgstr "Impossible de supprimer l'entrée du modèle"
-
-msgid "Execution"
-msgstr ""
-
-msgid "execution"
-msgstr ""
-
-msgid "Randomized ordering"
-msgstr ""
-
-msgid "Show the complete input of the job"
-msgstr ""
-
-msgid "Show job status for the hosts"
-msgstr ""
-
-msgid "Missing"
-msgstr ""
-
-msgid "Time to pickup"
-msgstr ""
-
-msgid "Smart Proxies"
-msgstr ""
-
-msgid "Remote execution proxies"
-msgstr ""
-
-msgid "Id"
-msgstr ""
-
-msgid "Default value"
-msgstr ""
-
-msgid "Template input created."
-msgstr ""
-
-msgid "Template input updated."
-msgstr ""
-
-msgid "Could not update the template input"
-msgstr ""
-
-msgid "Template input deleted."
-msgstr ""

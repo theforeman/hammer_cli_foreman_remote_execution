@@ -5,9 +5,9 @@
 # Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer-cli-foreman-remote-execution 0.2.3\n"
+"Project-Id-Version: hammer_cli_foreman_remote_execution 0.3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-26 10:44-0500\n"
+"POT-Creation-Date: 2023-07-12 15:59+0000\n"
 "PO-Revision-Date: 2016-02-12 07:57+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Portuguese (Brazil) (http://app.transifex.com/foreman/foreman/"
@@ -61,6 +61,12 @@ msgstr "Conjunto de entradas estrangeiras excluídas"
 msgid "Could not delete the input set"
 msgstr "Não foi possível excluir o conjunto de entradas"
 
+msgid "Execution"
+msgstr "Execução"
+
+msgid "execution"
+msgstr ""
+
 msgid "Description"
 msgstr "Descrição"
 
@@ -82,6 +88,21 @@ msgstr "Total"
 msgid "Start"
 msgstr "Iniciar"
 
+msgid "Randomized ordering"
+msgstr ""
+
+msgid "Inputs"
+msgstr "Entradas"
+
+msgid "Show the complete input of the job"
+msgstr ""
+
+msgid "Show job status for the hosts"
+msgstr ""
+
+msgid "Missing"
+msgstr ""
+
 msgid "Job Category"
 msgstr "Categoria do trabalho"
 
@@ -93,6 +114,9 @@ msgstr "Cron line"
 
 msgid "Recurring logic ID"
 msgstr "Identificação lógica recorrente"
+
+msgid "Time to pickup"
+msgstr ""
 
 msgid "Hosts"
 msgstr "Hosts"
@@ -154,9 +178,6 @@ msgstr "Fornecedor"
 
 msgid "Type"
 msgstr "Tipo"
-
-msgid "Inputs"
-msgstr "Entradas"
 
 msgid "View job template content"
 msgstr "Ver o conteúdo do modelo de trabalho"
@@ -238,6 +259,15 @@ msgstr "Recurso de execução remota atualizado"
 msgid "Could not update the remote execution feature"
 msgstr "Não foi possível atualizar o recurso de execução remota"
 
+msgid "Smart Proxies"
+msgstr "Proxies inteligentes"
+
+msgid "Remote execution proxies"
+msgstr ""
+
+msgid "Id"
+msgstr ""
+
 msgid "Manage template inputs"
 msgstr "Gerenciar as entradas dos modelos"
 
@@ -256,53 +286,14 @@ msgstr "Nome do parâmetro do fantoche"
 msgid "Options"
 msgstr "Opções"
 
-msgid "Template input created"
-msgstr "Entrada do modelo criado"
-
-msgid "Could not create the template input"
-msgstr "Não foi possível criar a entrada do modelo"
-
-msgid "Template input deleted"
-msgstr "Entrada do modelo excluída"
-
-msgid "Could not delete the template input"
-msgstr "Não foi possível excluir a entrada do modelo"
-
-msgid "Execution"
-msgstr ""
-
-msgid "execution"
-msgstr ""
-
-msgid "Randomized ordering"
-msgstr ""
-
-msgid "Show the complete input of the job"
-msgstr ""
-
-msgid "Show job status for the hosts"
-msgstr ""
-
-msgid "Missing"
-msgstr ""
-
-msgid "Time to pickup"
-msgstr ""
-
-msgid "Smart Proxies"
-msgstr ""
-
-msgid "Remote execution proxies"
-msgstr ""
-
-msgid "Id"
-msgstr ""
-
 msgid "Default value"
 msgstr ""
 
 msgid "Template input created."
 msgstr ""
+
+msgid "Could not create the template input"
+msgstr "Não foi possível criar a entrada do modelo"
 
 msgid "Template input updated."
 msgstr ""
@@ -312,3 +303,6 @@ msgstr ""
 
 msgid "Template input deleted."
 msgstr ""
+
+msgid "Could not delete the template input"
+msgstr "Não foi possível excluir a entrada do modelo"

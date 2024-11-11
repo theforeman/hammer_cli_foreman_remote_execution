@@ -5,9 +5,9 @@
 # Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer-cli-foreman-remote-execution 0.2.3\n"
+"Project-Id-Version: hammer_cli_foreman_remote_execution 0.3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-26 10:44-0500\n"
+"POT-Creation-Date: 2023-07-12 15:59+0000\n"
 "PO-Revision-Date: 2016-02-12 07:57+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Italian (http://app.transifex.com/foreman/foreman/language/"
@@ -61,6 +61,12 @@ msgstr ""
 msgid "Could not delete the input set"
 msgstr ""
 
+msgid "Execution"
+msgstr ""
+
+msgid "execution"
+msgstr ""
+
 msgid "Description"
 msgstr "Descrizione"
 
@@ -82,6 +88,21 @@ msgstr "Totale"
 msgid "Start"
 msgstr "Inizio"
 
+msgid "Randomized ordering"
+msgstr ""
+
+msgid "Inputs"
+msgstr ""
+
+msgid "Show the complete input of the job"
+msgstr ""
+
+msgid "Show job status for the hosts"
+msgstr ""
+
+msgid "Missing"
+msgstr ""
+
 msgid "Job Category"
 msgstr ""
 
@@ -92,6 +113,9 @@ msgid "Cron line"
 msgstr ""
 
 msgid "Recurring logic ID"
+msgstr ""
+
+msgid "Time to pickup"
 msgstr ""
 
 msgid "Hosts"
@@ -153,9 +177,6 @@ msgstr "Provider"
 
 msgid "Type"
 msgstr "Tipo"
-
-msgid "Inputs"
-msgstr ""
 
 msgid "View job template content"
 msgstr ""
@@ -228,6 +249,15 @@ msgstr ""
 msgid "Could not update the remote execution feature"
 msgstr ""
 
+msgid "Smart Proxies"
+msgstr "Smart proxy"
+
+msgid "Remote execution proxies"
+msgstr ""
+
+msgid "Id"
+msgstr ""
+
 msgid "Manage template inputs"
 msgstr ""
 
@@ -246,52 +276,13 @@ msgstr ""
 msgid "Options"
 msgstr "Opzioni"
 
-msgid "Template input created"
-msgstr ""
-
-msgid "Could not create the template input"
-msgstr ""
-
-msgid "Template input deleted"
-msgstr ""
-
-msgid "Could not delete the template input"
-msgstr ""
-
-msgid "Execution"
-msgstr ""
-
-msgid "execution"
-msgstr ""
-
-msgid "Randomized ordering"
-msgstr ""
-
-msgid "Show the complete input of the job"
-msgstr ""
-
-msgid "Show job status for the hosts"
-msgstr ""
-
-msgid "Missing"
-msgstr ""
-
-msgid "Time to pickup"
-msgstr ""
-
-msgid "Smart Proxies"
-msgstr ""
-
-msgid "Remote execution proxies"
-msgstr ""
-
-msgid "Id"
-msgstr ""
-
 msgid "Default value"
 msgstr ""
 
 msgid "Template input created."
+msgstr ""
+
+msgid "Could not create the template input"
 msgstr ""
 
 msgid "Template input updated."
@@ -301,4 +292,7 @@ msgid "Could not update the template input"
 msgstr ""
 
 msgid "Template input deleted."
+msgstr ""
+
+msgid "Could not delete the template input"
 msgstr ""

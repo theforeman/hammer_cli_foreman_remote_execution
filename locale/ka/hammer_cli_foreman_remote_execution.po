@@ -5,9 +5,9 @@
 # Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer-cli-foreman-remote-execution 0.2.3\n"
+"Project-Id-Version: hammer_cli_foreman_remote_execution 0.3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-26 10:44-0500\n"
+"POT-Creation-Date: 2023-07-12 15:59+0000\n"
 "PO-Revision-Date: 2016-02-12 07:57+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Georgian (http://app.transifex.com/foreman/foreman/language/"
@@ -60,6 +60,12 @@ msgstr "შემოტანის უცხო სეტი წაშლილ
 msgid "Could not delete the input set"
 msgstr "შემოტანის სეტის წაშლის შეცდომ"
 
+msgid "Execution"
+msgstr "შესრულება"
+
+msgid "execution"
+msgstr ""
+
 msgid "Description"
 msgstr "აღწერილობა"
 
@@ -81,6 +87,21 @@ msgstr "ჯამში"
 msgid "Start"
 msgstr "დაწყება"
 
+msgid "Randomized ordering"
+msgstr ""
+
+msgid "Inputs"
+msgstr "შეყვანები"
+
+msgid "Show the complete input of the job"
+msgstr ""
+
+msgid "Show job status for the hosts"
+msgstr ""
+
+msgid "Missing"
+msgstr ""
+
 msgid "Job Category"
 msgstr "დავალების კატეგორია"
 
@@ -92,6 +113,9 @@ msgstr "Cron-ის სტრიქონი"
 
 msgid "Recurring logic ID"
 msgstr "განმეორებადი ლოგიკის ID"
+
+msgid "Time to pickup"
+msgstr "აყვანის დრო"
 
 msgid "Hosts"
 msgstr "ჰოსტები"
@@ -154,9 +178,6 @@ msgstr "სერვისის მომწოდებელი"
 
 msgid "Type"
 msgstr "ტიპი"
-
-msgid "Inputs"
-msgstr "შეყვანები"
 
 msgid "View job template content"
 msgstr "დავალების შაბლონის შემცველობის ნახვა"
@@ -237,6 +258,15 @@ msgstr "დაშორებული გაშვების ფუნქც�
 msgid "Could not update the remote execution feature"
 msgstr "დაშორებული გაშვების ფუნქციის განახლების შეცდომა"
 
+msgid "Smart Proxies"
+msgstr "ჭკვიანი პროქსიები"
+
+msgid "Remote execution proxies"
+msgstr ""
+
+msgid "Id"
+msgstr "ID"
+
 msgid "Manage template inputs"
 msgstr "შაბლონის შეყვანების მართვა"
 
@@ -255,53 +285,14 @@ msgstr "Puppet-ის პარამეტრის სახელი"
 msgid "Options"
 msgstr "მორგება"
 
-msgid "Template input created"
-msgstr "შაბლონის შეყვანა შექმნილია"
-
-msgid "Could not create the template input"
-msgstr "შაბლონის შეყვანის შექმნის შეცდომა"
-
-msgid "Template input deleted"
-msgstr "შაბლონის შეყვანა წაიშალა"
-
-msgid "Could not delete the template input"
-msgstr "შაბლონის შეყვანის წაშლის პრობლემა"
-
-msgid "Execution"
-msgstr ""
-
-msgid "execution"
-msgstr ""
-
-msgid "Randomized ordering"
-msgstr ""
-
-msgid "Show the complete input of the job"
-msgstr ""
-
-msgid "Show job status for the hosts"
-msgstr ""
-
-msgid "Missing"
-msgstr ""
-
-msgid "Time to pickup"
-msgstr ""
-
-msgid "Smart Proxies"
-msgstr ""
-
-msgid "Remote execution proxies"
-msgstr ""
-
-msgid "Id"
-msgstr ""
-
 msgid "Default value"
 msgstr ""
 
 msgid "Template input created."
 msgstr ""
+
+msgid "Could not create the template input"
+msgstr "შაბლონის შეყვანის შექმნის შეცდომა"
 
 msgid "Template input updated."
 msgstr ""
@@ -311,3 +302,6 @@ msgstr ""
 
 msgid "Template input deleted."
 msgstr ""
+
+msgid "Could not delete the template input"
+msgstr "შაბლონის შეყვანის წაშლის პრობლემა"

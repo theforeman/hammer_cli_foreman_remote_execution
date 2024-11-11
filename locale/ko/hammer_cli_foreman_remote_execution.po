@@ -5,9 +5,9 @@
 # Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer-cli-foreman-remote-execution 0.2.3\n"
+"Project-Id-Version: hammer_cli_foreman_remote_execution 0.3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-26 10:44-0500\n"
+"POT-Creation-Date: 2023-07-12 15:59+0000\n"
 "PO-Revision-Date: 2016-02-12 07:57+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Korean (http://app.transifex.com/foreman/foreman/language/"
@@ -60,6 +60,12 @@ msgstr "외부 입력 세트가 삭제되었습니다"
 msgid "Could not delete the input set"
 msgstr "입력 세트를 삭제할 수 없습니다"
 
+msgid "Execution"
+msgstr "실행"
+
+msgid "execution"
+msgstr "실행"
+
 msgid "Description"
 msgstr "설명"
 
@@ -81,6 +87,21 @@ msgstr "전체"
 msgid "Start"
 msgstr "시작"
 
+msgid "Randomized ordering"
+msgstr "무작위 순서"
+
+msgid "Inputs"
+msgstr "입력"
+
+msgid "Show the complete input of the job"
+msgstr "작업의 전체 입력을 표시"
+
+msgid "Show job status for the hosts"
+msgstr "호스트의 작업 상태 표시"
+
+msgid "Missing"
+msgstr "누락"
+
 msgid "Job Category"
 msgstr "작업 카테고리"
 
@@ -93,6 +114,9 @@ msgstr "Cron 줄"
 msgid "Recurring logic ID"
 msgstr "반복 로직 ID"
 
+msgid "Time to pickup"
+msgstr "수령 시간"
+
 msgid "Hosts"
 msgstr "호스트"
 
@@ -103,7 +127,7 @@ msgid "Do not wait for job to complete, shows current output only"
 msgstr "작업이 완료될 때까지 기다리지 않고 현재 출력만 표시"
 
 msgid "The job is scheduled to start at %{timestamp}"
-msgstr ""
+msgstr "작업은 %{timestamp}에 시작되도록 예약되어 있습니다."
 
 msgid "Job invocation %{id} created"
 msgstr "작업 호출 %{id}이(가) 생성되었습니다"
@@ -130,19 +154,19 @@ msgid "Dynamic search queries are evaluated at run time"
 msgstr "동적 검색 쿼리는 런타임에 평가됩니다"
 
 msgid "Cancel the job"
-msgstr ""
+msgstr "작업 취소"
 
 msgid "Job invocation %{id} cancelled"
-msgstr ""
+msgstr "작업 호출%{id} 취소"
 
 msgid "Could not cancel the job invocation"
-msgstr ""
+msgstr "작업 호출을 취소할 수 없습니다."
 
 msgid "Rerun the job"
 msgstr "작업 재실행"
 
 msgid "Job invocation was rerun as %{id}"
-msgstr ""
+msgstr "작업 호출이 %{id}로 다시 실행되었습니다."
 
 msgid "Manage job invocations"
 msgstr "작업 호출 관리"
@@ -152,9 +176,6 @@ msgstr "공급처"
 
 msgid "Type"
 msgstr "형태"
-
-msgid "Inputs"
-msgstr "입력"
 
 msgid "View job template content"
 msgstr "작업 템플릿 내용 보기"
@@ -169,16 +190,16 @@ msgid "Could not create the job template"
 msgstr "작업 템플릿을 생성할 수 없습니다"
 
 msgid "Path to a file that contains the template - must include ERB metadata"
-msgstr ""
+msgstr "템플릿을 포함하는 파일에 대한 경로 - ERB 메타데이터를 포함해야 함"
 
 msgid "Job template imported"
-msgstr ""
+msgstr "작업 템플릿을 가져왔습니다"
 
 msgid "Could not import the job template"
-msgstr ""
+msgstr "작업 템플릿을 가져올 수 없습니다."
 
 msgid "Export a template including all metadata"
-msgstr ""
+msgstr "모든 메타데이터를 포함하는 템플릿 내보내기"
 
 msgid "Job template updated"
 msgstr "작업 템플릿이 업데이트되었습니다"
@@ -218,22 +239,31 @@ msgstr ""
 "  e. 요일(범위: 0-6)"
 
 msgid "Manage remote execution features"
-msgstr ""
+msgstr "원격 실행 기능 관리"
 
 msgid "Job template name"
-msgstr ""
+msgstr "작업 템플릿 이름"
 
 msgid "Label"
 msgstr "레이블 "
 
 msgid "Job template ID"
-msgstr ""
+msgstr "작업 템플릿 ID"
 
 msgid "Remote execution feature updated"
-msgstr ""
+msgstr "원격 실행 기능 업데이트"
 
 msgid "Could not update the remote execution feature"
-msgstr ""
+msgstr "원격 실행 기능을 업데이트할 수 없습니다."
+
+msgid "Smart Proxies"
+msgstr "스마트 프록시 "
+
+msgid "Remote execution proxies"
+msgstr "원격 실행 프록시"
+
+msgid "Id"
+msgstr "ID"
 
 msgid "Manage template inputs"
 msgstr "템플릿 입력 관리"
@@ -253,59 +283,23 @@ msgstr "Puppet 매개 변수 이름"
 msgid "Options"
 msgstr "옵션"
 
-msgid "Template input created"
-msgstr "템플릿 입력이 생성되었습니다"
+msgid "Default value"
+msgstr "기본값"
+
+msgid "Template input created."
+msgstr "템플릿 입력이 생성되었습니다."
 
 msgid "Could not create the template input"
 msgstr "템플릿 입력을 생성할 수 없습니다"
 
-msgid "Template input deleted"
-msgstr "템플릿 입력이 삭제되었습니다"
+msgid "Template input updated."
+msgstr "템플릿 입력이 업데이트되었습니다."
+
+msgid "Could not update the template input"
+msgstr "템플릿 입력을 업데이트할 수 없습니다."
+
+msgid "Template input deleted."
+msgstr "템플릿 입력이 삭제되었습니다."
 
 msgid "Could not delete the template input"
 msgstr "템플릿 입력을 삭제할 수 없습니다"
-
-msgid "Execution"
-msgstr ""
-
-msgid "execution"
-msgstr ""
-
-msgid "Randomized ordering"
-msgstr ""
-
-msgid "Show the complete input of the job"
-msgstr ""
-
-msgid "Show job status for the hosts"
-msgstr ""
-
-msgid "Missing"
-msgstr ""
-
-msgid "Time to pickup"
-msgstr ""
-
-msgid "Smart Proxies"
-msgstr ""
-
-msgid "Remote execution proxies"
-msgstr ""
-
-msgid "Id"
-msgstr ""
-
-msgid "Default value"
-msgstr ""
-
-msgid "Template input created."
-msgstr ""
-
-msgid "Template input updated."
-msgstr ""
-
-msgid "Could not update the template input"
-msgstr ""
-
-msgid "Template input deleted."
-msgstr ""

@@ -5,9 +5,9 @@
 # Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer-cli-foreman-remote-execution 0.2.3\n"
+"Project-Id-Version: hammer_cli_foreman_remote_execution 0.3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-26 10:44-0500\n"
+"POT-Creation-Date: 2023-07-12 15:59+0000\n"
 "PO-Revision-Date: 2016-02-12 07:57+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Chinese (China) (http://app.transifex.com/foreman/foreman/"
@@ -60,6 +60,12 @@ msgstr "删除外输入集"
 msgid "Could not delete the input set"
 msgstr "无法删除输入集"
 
+msgid "Execution"
+msgstr "执行"
+
+msgid "execution"
+msgstr "执行"
+
 msgid "Description"
 msgstr "描述"
 
@@ -81,6 +87,21 @@ msgstr "总计"
 msgid "Start"
 msgstr "开始"
 
+msgid "Randomized ordering"
+msgstr "随机排序"
+
+msgid "Inputs"
+msgstr "输入"
+
+msgid "Show the complete input of the job"
+msgstr "显示作业的完整输入"
+
+msgid "Show job status for the hosts"
+msgstr "显示主机的作业状态"
+
+msgid "Missing"
+msgstr "缺少"
+
 msgid "Job Category"
 msgstr "作业类别"
 
@@ -92,6 +113,9 @@ msgstr "Cron 行"
 
 msgid "Recurring logic ID"
 msgstr "重复逻辑 ID"
+
+msgid "Time to pickup"
+msgstr "抓取时间"
 
 msgid "Hosts"
 msgstr "主机"
@@ -152,9 +176,6 @@ msgstr "提供者"
 
 msgid "Type"
 msgstr "类型"
-
-msgid "Inputs"
-msgstr "输入"
 
 msgid "View job template content"
 msgstr "查看任务模板内容"
@@ -233,6 +254,15 @@ msgstr "远程执行功能已更新"
 msgid "Could not update the remote execution feature"
 msgstr "无法更新远程执行功能"
 
+msgid "Smart Proxies"
+msgstr "智能代理"
+
+msgid "Remote execution proxies"
+msgstr "远程执行代理"
+
+msgid "Id"
+msgstr "Id"
+
 msgid "Manage template inputs"
 msgstr "管理模板输入"
 
@@ -251,59 +281,23 @@ msgstr "Puppet 参数名称"
 msgid "Options"
 msgstr "选项"
 
-msgid "Template input created"
-msgstr "模板输入已创建"
+msgid "Default value"
+msgstr "默认值"
+
+msgid "Template input created."
+msgstr "模板输入已创建。"
 
 msgid "Could not create the template input"
 msgstr "无法创建模板输入"
 
-msgid "Template input deleted"
-msgstr "模板输入已删除"
+msgid "Template input updated."
+msgstr "模板输入已更新。"
+
+msgid "Could not update the template input"
+msgstr "无法创建模板输入"
+
+msgid "Template input deleted."
+msgstr "模板输入已删除。"
 
 msgid "Could not delete the template input"
 msgstr "无法删除模板输入"
-
-msgid "Execution"
-msgstr ""
-
-msgid "execution"
-msgstr ""
-
-msgid "Randomized ordering"
-msgstr ""
-
-msgid "Show the complete input of the job"
-msgstr ""
-
-msgid "Show job status for the hosts"
-msgstr ""
-
-msgid "Missing"
-msgstr ""
-
-msgid "Time to pickup"
-msgstr ""
-
-msgid "Smart Proxies"
-msgstr ""
-
-msgid "Remote execution proxies"
-msgstr ""
-
-msgid "Id"
-msgstr ""
-
-msgid "Default value"
-msgstr ""
-
-msgid "Template input created."
-msgstr ""
-
-msgid "Template input updated."
-msgstr ""
-
-msgid "Could not update the template input"
-msgstr ""
-
-msgid "Template input deleted."
-msgstr ""

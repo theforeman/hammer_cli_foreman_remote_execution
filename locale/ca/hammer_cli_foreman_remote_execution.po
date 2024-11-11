@@ -7,9 +7,9 @@
 # Robert Antoni Buj i Gelonch <rbuj@fedoraproject.org>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer-cli-foreman-remote-execution 0.2.3\n"
+"Project-Id-Version: hammer_cli_foreman_remote_execution 0.3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-26 10:44-0500\n"
+"POT-Creation-Date: 2023-07-12 15:59+0000\n"
 "PO-Revision-Date: 2016-02-12 07:57+0000\n"
 "Last-Translator: Robert Antoni Buj i Gelonch <rbuj@fedoraproject.org>, 2017\n"
 "Language-Team: Catalan (http://app.transifex.com/foreman/foreman/language/"
@@ -62,6 +62,12 @@ msgstr "S'ha eliminat el conjunt d'entrades foranies"
 msgid "Could not delete the input set"
 msgstr "No s'ha pogut eliminar el conjunt d'entrades"
 
+msgid "Execution"
+msgstr "Execució"
+
+msgid "execution"
+msgstr ""
+
 msgid "Description"
 msgstr "Descripció"
 
@@ -83,6 +89,21 @@ msgstr "Total"
 msgid "Start"
 msgstr "Inicia"
 
+msgid "Randomized ordering"
+msgstr ""
+
+msgid "Inputs"
+msgstr "Entrades"
+
+msgid "Show the complete input of the job"
+msgstr ""
+
+msgid "Show job status for the hosts"
+msgstr ""
+
+msgid "Missing"
+msgstr ""
+
 msgid "Job Category"
 msgstr "Categoria del treball"
 
@@ -94,6 +115,9 @@ msgstr "Línia de cron"
 
 msgid "Recurring logic ID"
 msgstr "ID de lògica de recurrència"
+
+msgid "Time to pickup"
+msgstr ""
 
 msgid "Hosts"
 msgstr "Amfitrions"
@@ -158,9 +182,6 @@ msgstr "Proveïdor"
 
 msgid "Type"
 msgstr "Tipus"
-
-msgid "Inputs"
-msgstr "Entrades"
 
 msgid "View job template content"
 msgstr "Visualitza el contingut de la plantilla del treball"
@@ -241,6 +262,15 @@ msgstr ""
 msgid "Could not update the remote execution feature"
 msgstr ""
 
+msgid "Smart Proxies"
+msgstr "Servidors intermediaris intel·ligents"
+
+msgid "Remote execution proxies"
+msgstr ""
+
+msgid "Id"
+msgstr "Id."
+
 msgid "Manage template inputs"
 msgstr "Gestiona les entrades de les plantilles"
 
@@ -259,53 +289,14 @@ msgstr "Nom del paràmetre de Puppet"
 msgid "Options"
 msgstr "Opcions"
 
-msgid "Template input created"
-msgstr "S'ha creat l'entrada de la plantilla"
-
-msgid "Could not create the template input"
-msgstr "No s'ha pogut crear l'entrada de la plantilla"
-
-msgid "Template input deleted"
-msgstr "S'ha eliminat l'entrada de la plantilla"
-
-msgid "Could not delete the template input"
-msgstr "No s'ha pogut eliminar l'entrada de la plantilla"
-
-msgid "Execution"
-msgstr ""
-
-msgid "execution"
-msgstr ""
-
-msgid "Randomized ordering"
-msgstr ""
-
-msgid "Show the complete input of the job"
-msgstr ""
-
-msgid "Show job status for the hosts"
-msgstr ""
-
-msgid "Missing"
-msgstr ""
-
-msgid "Time to pickup"
-msgstr ""
-
-msgid "Smart Proxies"
-msgstr ""
-
-msgid "Remote execution proxies"
-msgstr ""
-
-msgid "Id"
-msgstr ""
-
 msgid "Default value"
 msgstr ""
 
 msgid "Template input created."
 msgstr ""
+
+msgid "Could not create the template input"
+msgstr "No s'ha pogut crear l'entrada de la plantilla"
 
 msgid "Template input updated."
 msgstr ""
@@ -315,3 +306,6 @@ msgstr ""
 
 msgid "Template input deleted."
 msgstr ""
+
+msgid "Could not delete the template input"
+msgstr "No s'ha pogut eliminar l'entrada de la plantilla"
