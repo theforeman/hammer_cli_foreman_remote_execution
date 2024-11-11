@@ -1,9 +1,9 @@
 [main]
 host = https://app.transifex.com
 
-[o:foreman:p:foreman:r:hammer-cli-foreman-remote-execution]
-file_filter = locale/<lang>/hammer-cli-foreman-remote-execution.edit.po
-source_file = locale/hammer-cli-foreman-remote-execution.pot
+[o:foreman:p:foreman:r:hammer_cli_foreman_remote_execution]
+file_filter = locale/<lang>/hammer_cli_foreman_remote_execution.edit.po
+source_file = locale/hammer_cli_foreman_remote_execution.pot
 source_lang = en
 type = PO
-resource_name = hammer-cli-foreman-remote-execution
+resource_name = hammer_cli_foreman_remote_execution

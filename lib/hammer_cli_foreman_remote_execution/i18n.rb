@@ -14,7 +14,7 @@ module HammerCLIForemanRemoteExecution
       end
 
       def domain_name
-        'hammer-cli-foreman-remote-execution'
+        'hammer_cli_foreman_remote_execution'
       end
     end
 
