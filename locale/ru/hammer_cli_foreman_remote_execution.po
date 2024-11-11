@@ -6,9 +6,9 @@
 # Yulia <yulia.poyarkova@redhat.com>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer-cli-foreman-remote-execution 0.2.3\n"
+"Project-Id-Version: hammer_cli_foreman_remote_execution 0.3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-26 10:44-0500\n"
+"POT-Creation-Date: 2023-07-12 15:59+0000\n"
 "PO-Revision-Date: 2016-02-12 07:57+0000\n"
 "Last-Translator: Yulia <yulia.poyarkova@redhat.com>, 2016\n"
 "Language-Team: Russian (http://app.transifex.com/foreman/foreman/language/"
@@ -17,9 +17,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ru\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
-"%100>=11 && n%100<=14)? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
 
 msgid "Manage foreign input sets"
 msgstr "Управление внешними наборами входных параметров"
@@ -63,6 +63,12 @@ msgstr "Внешний набор входных данных удален"
 msgid "Could not delete the input set"
 msgstr "Ошибка при удалении набора входных данных"
 
+msgid "Execution"
+msgstr "Выполнение"
+
+msgid "execution"
+msgstr ""
+
 msgid "Description"
 msgstr "Описание"
 
@@ -84,6 +90,21 @@ msgstr "Всего"
 msgid "Start"
 msgstr "Начало"
 
+msgid "Randomized ordering"
+msgstr ""
+
+msgid "Inputs"
+msgstr "Входные параметры"
+
+msgid "Show the complete input of the job"
+msgstr ""
+
+msgid "Show job status for the hosts"
+msgstr ""
+
+msgid "Missing"
+msgstr ""
+
 msgid "Job Category"
 msgstr "Категория"
 
@@ -95,6 +116,9 @@ msgstr "Строка Cron"
 
 msgid "Recurring logic ID"
 msgstr "Идентификатор правила периодического выполнения"
+
+msgid "Time to pickup"
+msgstr ""
 
 msgid "Hosts"
 msgstr "Узлы"
@@ -158,9 +182,6 @@ msgstr "Провайдер"
 
 msgid "Type"
 msgstr "Тип"
-
-msgid "Inputs"
-msgstr "Входные параметры"
 
 msgid "View job template content"
 msgstr "Показать содержимое шаблона задания"
@@ -241,6 +262,15 @@ msgstr ""
 msgid "Could not update the remote execution feature"
 msgstr ""
 
+msgid "Smart Proxies"
+msgstr "Смарт Прокси"
+
+msgid "Remote execution proxies"
+msgstr ""
+
+msgid "Id"
+msgstr "ID"
+
 msgid "Manage template inputs"
 msgstr "Управление параметрами ввода"
 
@@ -259,53 +289,14 @@ msgstr "Параметр Puppet"
 msgid "Options"
 msgstr "Параметры"
 
-msgid "Template input created"
-msgstr "Входной параметр создан"
-
-msgid "Could not create the template input"
-msgstr "Не удалось создать входной параметр для шаблона"
-
-msgid "Template input deleted"
-msgstr "Входной параметр удален"
-
-msgid "Could not delete the template input"
-msgstr "Не удалось удалить входной параметр"
-
-msgid "Execution"
-msgstr ""
-
-msgid "execution"
-msgstr ""
-
-msgid "Randomized ordering"
-msgstr ""
-
-msgid "Show the complete input of the job"
-msgstr ""
-
-msgid "Show job status for the hosts"
-msgstr ""
-
-msgid "Missing"
-msgstr ""
-
-msgid "Time to pickup"
-msgstr ""
-
-msgid "Smart Proxies"
-msgstr ""
-
-msgid "Remote execution proxies"
-msgstr ""
-
-msgid "Id"
-msgstr ""
-
 msgid "Default value"
 msgstr ""
 
 msgid "Template input created."
 msgstr ""
+
+msgid "Could not create the template input"
+msgstr "Не удалось создать входной параметр для шаблона"
 
 msgid "Template input updated."
 msgstr ""
@@ -315,3 +306,6 @@ msgstr ""
 
 msgid "Template input deleted."
 msgstr ""
+
+msgid "Could not delete the template input"
+msgstr "Не удалось удалить входной параметр"

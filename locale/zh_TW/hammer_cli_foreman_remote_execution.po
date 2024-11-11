@@ -5,9 +5,9 @@
 # Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer-cli-foreman-remote-execution 0.2.3\n"
+"Project-Id-Version: hammer_cli_foreman_remote_execution 0.3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-26 10:44-0500\n"
+"POT-Creation-Date: 2023-07-12 15:59+0000\n"
 "PO-Revision-Date: 2016-02-12 07:57+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Chinese (Taiwan) (http://app.transifex.com/foreman/foreman/"
@@ -60,6 +60,12 @@ msgstr "外部輸入集已刪除"
 msgid "Could not delete the input set"
 msgstr "無法刪除輸入集"
 
+msgid "Execution"
+msgstr "執行"
+
+msgid "execution"
+msgstr ""
+
 msgid "Description"
 msgstr "說明"
 
@@ -81,6 +87,21 @@ msgstr "總數"
 msgid "Start"
 msgstr "開始"
 
+msgid "Randomized ordering"
+msgstr ""
+
+msgid "Inputs"
+msgstr "輸入"
+
+msgid "Show the complete input of the job"
+msgstr ""
+
+msgid "Show job status for the hosts"
+msgstr ""
+
+msgid "Missing"
+msgstr ""
+
 msgid "Job Category"
 msgstr "工作類別"
 
@@ -92,6 +113,9 @@ msgstr "Cron 行"
 
 msgid "Recurring logic ID"
 msgstr "週期性的邏輯 ID"
+
+msgid "Time to pickup"
+msgstr ""
 
 msgid "Hosts"
 msgstr "主機"
@@ -152,9 +176,6 @@ msgstr "供應商"
 
 msgid "Type"
 msgstr "類型"
-
-msgid "Inputs"
-msgstr "輸入"
 
 msgid "View job template content"
 msgstr "新工作範本內容"
@@ -233,6 +254,15 @@ msgstr ""
 msgid "Could not update the remote execution feature"
 msgstr ""
 
+msgid "Smart Proxies"
+msgstr "智慧型代理伺服器"
+
+msgid "Remote execution proxies"
+msgstr ""
+
+msgid "Id"
+msgstr "ID"
+
 msgid "Manage template inputs"
 msgstr "管理範本輸入"
 
@@ -251,53 +281,14 @@ msgstr "Puppet 參數名稱"
 msgid "Options"
 msgstr "選項"
 
-msgid "Template input created"
-msgstr "已建立範本輸入"
-
-msgid "Could not create the template input"
-msgstr "無法建立範本輸入"
-
-msgid "Template input deleted"
-msgstr "已刪除範本輸入"
-
-msgid "Could not delete the template input"
-msgstr "無法刪除範本輸入"
-
-msgid "Execution"
-msgstr ""
-
-msgid "execution"
-msgstr ""
-
-msgid "Randomized ordering"
-msgstr ""
-
-msgid "Show the complete input of the job"
-msgstr ""
-
-msgid "Show job status for the hosts"
-msgstr ""
-
-msgid "Missing"
-msgstr ""
-
-msgid "Time to pickup"
-msgstr ""
-
-msgid "Smart Proxies"
-msgstr ""
-
-msgid "Remote execution proxies"
-msgstr ""
-
-msgid "Id"
-msgstr ""
-
 msgid "Default value"
 msgstr ""
 
 msgid "Template input created."
 msgstr ""
+
+msgid "Could not create the template input"
+msgstr "無法建立範本輸入"
 
 msgid "Template input updated."
 msgstr ""
@@ -307,3 +298,6 @@ msgstr ""
 
 msgid "Template input deleted."
 msgstr ""
+
+msgid "Could not delete the template input"
+msgstr "無法刪除範本輸入"

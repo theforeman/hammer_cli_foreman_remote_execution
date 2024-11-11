@@ -6,9 +6,9 @@
 # Pavel Borecki <pavel.borecki@gmail.com>, 2018,2020
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer-cli-foreman-remote-execution 0.2.3\n"
+"Project-Id-Version: hammer_cli_foreman_remote_execution 0.3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-26 10:44-0500\n"
+"POT-Creation-Date: 2023-07-12 15:59+0000\n"
 "PO-Revision-Date: 2016-02-12 07:57+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>, 2018,2020\n"
 "Language-Team: Czech (Czech Republic) (http://app.transifex.com/foreman/"
@@ -62,6 +62,12 @@ msgstr ""
 msgid "Could not delete the input set"
 msgstr ""
 
+msgid "Execution"
+msgstr "Vykonání"
+
+msgid "execution"
+msgstr ""
+
 msgid "Description"
 msgstr "Popis"
 
@@ -83,6 +89,21 @@ msgstr "Celkem"
 msgid "Start"
 msgstr "Spustit"
 
+msgid "Randomized ordering"
+msgstr ""
+
+msgid "Inputs"
+msgstr "Vstupy"
+
+msgid "Show the complete input of the job"
+msgstr ""
+
+msgid "Show job status for the hosts"
+msgstr ""
+
+msgid "Missing"
+msgstr ""
+
 msgid "Job Category"
 msgstr "Kategorie úlohy"
 
@@ -93,6 +114,9 @@ msgid "Cron line"
 msgstr "Řádek z plánovače kron"
 
 msgid "Recurring logic ID"
+msgstr ""
+
+msgid "Time to pickup"
 msgstr ""
 
 msgid "Hosts"
@@ -154,9 +178,6 @@ msgstr "Poskytovatel"
 
 msgid "Type"
 msgstr "Typ"
-
-msgid "Inputs"
-msgstr "Vstupy"
 
 msgid "View job template content"
 msgstr ""
@@ -229,6 +250,15 @@ msgstr "Funkce vykonávání na dálku aktualizována"
 msgid "Could not update the remote execution feature"
 msgstr "Funkci vykonávání na dálku se nedaří aktualizovat"
 
+msgid "Smart Proxies"
+msgstr ""
+
+msgid "Remote execution proxies"
+msgstr ""
+
+msgid "Id"
+msgstr ""
+
 msgid "Manage template inputs"
 msgstr "Spravovat vstupy šablony"
 
@@ -247,53 +277,14 @@ msgstr "Název puppet parametru"
 msgid "Options"
 msgstr "Volby"
 
-msgid "Template input created"
-msgstr "Vstup šablony vytvořen"
-
-msgid "Could not create the template input"
-msgstr "Nepodařilo se vytvořit vstup šablony"
-
-msgid "Template input deleted"
-msgstr "Vstup šablony vymazán"
-
-msgid "Could not delete the template input"
-msgstr "Nedaří se smazat vstup šablony"
-
-msgid "Execution"
-msgstr ""
-
-msgid "execution"
-msgstr ""
-
-msgid "Randomized ordering"
-msgstr ""
-
-msgid "Show the complete input of the job"
-msgstr ""
-
-msgid "Show job status for the hosts"
-msgstr ""
-
-msgid "Missing"
-msgstr ""
-
-msgid "Time to pickup"
-msgstr ""
-
-msgid "Smart Proxies"
-msgstr ""
-
-msgid "Remote execution proxies"
-msgstr ""
-
-msgid "Id"
-msgstr ""
-
 msgid "Default value"
 msgstr ""
 
 msgid "Template input created."
 msgstr ""
+
+msgid "Could not create the template input"
+msgstr "Nepodařilo se vytvořit vstup šablony"
 
 msgid "Template input updated."
 msgstr ""
@@ -303,3 +294,6 @@ msgstr ""
 
 msgid "Template input deleted."
 msgstr ""
+
+msgid "Could not delete the template input"
+msgstr "Nedaří se smazat vstup šablony"
