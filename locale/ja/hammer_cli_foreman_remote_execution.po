@@ -127,10 +127,10 @@ msgid "Do not wait for job to complete, shows current output only"
 msgstr "ジョブの完了まで待機せず、現在の出力のみを表示します"
 
 msgid "The job is scheduled to start at %{timestamp}"
-msgstr "ジョブは %%{timestamp} に開始する予定です"
+msgstr "ジョブは %{timestamp} に開始する予定です"
 
 msgid "Job invocation %{id} created"
-msgstr "ジョブ呼び出し %%{id} が作成されました"
+msgstr "ジョブ呼び出し %{id} が作成されました"
 
 msgid "Schedule the execution for a later time"
 msgstr "後で行われる実行をスケジュールします"
@@ -157,7 +157,7 @@ msgid "Cancel the job"
 msgstr "ジョブを取り消します"
 
 msgid "Job invocation %{id} cancelled"
-msgstr "ジョブ呼び出し %%{id} が取り消されました"
+msgstr "ジョブ呼び出し %{id} が取り消されました"
 
 msgid "Could not cancel the job invocation"
 msgstr "ジョブ呼び出しを取り消せませんでした"
@@ -166,7 +166,7 @@ msgid "Rerun the job"
 msgstr "ジョブを再実行"
 
 msgid "Job invocation was rerun as %{id}"
-msgstr "ジョブ呼び出しは %%{id} として再実行されました"
+msgstr "ジョブ呼び出しは %{id} として再実行されました"
 
 msgid "Manage job invocations"
 msgstr "ジョブ呼び出しを管理します"
