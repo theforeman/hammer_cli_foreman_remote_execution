@@ -127,10 +127,10 @@ msgid "Do not wait for job to complete, shows current output only"
 msgstr "不要等待作业完成，仅显示当前输出"
 
 msgid "The job is scheduled to start at %{timestamp}"
-msgstr "该作业被调度为在 %%{timestamp} 开始"
+msgstr "该作业被调度为在 %{timestamp} 开始"
 
 msgid "Job invocation %{id} created"
-msgstr "作业调用 %%{id} 已创建"
+msgstr "作业调用 %{id} 已创建"
 
 msgid "Schedule the execution for a later time"
 msgstr "将执行调度为一个以后的时间"
@@ -157,7 +157,7 @@ msgid "Cancel the job"
 msgstr "取消任务"
 
 msgid "Job invocation %{id} cancelled"
-msgstr "作业调用 %%{id} 已取消"
+msgstr "作业调用 %{id} 已取消"
 
 msgid "Could not cancel the job invocation"
 msgstr "无法取消作业调用"
@@ -166,7 +166,7 @@ msgid "Rerun the job"
 msgstr "重新运行作业"
 
 msgid "Job invocation was rerun as %{id}"
-msgstr "作业调用已作为 ％%{id} 重新运行。"
+msgstr "作业调用已作为 %{id} 重新运行。"
 
 msgid "Manage job invocations"
 msgstr "管理作业调用"
@@ -261,7 +261,7 @@ msgid "Remote execution proxies"
 msgstr "远程执行代理"
 
 msgid "Id"
-msgstr "Id"
+msgstr "ID"
 
 msgid "Manage template inputs"
 msgstr "管理模板输入"
