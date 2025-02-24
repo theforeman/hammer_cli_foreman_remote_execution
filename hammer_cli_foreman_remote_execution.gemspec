@@ -14,9 +14,9 @@ Gem::Specification.new do |s|
   s.summary       = 'CLI for the Foreman remote execution plugin'
   s.description   = 'This gem provides CLI support for the Foreman remote execution plugin'
 
-  s.files =            `git ls-files`.split("\n")
-  s.test_files =       `git ls-files test`.split("\n")
-  s.extra_rdoc_files = `git ls-files doc`.split("\n") + Dir['README*', 'LICENSE']
+  s.files =            Dir['{lib,config,locale}/**/*', 'LICENSE', 'README.md']
+  s.test_files =       Dir["test/**/*"]
+  s.extra_rdoc_files = Dir['README.md', 'LICENSE']
 
   s.add_dependency 'hammer_cli_foreman', '>= 0.1.3', '< 4.0.0'
   s.add_dependency 'hammer_cli_foreman_tasks', '~> 0.0.3'
