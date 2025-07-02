@@ -59,6 +59,28 @@ module HammerCLIForemanRemoteExecution
       end
     end
 
+    class CloneCommand < HammerCLIForeman::CreateCommand
+      command_name 'clone'
+      action :clone
+      desc _('Clone a job template')
+
+      option '--new-name', 'NEW_NAME', N_('Name for the cloned template'),
+        :attribute_name => :option_new_name, :required => true
+
+      success_message _('Job template cloned')
+      failure_message _('Could not clone the job template')
+
+      def request_params
+        params = super
+        params['job_template']['name'] = option_new_name
+        params
+      end
+
+      build_options do |o|
+        o.without(:name)
+      end
+    end
+
     class ImportCommand < HammerCLIForeman::CreateCommand
       command_name 'import'
       action :import
