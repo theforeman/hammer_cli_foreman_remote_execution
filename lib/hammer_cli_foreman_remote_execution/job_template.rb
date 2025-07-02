@@ -58,6 +58,16 @@ module HammerCLIForemanRemoteExecution
       end
     end
 
+    class CloneCommand < HammerCLIForeman::CreateCommand
+      command_name 'clone'
+      action :clone
+
+      success_message _('Job template cloned')
+      failure_message _('Could not clone the job template')
+
+      build_options
+    end
+
     class ImportCommand < HammerCLIForeman::CreateCommand
       command_name 'import'
       action :import
