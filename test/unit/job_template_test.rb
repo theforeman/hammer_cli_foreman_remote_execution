@@ -108,4 +108,13 @@ describe HammerCLIForemanRemoteExecution::JobTemplate do
          '--provider-type=SSH']
     end
   end
+
+  describe 'CloneCommand' do
+    let(:cmd) { HammerCLIForemanRemoteExecution::JobTemplate::CloneCommand.new('', ctx) }
+
+    describe 'parameters' do
+      it_should_accept 'id and new-name', ['--id=1', '--new-name=Cloned Template']
+      it_should_accept 'name and new-name', ['--name=Parent Template', '--new-name=Cloned Template']
+    end
+  end
 end
