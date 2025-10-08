@@ -1,13 +1,13 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the hammer-cli-foreman-remote-execution package.
+# This file is distributed under the same license as the hammer_cli_foreman_remote_execution package.
 #
 # Translators:
 msgid ""
 msgstr ""
 "Project-Id-Version: hammer_cli_foreman_remote_execution 0.3.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-12 15:59+0000\n"
+"POT-Creation-Date: 2025-09-25 14:54+0000\n"
 "PO-Revision-Date: 2016-02-12 07:57+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Portuguese (Brazil) (http://app.transifex.com/foreman/foreman/"
@@ -179,6 +179,9 @@ msgstr "Fornecedor"
 msgid "Type"
 msgstr "Tipo"
 
+msgid "Cloned from id"
+msgstr ""
+
 msgid "View job template content"
 msgstr "Ver o conteúdo do modelo de trabalho"
 
@@ -306,6 +309,3 @@ msgstr ""
 
 msgid "Could not delete the template input"
 msgstr "Não foi possível excluir a entrada do modelo"
-
-msgid "Cloned from id"
-msgstr ""
