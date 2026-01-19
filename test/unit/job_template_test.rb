@@ -38,7 +38,7 @@ describe HammerCLIForemanRemoteExecution::JobTemplate do
 
     describe 'output' do
       with_params ['--id=1'] do
-        it_should_print_columns ['ID', 'Name', 'Job Category', 'Provider', 'Type']
+        it_should_print_columns ['ID', 'Name', 'Job Category', 'Provider', 'Type', 'Locked']
       end
     end
   end
