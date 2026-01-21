@@ -9,3 +9,7 @@ AllCops:
 
 Style/HashSyntax:
   EnforcedStyle: hash_rockets
+
+Metrics/BlockLength:
+  Exclude:
+    - 'test/**/*_test.rb'
