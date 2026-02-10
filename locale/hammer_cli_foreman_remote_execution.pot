@@ -6,10 +6,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer_cli_foreman_remote_execution 0.3.3\n"
+"Project-Id-Version: hammer_cli_foreman_remote_execution 0.4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-25 14:54+0000\n"
-"PO-Revision-Date: 2025-09-25 14:54+0000\n"
+"POT-Creation-Date: 2026-02-10 10:51+0000\n"
+"PO-Revision-Date: 2026-02-10 10:51+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -256,56 +256,76 @@ msgstr ""
 msgid "Cloned from id"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:40
+#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:28
+msgid "Locked"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:41
 msgid "View job template content"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:50
-#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:92
+#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:51
+#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:115
 msgid "Path to a file that contains the template"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:54
+#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:55
 msgid "Job template created"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:55
+#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:56
 msgid "Could not create the job template"
 msgstr ""
 
 #: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:66
-msgid "Path to a file that contains the template - must include ERB metadata"
+msgid "Clone a job template"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:70
-msgid "Job template imported"
+#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:68
+msgid "Name for the cloned template"
 msgstr ""
 
 #: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:71
+msgid "Job template cloned"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:72
+msgid "Could not clone the job template"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:89
+msgid "Path to a file that contains the template - must include ERB metadata"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:93
+msgid "Job template imported"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:94
 msgid "Could not import the job template"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:82
+#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:105
 msgid "Export a template including all metadata"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:96
+#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:119
 msgid "Job template updated"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:97
+#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:120
 msgid "Could not update the job template"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:105
+#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:128
 msgid "Job template deleted"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:106
+#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:129
 msgid "Could not delete the job template"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:125
+#: ../lib/hammer_cli_foreman_remote_execution/job_template.rb:148
 msgid "Manage job templates"
 msgstr ""
 

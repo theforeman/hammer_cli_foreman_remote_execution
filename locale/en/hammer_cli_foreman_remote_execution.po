@@ -5,9 +5,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer_cli_foreman_remote_execution 0.3.3\n"
+"Project-Id-Version: hammer_cli_foreman_remote_execution 0.4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-25 14:54+0000\n"
+"POT-Creation-Date: 2026-02-10 10:51+0000\n"
 "PO-Revision-Date: 2025-09-25 14:54+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -179,6 +179,9 @@ msgstr ""
 msgid "Cloned from id"
 msgstr ""
 
+msgid "Locked"
+msgstr ""
+
 msgid "View job template content"
 msgstr ""
 
@@ -189,6 +192,18 @@ msgid "Job template created"
 msgstr ""
 
 msgid "Could not create the job template"
+msgstr ""
+
+msgid "Clone a job template"
+msgstr ""
+
+msgid "Name for the cloned template"
+msgstr ""
+
+msgid "Job template cloned"
+msgstr ""
+
+msgid "Could not clone the job template"
 msgstr ""
 
 msgid "Path to a file that contains the template - must include ERB metadata"
