@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hammer_cli_foreman_remote_execution 0.4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-25 14:54+0000\n"
+"POT-Creation-Date: 2026-02-10 10:51+0000\n"
 "PO-Revision-Date: 2016-02-12 07:57+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Japanese (http://app.transifex.com/foreman/foreman/language/"
@@ -178,7 +178,10 @@ msgid "Type"
 msgstr "タイプ"
 
 msgid "Cloned from id"
-msgstr ""
+msgstr "id からクローン作成"
+
+msgid "Locked"
+msgstr "ロック"
 
 msgid "View job template content"
 msgstr "ジョブテンプレートコンテンツを表示します"
@@ -191,6 +194,18 @@ msgstr "ジョブテンプレートが作成されました"
 
 msgid "Could not create the job template"
 msgstr "ジョブテンプレートを作成できませんでした"
+
+msgid "Clone a job template"
+msgstr "ジョブテンプレートのクローンを作成します"
+
+msgid "Name for the cloned template"
+msgstr "クローン作成されたテンプレートの名前"
+
+msgid "Job template cloned"
+msgstr "ジョブテンプレートのクローンが作成されました"
+
+msgid "Could not clone the job template"
+msgstr "ジョブテンプレートのクローンを作成できませんでした"
 
 msgid "Path to a file that contains the template - must include ERB metadata"
 msgstr ""
@@ -224,8 +239,8 @@ msgid ""
 "Comma-separated list of key=file, where file is a path to a text file to be "
 "read"
 msgstr ""
-"key=file のコンマ区切りリスト。この file は、読み取られるテキストファイルへの"
-"パスになります。"
+"key=file のコンマ区切りリスト、この file は読み取られるテキストファイルへのパ"
+"スです"
 
 msgid ""
 "Cron line format 'a b c d e', where:\n"
@@ -267,7 +282,7 @@ msgid "Remote execution proxies"
 msgstr "リモート実行プロキシー"
 
 msgid "Id"
-msgstr "ID"
+msgstr "Id"
 
 msgid "Manage template inputs"
 msgstr "テンプレート入力を管理します"
@@ -307,18 +322,3 @@ msgstr "テンプレート入力が削除されました。"
 
 msgid "Could not delete the template input"
 msgstr "テンプレート入力を削除できませんでした"
-
-msgid "Locked"
-msgstr ""
-
-msgid "Clone a job template"
-msgstr ""
-
-msgid "Name for the cloned template"
-msgstr ""
-
-msgid "Job template cloned"
-msgstr ""
-
-msgid "Could not clone the job template"
-msgstr ""

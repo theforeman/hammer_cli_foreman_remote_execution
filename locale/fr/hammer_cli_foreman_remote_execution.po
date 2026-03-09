@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hammer_cli_foreman_remote_execution 0.4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-25 14:54+0000\n"
+"POT-Creation-Date: 2026-02-10 10:51+0000\n"
 "PO-Revision-Date: 2016-02-12 07:57+0000\n"
 "Last-Translator: Ewoud Kohl van Wijngaarden <ewoud"
 "+transifex@kohlvanwijngaarden.nl>, 2024\n"
@@ -186,7 +186,10 @@ msgid "Type"
 msgstr "Type"
 
 msgid "Cloned from id"
-msgstr ""
+msgstr "Cloné à partir de l’id"
+
+msgid "Locked"
+msgstr "Verrouillé"
 
 msgid "View job template content"
 msgstr "Voir le contenu du modèle de travail"
@@ -199,6 +202,18 @@ msgstr "Créer un modèle de tâche"
 
 msgid "Could not create the job template"
 msgstr "Impossible de créer le modèle de tâche"
+
+msgid "Clone a job template"
+msgstr "Cloner un modèle de tâche"
+
+msgid "Name for the cloned template"
+msgstr "Nom du modèle cloné"
+
+msgid "Job template cloned"
+msgstr "Modèle de tâche cloné."
+
+msgid "Could not clone the job template"
+msgstr "Impossible de cloner le modèle de tâche"
 
 msgid "Path to a file that contains the template - must include ERB metadata"
 msgstr ""
@@ -316,18 +331,3 @@ msgstr "Entrée de modèle supprimée."
 
 msgid "Could not delete the template input"
 msgstr "Impossible de supprimer l'entrée du modèle"
-
-msgid "Locked"
-msgstr ""
-
-msgid "Clone a job template"
-msgstr ""
-
-msgid "Name for the cloned template"
-msgstr ""
-
-msgid "Job template cloned"
-msgstr ""
-
-msgid "Could not clone the job template"
-msgstr ""
