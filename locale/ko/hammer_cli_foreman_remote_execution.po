@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hammer_cli_foreman_remote_execution 0.4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-25 14:54+0000\n"
+"POT-Creation-Date: 2026-02-10 10:51+0000\n"
 "PO-Revision-Date: 2016-02-12 07:57+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Korean (http://app.transifex.com/foreman/foreman/language/"
@@ -178,7 +178,10 @@ msgid "Type"
 msgstr "유형 "
 
 msgid "Cloned from id"
-msgstr ""
+msgstr "id에서 복제됨"
+
+msgid "Locked"
+msgstr "잠금 (Locked) "
 
 msgid "View job template content"
 msgstr "작업 템플릿 내용 보기"
@@ -191,6 +194,18 @@ msgstr "작업 템플릿이 생성되었습니다"
 
 msgid "Could not create the job template"
 msgstr "작업 템플릿을 생성할 수 없습니다"
+
+msgid "Clone a job template"
+msgstr "작업 템플릿 복제"
+
+msgid "Name for the cloned template"
+msgstr "복제된 템플릿의 이름"
+
+msgid "Job template cloned"
+msgstr "작업 템플릿 복제됨"
+
+msgid "Could not clone the job template"
+msgstr "작업 템플릿을 복제할 수 없습니다"
 
 msgid "Path to a file that contains the template - must include ERB metadata"
 msgstr "템플릿을 포함하는 파일에 대한 경로 - ERB 메타데이터를 포함해야 함"
@@ -306,18 +321,3 @@ msgstr "템플릿 입력이 삭제되었습니다."
 
 msgid "Could not delete the template input"
 msgstr "템플릿 입력을 삭제할 수 없습니다"
-
-msgid "Locked"
-msgstr ""
-
-msgid "Clone a job template"
-msgstr ""
-
-msgid "Name for the cloned template"
-msgstr ""
-
-msgid "Job template cloned"
-msgstr ""
-
-msgid "Could not clone the job template"
-msgstr ""

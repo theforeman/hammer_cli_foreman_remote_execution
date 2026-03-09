@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hammer_cli_foreman_remote_execution 0.4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-25 14:54+0000\n"
+"POT-Creation-Date: 2026-02-10 10:51+0000\n"
 "PO-Revision-Date: 2016-02-12 07:57+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Georgian (http://app.transifex.com/foreman/foreman/language/"
@@ -182,6 +182,9 @@ msgstr "ტიპი"
 msgid "Cloned from id"
 msgstr ""
 
+msgid "Locked"
+msgstr "დაბლოკილი"
+
 msgid "View job template content"
 msgstr "დავალების შაბლონის შემცველობის ნახვა"
 
@@ -193,6 +196,18 @@ msgstr "დავალების შაბლონი შექმნილ�
 
 msgid "Could not create the job template"
 msgstr "დავალების შაბლონის შექმნის შეცდომა"
+
+msgid "Clone a job template"
+msgstr ""
+
+msgid "Name for the cloned template"
+msgstr ""
+
+msgid "Job template cloned"
+msgstr ""
+
+msgid "Could not clone the job template"
+msgstr ""
 
 msgid "Path to a file that contains the template - must include ERB metadata"
 msgstr "ბილიკი შაბლონის შემცველ ფაილამდე - უნდა შეიცავდეს ERB მეტამონაცემებს"
@@ -308,18 +323,3 @@ msgstr ""
 
 msgid "Could not delete the template input"
 msgstr "შაბლონის შეყვანის წაშლის პრობლემა"
-
-msgid "Locked"
-msgstr ""
-
-msgid "Clone a job template"
-msgstr ""
-
-msgid "Name for the cloned template"
-msgstr ""
-
-msgid "Job template cloned"
-msgstr ""
-
-msgid "Could not clone the job template"
-msgstr ""

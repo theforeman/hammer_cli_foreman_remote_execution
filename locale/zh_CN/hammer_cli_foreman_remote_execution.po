@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hammer_cli_foreman_remote_execution 0.4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-25 14:54+0000\n"
+"POT-Creation-Date: 2026-02-10 10:51+0000\n"
 "PO-Revision-Date: 2016-02-12 07:57+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Chinese (China) (http://app.transifex.com/foreman/foreman/"
@@ -178,7 +178,10 @@ msgid "Type"
 msgstr "类型"
 
 msgid "Cloned from id"
-msgstr ""
+msgstr "从 id 克隆"
+
+msgid "Locked"
+msgstr "锁定"
 
 msgid "View job template content"
 msgstr "查看任务模板内容"
@@ -191,6 +194,18 @@ msgstr "作业模板已创建"
 
 msgid "Could not create the job template"
 msgstr "无法创建作业模板"
+
+msgid "Clone a job template"
+msgstr "克隆作业模板"
+
+msgid "Name for the cloned template"
+msgstr "克隆模板的名称"
+
+msgid "Job template cloned"
+msgstr "克隆的任务模板"
+
+msgid "Could not clone the job template"
+msgstr "无法克隆作业模板"
 
 msgid "Path to a file that contains the template - must include ERB metadata"
 msgstr "包含模板的文件的路径 - 必须包含 ERB 元数据"
@@ -304,18 +319,3 @@ msgstr "模板输入已删除。"
 
 msgid "Could not delete the template input"
 msgstr "无法删除模板输入"
-
-msgid "Locked"
-msgstr ""
-
-msgid "Clone a job template"
-msgstr ""
-
-msgid "Name for the cloned template"
-msgstr ""
-
-msgid "Job template cloned"
-msgstr ""
-
-msgid "Could not clone the job template"
-msgstr ""
