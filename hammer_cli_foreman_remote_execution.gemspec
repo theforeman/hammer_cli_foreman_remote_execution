@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.test_files =       Dir["test/**/*"]
   s.extra_rdoc_files = Dir['README.md', 'LICENSE']
 
-  s.add_dependency 'hammer_cli_foreman', '>= 0.1.3', '< 4.0.0'
+  s.add_dependency 'hammer_cli_foreman', '>= 0.1.3', '< 6.0.0'
   s.add_dependency 'hammer_cli_foreman_tasks', '~> 0.0.3'
 
   s.required_ruby_version = '>= 2.7', '< 4'
