@@ -40,6 +40,14 @@ describe HammerCLIForemanRemoteExecution::JobTemplate do
       with_params ['--id=1'] do
         it_should_print_columns ['ID', 'Name', 'Job Category', 'Provider', 'Type', 'Locked']
       end
+
+      it 'should format locked field as "no"' do
+        cmd.stubs(:context).returns(ctx.update(:adapter => :base))
+        out, _err = capture_io do
+          cmd.run(['--id=1'])
+        end
+        _(out).must_match(/Locked:\s+no/)
+      end
     end
   end
 
