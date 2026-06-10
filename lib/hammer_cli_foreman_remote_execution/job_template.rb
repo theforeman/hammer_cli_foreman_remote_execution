@@ -25,7 +25,7 @@ module HammerCLIForemanRemoteExecution
         field :description, _('Description'), Fields::Text
         field :cloned_from_id, _("Cloned from id"), nil, :hide_blank => true
         field :template_inputs, _('Inputs')
-        field :locked, _('Locked')
+        field :locked, _('Locked'), Fields::Boolean
         HammerCLIForeman::References.taxonomies(self)
       end
 
