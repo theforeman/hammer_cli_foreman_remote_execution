@@ -2,6 +2,6 @@
 
 module HammerCLIForemanRemoteExecution
   def self.version
-    @version ||= Gem::Version.new '0.4.3'
+    @version ||= Gem::Version.new '0.4.4'
   end
 end
