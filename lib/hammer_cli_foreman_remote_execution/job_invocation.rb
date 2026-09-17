@@ -83,7 +83,7 @@ module HammerCLIForemanRemoteExecution
 
       build_options do |o|
         o.expand(:none)
-        o.without(:host_status)
+        o.without(:host_status, :include_hosts)
       end
 
       def request_params
@@ -203,7 +203,7 @@ module HammerCLIForemanRemoteExecution
       end
 
       build_options do |o|
-        o.without(:targeting_type)
+        o.without(:targeting_type, :include_hosts)
       end
     end
 
