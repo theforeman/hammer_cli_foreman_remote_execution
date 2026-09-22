@@ -35,9 +35,7 @@ module HammerCLIForemanRemoteExecution
       end
 
       def request_params
-        params = super
-        params[:include_hosts] = false
-        params
+        super.merge(include_hosts: false)
       end
 
       build_options
@@ -94,7 +92,7 @@ module HammerCLIForemanRemoteExecution
 
       def request_params
         params = super
-        params[:include_hosts] = false
+        params[:include_hosts] = option_show_host_status?
         params[:host_status] = true if option_show_host_status?
         params
       end
