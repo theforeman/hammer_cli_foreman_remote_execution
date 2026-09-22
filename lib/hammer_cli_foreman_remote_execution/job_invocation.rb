@@ -92,7 +92,7 @@ module HammerCLIForemanRemoteExecution
 
       def request_params
         params = super
-        params[:include_hosts] = !!option_show_host_status?
+        params[:include_hosts] = ActiveModel::Type::Boolean.new.cast(option_show_host_status?)
         params[:host_status] = true if option_show_host_status?
         params
       end
