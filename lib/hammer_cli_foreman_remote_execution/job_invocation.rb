@@ -35,7 +35,7 @@ module HammerCLIForemanRemoteExecution
       end
 
       def request_params
-        super.merge(include_hosts: false)
+        super.merge(:include_hosts => false)
       end
 
       build_options
